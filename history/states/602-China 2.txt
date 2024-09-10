@@ -1,0 +1,36 @@
+state={
+	id=602
+	name="STATE_602"
+	resources={
+		tungsten=6.000
+	}
+
+	history={
+		owner = RGC
+		add_core_of = RGC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 6
+				air_base = 1
+				arms_factory = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1448 4125 4480 7159 7502 7665 9982 10335 10377 11918 12017 12053 12310 12350 12378 
+	}
+	manpower=3293700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

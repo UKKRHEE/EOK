@@ -1,0 +1,113 @@
+﻿################
+# 독일 선거 이벤트  
+################
+
+add_namespace = ger_ele
+
+country_event = { 
+	id = ger_ele.1
+	title = ger_ele.1.t
+	desc = ger_ele.1.d
+	picture = GFX_report_event_election_vote
+	is_triggered_only = yes
+
+	trigger = {
+		tag = GER
+		GER = { is_subject = no }
+	}
+
+	option = { # 중앙당
+		name = ger_ele.1.a
+
+		ai_chance = { factor = 34 }
+		
+		set_party_name = { ideology = democratic long_name = GER_democratic_party name = GER_democratic_party }
+
+        create_country_leader = {
+	    	name = "콘라트 아데나워"
+	        desc = "POLITICS_KONRAD_ADENAUER_DESC"
+			picture = "Portrait_Germany_Konrad_Adenauer.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				days = 1460
+				id = ger_ele.1
+			}
+		}
+	}
+
+	option = { # 사민당
+		name = ger_ele.1.b
+
+		ai_chance = { factor = 33 }
+
+		set_party_name = { ideology = democratic long_name = GER_spd_party name = GER_spd_party }
+		
+		if = {
+			limit = {
+				date < 1939.9.16
+			}
+			create_country_leader = {
+				name = "오토 벨스"
+				desc = ""
+				picture = "gfx/leaders/GER/Portrait_GER_Otto_Wels.dds"
+				expire = "1965.1.1"
+				ideology = socialism
+				traits = {
+					
+				}
+			}
+		}
+		else = {
+			create_country_leader = {
+				name = "쿠르트 슈마허"
+				desc = ""
+				picture = "gfx/leaders/GER/Portrait_GER_Kurt_Schumacher.dds"
+				expire = "1965.1.1"
+				ideology = socialism
+				traits = {
+					
+				}
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				days = 1460
+				id = ger_ele.1
+			}
+		}
+	}
+
+	option = { # 국가당
+		name = ger_ele.1.c
+
+		ai_chance = { factor = 33 }
+
+		set_party_name = { ideology = democratic long_name = GER_dsp_party name = GER_dsp_party }
+
+        create_country_leader = {
+	    	name = "테오도어 호이스"
+	        desc = ""
+			picture = "gfx/leaders/GER/Portrait_GER_Theodor_Heuss.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				days = 1460
+				id = ger_ele.1
+			}
+		}	
+	}	
+}

@@ -1,0 +1,2058 @@
+﻿focus_tree = {
+	id = rgc_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RGC
+			has_dlc = "Waking the Tiger"
+		}
+	}
+	
+
+	default = no
+
+	continuous_focus_position = { x = 20 y = 1600 }
+
+#	focus = {
+#		id = CHI_
+#		icon = GFX_
+#		prerequisite = { focus = }
+#		mutually_exclusive = { focus =  }
+#		x = -3
+#		y = 0
+#		relative_position_id = 
+#
+#		cost = 10
+#
+#		ai_will_do = {
+#			factor = 1
+#		}
+#
+#		available = {
+#
+#		}
+#		
+#		bypass = {
+#
+#		}
+#
+#		cancel_if_invalid = yes
+#		continue_if_invalid = no
+#		available_if_capitulated = no
+#
+#		complete_tooltip = {
+#
+#		}
+#
+#		completion_reward = {
+#
+#		}
+#	}
+
+	focus = {
+		id = RGC_pacify_the_countryside
+		icon = GFX_goal_generic_major_war
+		x = 6
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			unlock_decision_category_tooltip = RGC_banditry_category
+			set_variable = { MAN_maintain_control_timer = 180 }
+			custom_effect_tooltip = RGC_pacify_the_countryside_effect_tooltip
+		}
+	}
+
+	focus = {
+		id = RGC_army_modernization
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = RGC_pacify_the_countryside }
+		x = -2
+		y = 1
+		relative_position_id = RGC_pacify_the_countryside
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}
+
+	focus = {
+		id = RGC_mukden_military_academy
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = RGC_army_modernization }
+		x = 0
+		y = 1
+		relative_position_id = RGC_army_modernization
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}	
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+		
+		completion_reward = {
+			add_ideas = RGC_mukden_military_academy
+		}
+	}
+
+	focus = {
+		id = RGC_invite_japanese_settlers
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = RGC_pacify_the_countryside }
+		x = 0
+		y = 1
+		relative_position_id = RGC_pacify_the_countryside
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			NOT = { has_idea = RGC_banditry }
+			NOT = { has_war_with = JAP }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		complete_tooltip = {
+			every_state = {
+				limit = { has_state_flag = MAN_invite_japanese_settlers_2IC }
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_state = {
+				limit = { is_fully_controlled_by = ROOT }
+				add_manpower = 25417
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_settlers_2IC
+			}
+			random_owned_state = {
+				limit = { is_fully_controlled_by = ROOT }
+				add_manpower = 33846
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_settlers_2IC
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_collective_farms
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = RGC_invite_japanese_settlers }
+		x = 0
+		y = 1
+		relative_position_id = RGC_invite_japanese_settlers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_law_university
+		icon = GFX_focus_research
+		prerequisite = { focus = RGC_collective_farms focus = RGC_mukden_military_academy focus = RGC_expand_the_textile_industry }
+		x = 0
+		y = 1
+		relative_position_id = RGC_collective_farms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = RGC_research_and_education_department
+		icon = GFX_focus_research
+		prerequisite = { focus = RGC_law_university }
+		x = 0
+		y = 1
+		relative_position_id = RGC_law_university
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			OR = {
+				num_of_factories > 50
+				all_state = {
+					OR = {
+						NOT = { is_core_of = CHI }
+						NOT = { is_core_of = PRC }
+						OR = {
+							is_controlled_by = ROOT
+							CONTROLLER = { is_in_faction_with = ROOT }
+							CONTROLLER = { is_subject_of = ROOT }
+						}
+					}
+				}
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+		
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1			
+		}
+	}
+
+	focus = {
+		id = RGC_trade_delegation
+		icon = GFX_goal_generic_trade
+		prerequisite = { focus = RGC_pacify_the_countryside }
+		x = 2
+		y = 1
+		relative_position_id = RGC_pacify_the_countryside
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_tech_bonus = {
+				name = RGC_trade_delegation
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_expand_the_textile_industry
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = RGC_trade_delegation }
+		x = 0
+		y = 1
+		relative_position_id = RGC_trade_delegation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = MAN_expand_the_textile_industry_IC
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_expand_the_textile_industry_IC
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_obedience
+		icon = GFX_focus_CZE_german_puppet
+		prerequisite = { focus = RGC_army_modernization }
+		mutually_exclusive = { focus = RGC_assertiveness }
+		x = -2
+		y = 4
+		relative_position_id = RGC_army_modernization
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+
+	focus = {
+		id = RGC_hoankyoku
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = RGC_obedience }
+		x = -2
+		y = 1
+		relative_position_id = RGC_obedience
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_STABILITY }
+		
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = RGC_first_five_year_plan
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = RGC_obedience }
+		x = 0
+		y = 1
+		relative_position_id = RGC_obedience
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			country_event = wtt_manchukou.11
+		}
+	}
+
+	focus = {
+		id = RGC_invite_japanese_investors
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = RGC_first_five_year_plan }
+		x = -1
+		y = 1
+		relative_position_id = RGC_first_five_year_plan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			NOT = { has_war_with = JAP }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		complete_tooltip = {
+			random_state = {
+				limit = {
+					has_state_flag = MAN_invite_japanese_investors_IC
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 599 }
+				limit = {
+					is_fully_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = MAN_invite_japanese_investors_IC
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_expand_the_railways
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = RGC_invite_japanese_investors }
+		x = 0
+		y = 1
+		relative_position_id = RGC_invite_japanese_investors
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			OR = {
+				594 = {
+					is_fully_controlled_by = ROOT
+				}
+				592 = {
+					is_fully_controlled_by = ROOT
+				} 
+				599 = {
+					is_fully_controlled_by = ROOT
+				} 
+				602 = {
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {	
+			if = {	
+				limit = {	
+					controls_state = 594	
+				}
+				build_railway = {
+					path = {	
+						7137 10050 7192 4023	
+					}	
+				}	
+			}	
+			if = {	
+				limit = { 	
+					controls_state = 594	
+					controls_state = 599	
+				}	
+				build_railway = {	
+					path = {
+						7137 10050 4028 1597 7095 10404
+					}	
+				}	
+			}	
+			if = {	
+				limit = {	
+					controls_state = 599	
+					controls_state = 602	
+				}	
+				build_railway = {
+					path = { 10404 4480 10335 7665 }	
+				}	
+			}	
+		}	
+	}
+
+	focus = {
+		id = RGC_develop_aluminum_sources
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = RGC_invite_japanese_investors }
+		x = -2
+		y = 1
+		relative_position_id = RGC_invite_japanese_investors
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_resource = {
+				type = aluminium
+				amount = 8
+				state = 599
+			}
+			if = {
+				limit = { has_tech = excavation1 }
+				add_tech_bonus = {
+					name = RGC_develop_aluminum_sources
+					bonus = 1.0
+					uses = 1
+					category = excavation_tech
+				}
+			}
+			else = {
+				set_technology = { excavation1 = 1 }
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_expand_showa_steel_works
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = RGC_develop_aluminum_sources }
+		x = 0
+		y = 1
+		relative_position_id = RGC_develop_aluminum_sources
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			592 = { is_fully_controlled_by = ROOT }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 8
+				state = 592
+			}
+			592 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_social_research_unit
+		icon = GFX_focus_research
+		prerequisite = { focus = RGC_expand_the_railways }
+		x = 0
+		y = 2
+		relative_position_id = RGC_invite_japanese_investors
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 8
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = RGC_second_five_year_plan
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = RGC_social_research_unit }
+		prerequisite = { focus = RGC_expand_showa_steel_works }
+		prerequisite = { focus = RGC_mamc }
+		x = 0
+		y = 4
+		relative_position_id = RGC_first_five_year_plan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			if = {
+				limit = { has_idea = MAN_five_year_plan_air }
+				NOT = { has_idea = MAN_five_year_plan_air }
+			}
+			if = {
+				limit = { has_idea = MAN_five_year_plan_tank }
+				NOT = { has_idea = MAN_five_year_plan_tank }
+			}
+			if = {
+				limit = { has_idea = MAN_five_year_plan_industry }
+				NOT = { has_idea = MAN_five_year_plan_industry }
+			}
+			if = {
+				limit = {
+					NOT = { has_idea = MAN_five_year_plan_air }
+					NOT = { has_idea = MAN_five_year_plan_tank }
+					NOT = { has_idea = MAN_five_year_plan_industry }
+				}
+				NOT = { has_idea = MAN_five_year_plan_air }
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			country_event = wtt_manchukou.11
+		}
+	}
+
+	focus = {
+		id = RGC_national_defense_state
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = RGC_second_five_year_plan }
+		x = 0
+		y = 1
+		relative_position_id = RGC_second_five_year_plan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = RGC_national_defense_state
+		}
+	}
+
+	focus = {
+		id = RGC_mukden_arsenal
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = RGC_first_five_year_plan }
+		x = 1
+		y = 1
+		relative_position_id = RGC_first_five_year_plan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			592 = { is_fully_controlled_by = ROOT }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			592 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_mamc
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = RGC_mukden_arsenal }
+		x = 0
+		y = 1
+		relative_position_id = RGC_mukden_arsenal
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			custom_effect_tooltip = available_designer
+			show_ideas_tooltip = RGC_mamc_light
+			show_ideas_tooltip = RGC_mamc_medium
+			show_ideas_tooltip = RGC_mamc_heavy
+		}
+	}
+
+	focus = {
+		id = RGC_alliance_with_the_kwantung_army
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		prerequisite = { focus = RGC_first_five_year_plan }
+		x = 3
+		y = 1
+		relative_position_id = RGC_first_five_year_plan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			remove_ideas = RGC_kwantung_veto
+			add_doctrine_cost_reduction = {
+				name = RGC_alliance_with_the_kwantung_army
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_chinese_leadership
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = RGC_alliance_with_the_kwantung_army }
+		x = 0
+		y = 1
+		relative_position_id = RGC_alliance_with_the_kwantung_army
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			RGC_low_legitimacy_level_down = yes
+		}
+	}
+
+	focus = {
+		id = RGC_national_cooperation_government
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = RGC_chinese_leadership }
+		x = 0
+		y = 1
+		relative_position_id = RGC_chinese_leadership
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			608 = { is_fully_controlled_by = ROOT }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			every_state = {
+				limit = { is_core_of = CHI }
+				add_core_of = ROOT
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_the_two_emperors
+		icon = GFX_goal_anschluss
+		prerequisite = { focus = RGC_national_cooperation_government }
+		x = 0
+		y = 2
+		relative_position_id = RGC_chinese_leadership
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			is_subject_of = JAP
+			compare_autonomy_state > autonomy_wtt_imperial_protectorate			
+			RGC = { 
+				ic_ratio = {
+					tag = JAP
+					ratio > 0.2
+				}
+			}
+			strength_ratio = {
+				tag = JAP
+				ratio > 0.25
+			}
+		}
+		bypass = {
+			is_subject = no
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		complete_tooltip = {
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_autonomy_ratio = {
+				value = 0.15
+				localization = RGC_the_two_emperors
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_assertiveness
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = RGC_trade_delegation }
+		mutually_exclusive = { focus = RGC_obedience }
+		x = 2
+		y = 4
+		relative_position_id = RGC_trade_delegation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+			is_subject = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			RGC_low_legitimacy_level_down = yes
+			set_country_flag = RGC_assertiveness
+			JAP = { 
+				set_autonomy = {
+					target = RGC
+					autonomy_state = autonomy_wtt_imperial_subject
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = RGC_request_control_of_the_railways
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = RGC_assertiveness }
+		x = 0
+		y = 1
+		relative_position_id = RGC_assertiveness
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			OR = {
+				592 = {
+					is_fully_controlled_by = ROOT
+				}
+				594 = {
+					is_fully_controlled_by = ROOT
+				}
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			unlock_decision_tooltip = MAN_divert_machine_tools
+			if = {
+				limit = { 592 = { is_fully_controlled_by = ROOT } }
+				592 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+			}
+			if = {
+				limit = { 599 = { is_fully_controlled_by = ROOT } }
+				599 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+			}
+			if = {
+				limit = { 594 = { is_fully_controlled_by = ROOT } }
+				594 = {
+					add_building_construction = {
+						type = infrastructure
+						level = 1
+						instant_build = yes
+					}
+					add_extra_state_shared_building_slots = 1
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_staff_the_court_with_manchus
+		icon = GFX_goal_generic_intelligence_exchange
+		mutually_exclusive = { focus = RGC_five_equal_peoples }
+		prerequisite = { focus = RGC_request_control_of_the_railways }
+		x = -1
+		y = 1
+		relative_position_id = RGC_request_control_of_the_railways
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = RGC_expand_the_imperial_guards
+		icon = GFX_focus_generic_little_entente
+		prerequisite = { focus = RGC_staff_the_court_with_manchus }
+		x = -1
+		y = 1
+		relative_position_id = RGC_staff_the_court_with_manchus
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 3
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			custom_effect_tooltip = RGC_expand_the_imperial_guards_tt
+			hidden_effect = {
+				division_template = {
+					name = "Republic Guards Division"
+					priority = 2
+					division_names_group = RGC_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+			
+	    	   		 	infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+			
+	    	   		 	infantry = { x = 2 y = 0 }
+						artillery_brigade = { x = 2 y = 1 }
+						artillery_brigade = { x = 2 y = 2 }
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 594 }
+					create_unit = {
+						division = "name = \"1. Republic Guards Division\" division_template = \"Republic Guards Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+					create_unit = {
+						division = "name = \"2. Republic Guards Division\" division_template = \"Republic Guards Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+					create_unit = {
+						division = "name = \"3. Republic Guards Division\" division_template = \"Republic Guards Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+					create_unit = {
+						division = "name = \"4. Republic Guards Division\" division_template = \"Republic Guards Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+				}			
+			}			
+		}
+	}
+
+	focus = {
+		id = RGC_local_arms_procurement
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = RGC_expand_the_imperial_guards }
+		x = 0
+		y = 1
+		relative_position_id = RGC_expand_the_imperial_guards
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 6
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		complete_tooltip = {
+			unlock_decision_tooltip = RGC_fund_underground_gun_shops
+			every_state = {
+				limit = {
+					has_state_flag = RGC_local_arms_procurement_AF
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+
+		completion_reward = {
+			unlock_decision_tooltip = RGC_fund_underground_gun_shops
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT 	
+					is_fully_controlled_by = ROOT
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = RGC_local_arms_procurement_AF
+			}
+			random_owned_controlled_state = {
+				limit = {
+					is_core_of = ROOT 	
+					is_fully_controlled_by = ROOT
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				set_state_flag = RGC_local_arms_procurement_AF
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_bolster_nationalism
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = RGC_staff_the_court_with_manchus focus = RGC_five_equal_peoples }
+		x = 1
+		y = 1
+		relative_position_id = RGC_staff_the_court_with_manchus
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			RGC_low_legitimacy_level_down = yes
+			add_ideas = RGC_bolster_nationalism
+			unlock_decision_tooltip = RGC_recruit_bandits_generic
+		}
+	}
+
+	focus = {
+		id = RGC_five_equal_peoples
+		icon = GFX_goal_generic_national_unity
+		mutually_exclusive = { focus = RGC_staff_the_court_with_manchus }
+		prerequisite = { focus = RGC_request_control_of_the_railways }
+		x = 1
+		y = 1
+		relative_position_id = RGC_request_control_of_the_railways
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+		completion_reward = {
+			add_war_support = 0.1
+		}
+	}
+
+	focus = {
+		id = RGC_white_russian_advisers
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = RGC_five_equal_peoples }
+		x = 1
+		y = 1
+		relative_position_id = RGC_five_equal_peoples
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			add_ideas = RGC_white_russian_advisers
+		}
+	}
+
+	focus = {
+		id = RGC_empower_the_legislative_council
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = RGC_five_equal_peoples }
+		x = 3
+		y = 1
+		relative_position_id = RGC_five_equal_peoples
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+			RGC_low_legitimacy_level_down = yes
+		}
+	}
+
+	focus = {
+		id = RGC_five_people_armies
+		icon = GFX_goal_generic_occupy_states_ongoing_war
+		prerequisite = { focus = RGC_white_russian_advisers }
+		x = 0
+		y = 1
+		relative_position_id = RGC_white_russian_advisers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_MANPOWER }
+		completion_reward = {
+			add_ideas = RGC_five_people_armies
+			unlock_decision_tooltip = RGC_raise_manchu_banner
+			custom_effect_tooltip = RGC_five_people_armies_tt
+			hidden_effect = {
+				division_template = {
+					name = "People's Volunteers Division"
+					priority = 2
+					division_names_group = RGC_INF_01
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+					}
+				}
+				random_owned_controlled_state = {
+					limit = { ROOT = { has_full_control_of_state = PREV } }
+					prioritize = { 594 }
+					create_unit = {
+						division = "name = \"People's Volunteers Division\" division_template = \"People's Volunteers Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+					create_unit = {
+						division = "name = \"People's Volunteers Division\" division_template = \"People's Volunteers Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+					create_unit = {
+						division = "name = \"People's Volunteers Division\" division_template = \"People's Volunteers Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+					create_unit = {
+						division = "name = \"People's Volunteers Division\" division_template = \"People's Volunteers Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+					create_unit = {
+						division = "name = \"People's Volunteers Division\" division_template = \"People's Volunteers Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+					create_unit = {
+						division = "name = \"People's Volunteers Division\" division_template = \"People's Volunteers Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+					create_unit = {
+						division = "name = \"People's Volunteers Division\" division_template = \"People's Volunteers Division\" start_experience_factor = 1.0" 
+						owner = RGC
+					}
+				}			
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_purge_the_general_affairs_council
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = RGC_bolster_nationalism  }
+		x = 0
+		y = 1
+		relative_position_id = RGC_bolster_nationalism 
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+			is_subject = no
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.1
+			unlock_decision_tooltip = RGC_prepare_to_seize_arms
+			if = {
+				limit = {
+					has_idea = RGC_kwantung_veto
+				}
+				remove_ideas = RGC_kwantung_veto
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_reform_the_civil_service
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = RGC_purge_the_general_affairs_council }
+		x = -2
+		y = 1
+		relative_position_id = RGC_purge_the_general_affairs_council
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_STABILITY }
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}
+
+	focus = { ### 독립전쟁
+		id = RGC_independence_war
+		icon = GFX_goal_generic_territory_or_war
+		prerequisite = { focus = RGC_purge_the_general_affairs_council }
+		x = 0
+		y = 1
+		relative_position_id = RGC_purge_the_general_affairs_council
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				strength_ratio = { tag = JAP ratio < 0.3 }
+				factor = 0
+			}
+			
+		}
+
+		available = {
+		
+		}
+		bypass = {
+			is_subject = no
+		}
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = no
+		will_lead_to_war_with = JAP
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			hidden_effect = { OVERLORD = { save_event_target_as = overlord_target } }
+			OVERLORD = { set_autonomy = { target = ROOT autonomy_state = autonomy_free } }
+			effect_tooltip = {		
+				if = {
+					limit = {
+						is_in_faction_with = OVERLORD
+					}
+					leave_faction = yes
+				}
+				declare_war_on = {
+					target = OVERLORD
+					type = puppet_wargoal_focus
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						is_in_faction_with = event_target:overlord_target
+					}
+					leave_faction = yes
+				}
+				declare_war_on = {
+					target = event_target:overlord_target
+					type = puppet_wargoal_focus
+				}
+			}
+			hidden_effect = {
+				news_event = { id = eok_news.21 days = 2 }
+			}
+			add_country_leader_trait = nationalist_symbol
+		}
+	}
+
+	focus = {
+		id = RGC_imperial_divinity
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = { focus = RGC_independence_war }
+		x = -1
+		y = 1
+		relative_position_id = RGC_independence_war
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			RGC_low_legitimacy_level_down = yes
+		}
+	}
+
+	focus = {
+		id = RGC_imperial_university
+		icon = GFX_focus_research
+		prerequisite = { focus = RGC_imperial_divinity }
+		x = -1
+		y = 1
+		relative_position_id = RGC_imperial_divinity
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = RGC_move_capitals
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = RGC_imperial_divinity }
+		prerequisite = { focus = RGC_reclaim_the_empire }
+		x = 1
+		y = 1
+		relative_position_id = RGC_imperial_divinity
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+			613 = { is_fully_controlled_by = ROOT }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		completion_reward = {
+			set_capital = { state = 613 }
+			RGC_low_legitimacy_level_down = yes
+		}
+	}
+
+	focus = {
+		id = RGC_claim_the_mandate_of_heaven
+		icon = GFX_focus_rgc_end
+		prerequisite = { focus = RGC_move_capitals }
+		x = 0
+		y = 1
+		relative_position_id = RGC_move_capitals
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+			all_state = { 
+				OR = {
+					NOT = { is_core_of = ROOT }
+					state = 729
+					state = 326
+					state = 728
+					state = 524
+					is_controlled_by = ROOT
+				}
+				
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			RGC_low_legitimacy_clear_all = yes	
+			hidden_effect = {
+				news_event = { id = eok_news.22 days = 2 }
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_reclaim_the_empire
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = RGC_independence_war }
+		x = 1
+		y = 1
+		relative_position_id = RGC_independence_war
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			add_war_support = 0.1
+			set_rule = { can_create_factions = yes }
+			every_state = {
+				limit = { is_core_of = CHI }
+				add_core_of = ROOT
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_assert_our_authority
+		icon = GFX_goal_demand_sudetenland
+		prerequisite = { focus = RGC_reclaim_the_empire }
+		x = 1
+		y = 1
+		relative_position_id = RGC_reclaim_the_empire
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			every_country = {
+				limit = {
+					is_independent_china_or_warlord = yes
+				}
+				ROOT = {
+					create_wargoal = {
+						type = annex_everything
+						target = PREV
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = RGC_offer_vassalization
+		icon = GFX_goal_generic_air_doctrine
+		mutually_exclusive = { focus = RGC_assert_our_authority }
+		prerequisite = { focus = RGC_reclaim_the_empire }
+		x = 3
+		y = 1
+		relative_position_id = RGC_reclaim_the_empire
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {
+			every_country = {
+				limit = {
+					is_chinese_warlord = yes
+					not = { tag = event_target:WTT_current_china_leader }
+				}
+				country_event = { id = wtt_manchukou.1 }
+			}
+		}
+	}
+
+
+
+	shared_focus = CHI_invite_foreign_investors
+}

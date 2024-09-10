@@ -1,0 +1,23 @@
+state={
+	id=600
+	name="STATE_600"
+
+	history={
+		owner = RGC
+		add_core_of = RGC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+
+		}
+	}
+
+	provinces={
+		1053 4081 4156 4183 7004 7172 7199 9942 10057 10112 11945 12030 
+	}
+	manpower=3820400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

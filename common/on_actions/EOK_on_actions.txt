@@ -1,0 +1,30 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			KOR = {
+				if = {
+					limit = {
+						OR = {
+							AND = {
+								is_historical_focus_on = no
+								has_game_rule = {
+									rule = KOR_ai_behavior
+									option = DEFAULT
+								}
+							}
+							has_game_rule = {
+								rule = KOR_ai_behavior
+								option = RANDOM
+							}
+						}
+					}
+					random_list = {
+						20 = { KOR = { set_country_flag = KOR_AI_RANDOM_DEMOCRACY } }
+						30 = { KOR = { set_country_flag = KOR_AI_RANDOM_FASCIST } }
+						30 = { KOR = { set_country_flag = KOR_AI_RANDOM_NEUTRALITY } }
+					}
+				}
+			}
+		}
+	}
+}	

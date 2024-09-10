@@ -1,0 +1,121 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_focus_kor_flag_korea"
+		texturefile = "gfx/interface/goals/focus_kor_flag_korea.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_empire_of_korea"
+		texturefile = "gfx/interface/goals/focus_kor_empire_of_korea.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_dragon_under_tiger"
+		texturefile = "gfx/interface/goals/focus_kor_dragon_under_tiger.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_samurai_under_tiger"
+		texturefile = "gfx/interface/goals/focus_kor_samurai_under_tiger.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_tiger"
+		texturefile = "gfx/interface/goals/focus_kor_tiger.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_chi_contract_with_korea"
+		texturefile = "gfx/interface/goals/focus_chi_contract_with_korea.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_korean_crush"
+		texturefile = "gfx/interface/goals/focus_kor_korean_crush.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_korean_deal"
+		texturefile = "gfx/interface/goals/focus_kor_korean_deal.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_korean_military"
+		texturefile = "gfx/interface/goals/focus_kor_korean_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_korean_miracle"
+		texturefile = "gfx/interface/goals/focus_kor_korean_miracle.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_uprising"
+		texturefile = "gfx/interface/goals/focus_kor_uprising.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_strong_hand"
+		texturefile = "gfx/interface/goals/focus_kor_strong_hand.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_stand_with_japan"
+		texturefile = "gfx/interface/goals/focus_kor_stand_with_japan.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_cheoldo"
+		texturefile = "gfx/interface/goals/focus_kor_cheoldo.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_council"
+		texturefile = "gfx/interface/goals/focus_kor_council.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_coup"
+		texturefile = "gfx/interface/goals/focus_kor_coup.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_hwalang"
+		texturefile = "gfx/interface/goals/focus_kor_hwalang.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_ihwa"
+		texturefile = "gfx/interface/goals/focus_kor_ihwa.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_korean_military"
+		texturefile = "gfx/interface/goals/focus_kor_korean_military.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_kyungoh"
+		texturefile = "gfx/interface/goals/focus_kor_kyungoh.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_loyal"
+		texturefile = "gfx/interface/goals/focus_kor_loyal.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_kor_military_reform"
+		texturefile = "gfx/interface/goals/focus_kor_military_reform.dds"
+	}
+	### 청나라 ###
+	SpriteType = {
+		name = "GFX_focus_man_forbidden_palace"
+		texturefile = "gfx/interface/goals/focus_man_forbidden_palace.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_man_manchuria"
+		texturefile = "gfx/interface/goals/focus_man_manchuria.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_man_glory"
+		texturefile = "gfx/interface/goals/focus_man_glory.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_man_manchu_symbol"
+		texturefile = "gfx/interface/goals/focus_man_manchu_symbol.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_man_patriotism"
+		texturefile = "gfx/interface/goals/focus_man_patriotism.dds"
+	}
+	SpriteType = {
+		name = "GFX_focus_man_mamc"
+		texturefile = "gfx/interface/goals/focus_man_mamc.dds"
+	}
+	### 재편정부 ###
+	SpriteType = {
+		name = "GFX_focus_rgc_end"
+		texturefile = "gfx/interface/goals/focus_rgc_end.dds"
+	}
+}

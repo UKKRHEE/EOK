@@ -1,0 +1,157 @@
+﻿RGC = {
+	submarine = {
+		prefix = ""
+		generic = { "Qianting" }
+		unique = {
+			"Chingpo" "Longtuan" "Jiangang" "Dongan" "Yuzhang" "Zhangfeng" "Fubo" "Feihong" "Dadong" "Zejiang" 
+		}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Quzujian" }
+		unique = {
+			"Dadong" "Zejiang" "Chingpo" "Longtuan" "Jiangang" "Dongan" "Yuzhang" "Zhangfeng" "Fubo" "Feihong" 
+		}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Qingxing Xunyangjian" }
+		unique = {
+			"Hairong" "Zhaohe" "Haiqi" "Yingrui" "Ninghai" "Pinghai" "Zhongeng" "Haizhao" "Haizhen"	"Feihong" "Nanshen" "Paonin" "Yingjing" "Tuanji"  
+
+		}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Zhong Xunyangjian" }
+		unique = {
+			"Zhongeng" "Haizhao" "Haizhen"	"Feihong" "Nanshen" "Paonin" "Yingjing" "Tuanji" "Hairong" "Zhaohe" "Haiqi" "Yingrui" "Ninghai" "Pinghai" 
+		}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Zhan lie Xunyangjian" }
+		unique = {
+			"Nanshen" "Paonin" "Yingjing" "Tuanji" "Hairong" "Zhaohe" "Haiqi" "Yingrui" "Ninghai" "Pinghai" "Zhongeng" "Haizhao" "Haizhen"	"Feihong" 
+		}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Zhanjian" }
+		unique = {
+			"Nanshen" "Paonin" "Yingjing" "Tuanji" "Hairong" "Zhaohe" "Haiqi" "Yingrui" "Ninghai" "Pinghai" "Zhongeng" "Haizhao" "Haizhen"	"Feihong" 
+		}
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Hangmu" }
+		unique = {
+			"Nanshen" "Paonin" "Yingjing" "Tuanji" "Hairong" "Zhaohe" "Haiqi" "Yingrui" "Ninghai" "Pinghai" "Zhongeng" "Haizhao" "Haizhen"	"Feihong" 
+		}
+	}
+	air_wing_names_template = AIR_WING_NAME_CHI_FALLBACK
+
+	#Air wings can only be named through archetype
+	small_plane_airframe = {
+		prefix = ""
+		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_fighter_equipment = {
+		prefix = ""
+		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	medium_plane_fighter_airframe = {
+		prefix = ""
+		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	small_plane_cas_airframe = {
+		prefix = ""
+		generic = { "Jinjuli Kongyuan Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_small_plane_airframe = {
+		prefix = ""
+		generic = { "Zhandouji Dadui" "Jianjiji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	cv_small_plane_cas_airframe = {
+		prefix = ""
+		generic = { "Jinjuli Kongyuan Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+	cv_small_plane_naval_bomber_airframe = {
+		prefix = ""
+		generic = { "Haijun Hongzhaji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	medium_plane_airframe = {
+		prefix = ""
+		generic = { "Zhanshu Hongzhaji Dadui" "Huweiji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_tac_bomber_equipment = {
+		prefix = ""
+		generic = { "Zhanshu Hongzhaji Dadui" "Huweiji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	small_plane_naval_bomber_airframe = {
+		prefix = ""
+		generic = { "Haijun Hongzhaji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	large_plane_airframe = {
+		prefix = ""
+		generic = { "Zhanlue Hongzhaji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	jet_strat_bomber_equipment = {
+		prefix = ""
+		generic = { "Zhanlue Hongzhaji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+
+	transport_plane_equipment = {
+		prefix = ""
+		generic = { "Kongyunji Dadui" }
+		generic_pattern = AIR_WING_NAME_CHI_GENERIC
+		unique = {
+		}	
+	}
+}

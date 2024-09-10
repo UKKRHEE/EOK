@@ -1,0 +1,369 @@
+﻿### 청나라 군대명 ###
+
+MAN_INF_01 =
+{
+	name = "Infantry Unit"
+
+	for_countries = { MAN }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { MAN_INF_01 }
+
+	fallback_name = "Bubing di %d Shi"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Bubing di %d Shi" }
+		2 = { "Bubing di %d Shi" }
+		3 = { "Bubing di %d Shi" }
+		4 = { "Bubing di %d Shi" }
+		5 = { "Bubing di %d Shi" }
+		6 = { "Bubing di %d Shi" }
+		7 = { "Bubing di %d Shi" }
+		8 = { "Bubing di %d Shi" }
+		9 = { "Bubing di %d Shi" }
+		10 = { "Bubing di %d Shi" }
+		11 = { "Bubing di %d Shi" }
+		12 = { "Bubing di %d Shi" }
+		13 = { "Bubing di %d Shi" }
+		14 = { "Bubing di %d Shi" }
+		15 = { "Bubing di %d Shi" }
+		16 = { "Bubing di %d Shi" }
+		17 = { "Bubing di %d Shi" }
+		18 = { "Bubing di %d Shi" }
+		19 = { "Bubing di %d Shi" }
+		20 = { "Bubing di %d Shi" }
+		21 = { "Bubing di %d Shi" }
+		22 = { "Bubing di %d Shi" }
+		23 = { "Bubing di %d Shi" }
+		24 = { "Bubing di %d Shi" }
+		25 = { "Bubing di %d Shi" }
+		26 = { "Bubing di %d Shi" }
+		27 = { "Bubing di %d Shi" }
+		28 = { "Bubing di %d Shi" }
+		29 = { "Bubing di %d Shi" }
+		30 = { "Bubing di %d Shi" }
+		31 = { "Bubing di %d Shi" }
+		32 = { "Bubing di %d Shi" }
+		33 = { "Bubing di %d Shi" }
+		34 = { "Bubing di %d Shi" }
+		35 = { "Bubing di %d Shi" }
+		36 = { "Bubing di %d Shi" }
+		37 = { "Bubing di %d Shi" }
+		38 = { "Bubing di %d Shi" }
+		39 = { "Bubing di %d Shi" }
+		40 = { "Bubing di %d Shi" }
+		41 = { "Bubing di %d Shi" }
+		42 = { "Bubing di %d Shi" }
+		43 = { "Bubing di %d Shi" }
+		44 = { "Bubing di %d Shi" }
+		45 = { "Bubing di %d Shi" }
+		46 = { "Bubing di %d Shi" }
+		47 = { "Bubing di %d Shi" }
+		48 = { "Bubing di %d Shi" }
+		49 = { "Bubing di %d Shi" }
+		50 = { "Bubing di %d Shi" }
+		51 = { "Bubing di %d Shi" }
+		52 = { "Bubing di %d Shi" }
+		53 = { "Bubing di %d Shi" }
+		54 = { "Bubing di %d Shi" }
+		55 = { "Bubing di %d Shi" }
+		56 = { "Bubing di %d Shi" }
+		57 = { "Bubing di %d Shi" }
+		58 = { "Bubing di %d Shi" }
+		59 = { "Bubing di %d Shi" }
+		60 = { "Bubing di %d Shi" }
+		61 = { "Bubing di %d Shi" }
+		62 = { "Bubing di %d Shi" }
+		63 = { "Bubing di %d Shi" }
+		64 = { "Bubing di %d Shi" }
+		65 = { "Bubing di %d Shi" }
+		66 = { "Bubing di %d Shi" }
+		67 = { "Bubing di %d Shi" }
+		68 = { "Bubing di %d Shi" }
+		69 = { "Bubing di %d Shi" }
+		70 = { "Bubing di %d Shi" }
+		71 = { "Bubing di %d Shi" }
+		72 = { "Bubing di %d Shi" }
+		73 = { "Bubing di %d Shi" }
+		74 = { "Bubing di %d Shi" }
+		75 = { "Bubing di %d Shi" }
+		76 = { "Bubing di %d Shi" }
+		77 = { "Bubing di %d Shi" }
+		78 = { "Bubing di %d Shi" }
+		79 = { "Bubing di %d Shi" }
+		80 = { "Bubing di %d Shi" }
+		81 = { "Bubing di %d Shi" }
+		82 = { "Bubing di %d Shi" }
+		83 = { "Bubing di %d Shi" }
+		84 = { "Bubing di %d Shi" }
+		85 = { "Bubing di %d Shi" }
+		86 = { "Bubing di %d Shi" }
+		87 = { "Bubing di %d Shi" }
+		88 = { "Bubing di %d Shi" }
+		89 = { "Bubing di %d Shi" }
+		90 = { "Bubing di %d Shi" }
+		91 = { "Bubing di %d Shi" }
+		92 = { "Bubing di %d Shi" }
+		93 = { "Bubing di %d Shi" }
+		94 = { "Bubing di %d Shi" }
+	    95 = { "Bubing di %d Shi" }
+		96 = { "Bubing di %d Shi" }
+		97 = { "Bubing di %d Shi" }
+		98 = { "Bubing di %d Shi" }
+		99 = { "Bubing di %d Shi" }
+		100 = { "Bubing di %d Shi" }
+	}
+}
+
+MAN_CAV_01 =
+{
+	name = "Cavalry Unit"
+
+	for_countries = { MAN }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { MAN_INF_01 }
+
+	fallback_name = "Qibing di %d Shi"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Qibing di %d Shi" }
+		2 = { "Qibing di %d Shi" }
+		3 = { "Qibing di %d Shi" }
+		4 = { "Qibing di %d Shi" }
+		5 = { "Qibing di %d Shi" }
+		6 = { "Qibing di %d Shi" }
+		7 = { "Qibing di %d Shi" }
+		8 = { "Qibing di %d Shi" }
+		9 = { "Qibing di %d Shi" }
+		10 = { "Qibing di %d Shi" }
+		11 = { "Qibing di %d Shi" }
+		12 = { "Qibing di %d Shi" }
+		13 = { "Qibing di %d Shi" }
+		14 = { "Qibing di %d Shi" }
+		15 = { "Qibing di %d Shi" }
+		16 = { "Qibing di %d Shi" }
+		17 = { "Qibing di %d Shi" }
+		18 = { "Qibing di %d Shi" }
+		19 = { "Qibing di %d Shi" }
+		20 = { "Qibing di %d Shi" }
+	}
+}
+
+MAN_MOT_01 =
+{
+	name = "Motorized Unit"
+
+	for_countries = { MAN }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { MAN_INF_01 }
+
+	fallback_name = "Jidonghua Bubing di %d Shi"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		500 = {"Jidonghua Bubing di %d Shi"}
+		501 = {"Jidonghua Bubing di %d Shi"}
+		502 = {"Jidonghua Bubing di %d Shi"}
+		503 = {"Jidonghua Bubing di %d Shi"}
+		504 = {"Jidonghua Bubing di %d Shi"}
+		505 = {"Jidonghua Bubing di %d Shi"}
+		506 = {"Jidonghua Bubing di %d Shi"}
+		507 = {"Jidonghua Bubing di %d Shi"}
+		508 = {"Jidonghua Bubing di %d Shi"}
+		509 = {"Jidonghua Bubing di %d Shi"}
+		510 = {"Jidonghua Bubing di %d Shi"}
+	}
+}
+
+MAN_MEC_01 =
+{
+	name = "Mechanized Unit"
+
+	for_countries = { MAN }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { MAN_INF_01 }
+
+	fallback_name = "Jixiehua Bubing di %d Shi"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		900 = { "Jixiehua Bubing di %d Shi" }
+		901 = { "Jixiehua Bubing di %d Shi" }
+		902 = { "Jixiehua Bubing di %d Shi" }
+		903 = { "Jixiehua Bubing di %d Shi" }
+		904 = { "Jixiehua Bubing di %d Shi" }
+		905 = { "Jixiehua Bubing di %d Shi" }
+		906 = { "Jixiehua Bubing di %d Shi" }
+		907 = { "Jixiehua Bubing di %d Shi" }
+		908 = { "Jixiehua Bubing di %d Shi" }
+		909 = { "Jixiehua Bubing di %d Shi" }
+		910 = { "Jixiehua Bubing di %d Shi" }
+	}
+}
+
+MAN_ARM_01 =
+{
+	name = "Armored Unit"
+
+	for_countries = { MAN }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { MAN_INF_01 }
+
+	fallback_name = "Zhuangjia di %d Shi"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Zhuangjia di %d Shi" }
+		2 = { "Zhuangjia di %d Shi" }
+		3 = { "Zhuangjia di %d Shi" }
+		4 = { "Zhuangjia di %d Shi" }
+		5 = { "Zhuangjia di %d Shi" }
+		6 = { "Zhuangjia di %d Shi" }
+		7 = { "Zhuangjia di %d Shi" }
+		8 = { "Zhuangjia di %d Shi" }
+		9 = { "Zhuangjia di %d Shi" }
+		10 = { "Zhuangjia di %d Shi" }
+		11 = { "Zhuangjia di %d Shi" }
+		12 = { "Zhuangjia di %d Shi" }
+		13 = { "Zhuangjia di %d Shi" }
+		14 = { "Zhuangjia di %d Shi" }
+		15 = { "Zhuangjia di %d Shi" }
+		16 = { "Zhuangjia di %d Shi" }
+		17 = { "Zhuangjia di %d Shi" }
+		18 = { "Zhuangjia di %d Shi" }
+		19 = { "Zhuangjia di %d Shi" }
+		20 = { "Zhuangjia di %d Shi" }
+	}
+}
+
+MAN_PAR_01 =
+{
+	name = "Paratrooper Unit"
+
+	for_countries = { MAN PRC SHX GXC YUN XSM SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { MAN_INF_01 }
+
+	fallback_name = "Sanbing di %d Shi"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Sanbing di %d Shi" }
+		2 = { "Sanbing di %d Shi" }
+		3 = { "Sanbing di %d Shi" }
+		4 = { "Sanbing di %d Shi" }
+		5 = { "Sanbing di %d Shi" }
+		6 = { "Sanbing di %d Shi" }
+		7 = { "Sanbing di %d Shi" }
+		8 = { "Sanbing di %d Shi" }
+		9 = { "Sanbing di %d Shi" }
+		10 = { "Sanbing di %d Shi" }
+	}
+}
+
+MAN_MAR_01 =
+{
+	name = "Marine Unit"
+
+	for_countries = { MAN PRC SHX GXC YUN XSM SIK }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { MAN_INF_01 }
+
+	fallback_name = "Luzhan Dui di %d Shi"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Luzhan Dui di %d Shi" }
+		2 = { "Luzhan Dui di %d Shi" }
+		3 = { "Luzhan Dui di %d Shi" }
+		4 = { "Luzhan Dui di %d Shi" }
+		5 = { "Luzhan Dui di %d Shi" }
+		6 = { "Luzhan Dui di %d Shi" }
+		7 = { "Luzhan Dui di %d Shi" }
+		8 = { "Luzhan Dui di %d Shi" }
+		9 = { "Luzhan Dui di %d Shi" }
+		10 = { "Luzhan Dui di %d Shi" }
+	}
+}
+
+MAN_MTN_01 =
+{
+	name = "Mountain Unit"
+
+	for_countries = { MAN }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { MAN_INF_01 }
+
+	fallback_name = "Shandi di %d Shi"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "Shandi di %d Shi" }
+		2 = { "Shandi di %d Shi" }
+		3 = { "Shandi di %d Shi" }
+		4 = { "Shandi di %d Shi" }
+		5 = { "Shandi di %d Shi" }
+		6 = { "Shandi di %d Shi" }
+		7 = { "Shandi di %d Shi" }
+		8 = { "Shandi di %d Shi" }
+		9 = { "Shandi di %d Shi" }
+		10 = { "Shandi di %d Shi" }
+	}
+}

@@ -1,0 +1,448 @@
+characters={
+	### 지도자 ###
+	MON_khorloogiin_choibalsan={
+		name=MON_khorloogiin_choibalsan
+		portraits={
+			civilian={
+				large=GFX_portrait_Khorloogiin_Choibalsan
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = stalinism
+			traits = {
+				#
+			}
+			id=-1
+		}
+	}
+	
+	MON_unenbayan={
+		name=MON_unenbayan
+		portraits={
+			civilian={
+				large=GFX_portrait_MON_unenbayan
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				#
+			}
+			id=-1
+		}
+	}
+	
+	MON_7th_changkya_khutukhtu={
+		name=MON_7th_changkya_khutukhtu
+		portraits={
+			civilian={
+				large=GFX_portrait_MON_7th_changkya_khutukhtu
+				small="GFX_idea_MON_7th_changkya_khutukhtu"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = 7th_changkya_khutukhtu
+	    	allowed = {
+	    		original_tag = MON
+	    	}
+	    	traits = {
+				popular_figurehead
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = rexism
+			traits = {
+				#
+			}
+			id=-1
+		}
+	}
+	
+	MON_demchugdongrub={
+		name=MON_demchugdongrub
+		portraits={
+			civilian={
+				large="GFX_portrait_men_demchugdongrub"
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				spirit_of_genghis
+			}
+			id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	MON_dansrabilegyin_dogsam = {
+		name=MON_dansrabilegyin_dogsam
+		portraits={
+			civilian={
+				small="GFX_idea_MON_dansrabilegyin_dogsam"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = dansrabilegyin_dogsam
+		    allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				compassionate_gentleman
+			}
+		    ai_will_do = {
+		    	factor = 0
+		    }
+		}
+	}
+	
+	MON_davizavyn_losol = {
+		name=MON_davizavyn_losol
+		portraits={
+			civilian={
+				small="GFX_idea_MON_davizavyn_losol"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = davizavyn_losol
+		    allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				economic_reformer
+			}
+		    ai_will_do = {
+		    	factor = 0
+		    }
+		}
+	}
+	
+	MON_olziin_badrakh = {
+		name=MON_olziin_badrakh
+		portraits={
+			civilian={
+				small="GFX_idea_MON_olziin_badrakh"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = olziin_badrakh
+		    allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				ideological_crusader
+			}
+		    ai_will_do = {
+		    	factor = 0
+		    }
+		}
+	}
+	
+	MON_jamsrangiin_tseveen = {
+		name=MON_jamsrangiin_tseveen
+		portraits={
+			civilian={
+				small="GFX_idea_MON_jamsrangiin_tseveen"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = jamsrangiin_tseveen
+		    allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				the_academic
+			}
+		    ai_will_do = {
+		    	factor = 0
+		    }
+		}
+	}
+	
+	### 이론가 ###
+	MON_mongolia_army_research = {
+		name=MON_mongolia_army_research
+		portraits={
+			army={
+				small="GFX_idea_generic_infantry_bonus"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = mongolia_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	
+	MON_mongolia_naval_research={
+		name=MON_mongolia_naval_research
+		portraits={
+			army={
+				small="GFX_idea_escort_effort_focus"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = mongolia_naval_research
+			ledger = navy
+			allowed = {
+				original_tag = MON
+			}
+			traits = { naval_theorist }
+		}
+	}
+	
+	MON_mongolia_air_research={
+		name=MON_mongolia_air_research
+		portraits={
+			army={
+				small="GFX_idea_air_war_plans_division_focus"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = mongolia_air_research
+			ledger = air
+			allowed = {
+				original_tag = MON
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	MON_manlaibaatar_damdinsuren={
+		name=MON_manlaibaatar_damdinsuren
+		portraits={
+			army={
+				large=GFX_portrait_MON_manlaibaatar_damdinsuren
+				small="GFX_idea_MON_manlaibaatar_damdinsuren"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = manlaibaatar_damdinsuren
+	    	allowed = {
+	    		original_tag = MON
+	    	}
+	    	traits = {
+				army_chief_morale_3
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				war_hero
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	MON_mongolia_navy = {
+		name=MON_mongolia_navy
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_bonus"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = mongolia_navy
+		    allowed = {
+		    	original_tag = MON
+	    	}
+		    traits = {
+				navy_chief_maneuver_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 공군참모총장 ###
+	MON_choimbolyn_shagdarsuren = {
+		name=MON_choimbolyn_shagdarsuren
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_2"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = choimbolyn_shagdarsuren
+			
+	    	allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				air_chief_ground_support_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 군지휘관 ###
+	MON_khatanbaatar_magsarjav = {
+		name=MON_khatanbaatar_magsarjav
+		portraits={
+			army={
+				large=GFX_portrait_MON_khatanbaatar_magsarjav
+				small="GFX_idea_MON_khatanbaatar_magsarjav"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = khatanbaatar_magsarjav
+			ledger = army
+		    allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				army_cavalry_3
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			traits = {
+				cavalry_officer
+				war_hero
+				fortress_buster
+				guerilla_fighter
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	MON_li_shouxin = {
+		name=MON_li_shouxin
+		portraits={
+			army={
+				large=GFX_portrait_MON_li_shouxin
+				small="GFX_idea_MON_li_shouxin"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = li_shouxin
+			ledger = army
+		    allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				army_regrouping_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			traits = {
+				cavalry_officer
+				organizer
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	MON_altanochir = {
+		name=MON_altanochir
+		portraits={
+			army={
+				large=GFX_portrait_MON_altanochir
+				small="GFX_idea_MON_altanochir"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = altanochir
+			ledger = army
+		    allowed = {
+		    	original_tag = MON
+		    }
+		    traits = {
+				army_logistics_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		corps_commander={
+			traits = {
+				trickster
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	MON_z_lhagvasuren={
+		name=MON_z_lhagvasuren
+		portraits={
+			army={
+				large=GFX_portrait_MON_z_lhagvasuren
+			}
+		}
+		corps_commander={
+			traits = { 
+				trait_cautious
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+}	

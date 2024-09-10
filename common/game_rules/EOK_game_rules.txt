@@ -1,0 +1,57 @@
+KOR_ai_behavior = {
+	name = "KOR_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = EASTERN_DEMOCRACY
+		text = "RULE_OPTION_EASTERN_DEMOCRACY"
+		desc = "RULE_OPTION_EASTERN_DEMOCRACY_KOR_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = HANSEONG_ADVANCE
+		text = "RULE_OPTION_HANSEONG_ADVANCE"
+		desc = "RULE_OPTION_HANSEONG_ADVANCE_KOR_AI_DESC"
+	}
+	option = {
+		name = EMPEROR
+		text = "RULE_OPTION_EMPEROR"
+		desc = "RULE_OPTION_EMPEROR_KOR_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}
+
+RGC_ai_behavior = {
+	name = "RGC_AI_BEHAVIOR"
+	required_dlc = "Waking the Tiger"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = RGC_OBEDIENCE
+		text = "RULE_OPTION_RGC_OBEDIENCE"
+		desc = "RULE_OPTION_OBEDIENCE_RGC_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = RGC_INDEPENDENCE
+		text = "RULE_OPTION_RGC_INDEPENDENCE"
+		desc = "RULE_OPTION_INDEPENDENCE_RGC_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}

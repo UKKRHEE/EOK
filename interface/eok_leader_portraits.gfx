@@ -1,0 +1,280 @@
+spriteTypes = {
+
+	#############
+	### 대한제국 ###
+	#############
+	
+	### 한국 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_pak_hon_yong"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Pak_Hon_yong.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_seo_jai_phil"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Philip_Jason.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_lee_beom_seok"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_emperor_yi_wu"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Wu.dds"
+	}
+	
+	### 한국 황족 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_kang"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Kang.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_geon"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Geon.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_yi_un"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yi_Un.dds"
+	}
+	
+	### 한국 정치인 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_syngman_rhee"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Syngman_Rhee.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_an_ho_sang"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_An_Ho_sang.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_ilhan_new"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Ilhan_New.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_koo"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Koo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_chang_myon"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Chang_Myon.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_hong_sa_ik"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Hong_Sa_ik.dds"
+	}
+	
+	### 한국 장성 ###
+	spriteType = {
+		name = "GFX_portrait_KOR_yu_dong_yeol"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Yu_Dong_yeol.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_shin_sung_mo"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Shin_Sung_mo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_ji_cheong_cheon"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Ji_Cheong_cheon.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_chwa_chin"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Chwa_chin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_an_jung_geun"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_An_Jung_geun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_sin_sun_sung"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Sin_Sun_seong.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_won_bong"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Won_bong.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_kyung_cheon"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Kyung_cheon.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_hong_il"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Hong_il.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_son_won_il"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Son_Won_il.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_choi_sung_hak"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Choi_Sung_hak.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_shin_pal_gyun"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Shin_Pal_gyun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_kim_suk_won"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Kim_Suk_won.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KOR_park_ok_kyu"
+		texturefile = "gfx/leaders/KOR/Portrait_KOR_Park_Ok_kyu.dds"
+	}
+	
+	#############
+	### 일본제국 ###
+	#############
+	
+	### 일본 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_JAP_tokugawa_iesato"
+		texturefile = "gfx/leaders/JAP/Portrait_JAP_Tokugawa_Iesato.dds"
+	}
+	
+	#############
+	### 대청제국 ###
+	#############
+	
+	### 청국 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_MAN_chen_duxiu"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Chen_Duxiu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MAN_liang_qichao"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Liang_Qichao.dds"
+	}
+	
+	### 청국 장성 ###
+	spriteType = {
+		name = "GFX_portrait_MAN_zaitao"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Zaitao.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MAN_sa_zhenbing"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Sa_Zhenbing.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MAN_pujie"
+		texturefile = "gfx/leaders/MAN/Portrait_MAN_Pujie.dds"
+	}
+	
+	#############
+	### 대몽골국 ###
+	#############
+	
+	### 몽골 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_Khorloogiin_Choibalsan"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Khorloogiin_Choibalsan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_unenbayan"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Unenbayan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_7th_changkya_khutukhtu"
+		texturefile = "gfx/leaders/MON/Portrait_MON_7th_Changkya_Khutukhtu.dds"
+	}
+	
+	### 몽골 장성 ###
+	spriteType = {
+		name = "GFX_portrait_MON_manlaibaatar_damdinsuren"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Manlaibaatar_Damdinsuren.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_khatanbaatar_magsarjav"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Khatanbaatar_Magsarjav.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_li_shouxin"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Li_Shouxin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_altanochir"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Altanochir.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MON_z_lhagvasuren"
+		texturefile = "gfx/leaders/MON/Portrait_MON_Z_Lhagvasuren.dds"
+	}
+	
+	#############
+	### 유신정부 ###
+	#############
+	
+	### 유신정부 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_RGC_chen_mingshu"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Chen_Mingshu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RGC_liang_hongzhi"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Liang_Hongzhi.dds"
+	}
+	
+	### 유신정부 장성 ###
+	spriteType = {
+		name = "GFX_portrait_RGC_sun_chuanfang"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Sun_Chuanfang.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RGC_ren_yuandao"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Ren_Yuandao.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RGC_qi_xieyuan"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Qi_Xieyuan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RGC_pang_bingxun"
+		texturefile = "gfx/leaders/RGC/Portrait_RGC_Pang_Bingxun.dds"
+	}
+	
+	#############
+	### 산서군벌 ###
+	#############
+	
+	### 산서군벌 장성 ###
+	spriteType = {
+		name = "GFX_portrait_SHX_fu_zuoyi"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Fu_Zuoyi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_wang_jingguo"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Wang_Jingguo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_yang_aiyuan"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Yang_Aiyuan.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_sun_chu"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Sun_Chu.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_zhao_chengshou"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Zhao_Chengshou.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_SHX_chen_changjie"
+		texturefile = "gfx/leaders/SHX/Portrait_SHX_Chen_Changjie.dds"
+	}
+	
+	#############
+	### 류큐국- ###
+	#############
+	
+	### 류큐 지도자 ###
+	spriteType = {
+		name = "GFX_portrait_RYU_peoples_government"
+		texturefile = "gfx/leaders/KOR/Portrait_RYU_Peoples_Government.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RYU_genwa_nakasone"
+		texturefile = "gfx/leaders/KOR/Portrait_RYU_Genwa_Nakasone.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_RYU_hiroshi_sho"
+		texturefile = "gfx/leaders/RYU/Portrait_RYU_Hiroshi_Sho.dds"
+	}
+}

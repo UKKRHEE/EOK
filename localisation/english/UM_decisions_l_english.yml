@@ -1,0 +1,134 @@
+﻿l_english:
+
+ #독일
+ GER_monarchy_decisions:0 "군주국 수립"
+ GER_monarchy_decisions_desc:0 "수많은 지역이 자랑스러운 우리 제국의 영향권에 놓임에 따라 우리는 각 지역에 충성스러운 군주국을 수립하여 제국의 긍지와 영광을 더욱 드높일 수 있습니다."
+ #
+ BAT_LAT_GER_monarchy:0 "발트 연합공국 수립"
+ BAT_LAT_GER_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ BAT_EST_GER_monarchy:0 "발트 연합공국 수립"
+ BAT_EST_GER_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ FIN_GER_monarchy:0 "핀란드 왕국 수립"
+ FIN_GER_monarchy_desc:0 "핀란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 핀란드 왕국을 수립할 수 있을 것입니다."
+ POL_GER_monarchy:0 "폴란드 왕국 수립"
+ POL_GER_monarchy_desc:0 "폴란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 폴란드 왕국을 수립할 수 있을 것입니다."
+ UKR_GER_monarchy:0 "우크라이나 왕국 수립"
+ UKR_GER_monarchy_desc:0 "우크라이나 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 우크라이나 왕국을 수립할 수 있을 것입니다."
+ RAJ_GER_monarchy:0 "인도 토후 연맹 수립"
+ RAJ_GER_monarchy_desc:0 "인도 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 인도 토후 연맹을 수립할 수 있을 것입니다."
+ 
+ #오-헝
+ AUS_HUN_monarchy_decisions:0 "군주국 수립"
+ AUS_HUN_monarchy_decisions_desc:0 "수많은 지역이 자랑스러운 우리 제국의 영향권에 놓임에 따라 우리는 각 지역에 충성스러운 군주국을 수립하여 제국의 긍지와 영광을 더욱 드높일 수 있습니다."
+ #
+ BAT_LAT_HUN_monarchy:0 "발트 연합공국 수립"
+ BAT_LAT_HUN_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ BAT_EST_HUN_monarchy:0 "발트 연합공국 수립"
+ BAT_EST_HUN_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ FIN_HUN_monarchy:0 "핀란드 왕국 수립"
+ FIN_HUN_monarchy_desc:0 "핀란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 핀란드 왕국을 수립할 수 있을 것입니다."
+ POL_HUN_monarchy:0 "폴란드 왕국 수립"
+ POL_HUN_monarchy_desc:0 "폴란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 폴란드 왕국을 수립할 수 있을 것입니다."
+ UKR_HUN_monarchy:0 "우크라이나 왕국 수립"
+ UKR_HUN_monarchy_desc:0 "우크라이나 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 우크라이나 왕국을 수립할 수 있을 것입니다."
+ RAJ_HUN_monarchy:0 "인도 토후 연맹 수립"
+ RAJ_HUN_monarchy_desc:0 "인도 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 인도 토후 연맹을 수립할 수 있을 것입니다."
+ 
+ #프랑스 왕국(오를레앙파)
+ FRO_monarchy_decisions:0 "군주국 수립"
+ FRO_monarchy_decisions_desc:0 "수많은 지역이 자랑스러운 우리 왕국의 영향권에 놓임에 따라 우리는 각 지역에 충성스러운 군주국을 수립하여 왕국의 긍지와 영광을 더욱 드높일 수 있습니다."
+ #
+ BAT_LAT_FRO_monarchy:0 "발트 연합공국 수립"
+ BAT_LAT_FRO_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ BAT_EST_FRO_monarchy:0 "발트 연합공국 수립"
+ BAT_EST_FRO_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ FIN_FRO_monarchy:0 "핀란드 왕국 수립"
+ FIN_FRO_monarchy_desc:0 "핀란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 핀란드 왕국을 수립할 수 있을 것입니다."
+ POL_FRO_monarchy:0 "폴란드 왕국 수립"
+ POL_FRO_monarchy_desc:0 "폴란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 폴란드 왕국을 수립할 수 있을 것입니다."
+ UKR_FRO_monarchy:0 "우크라이나 왕국 수립"
+ UKR_FRO_monarchy_desc:0 "우크라이나 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 우크라이나 왕국을 수립할 수 있을 것입니다."
+ RAJ_FRO_monarchy:0 "인도 토후 연맹 수립"
+ RAJ_FRO_monarchy_desc:0 "인도 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 인도 토후 연맹을 수립할 수 있을 것입니다."
+ 
+ #프랑스 왕국(정통왕당파)
+ FRL_monarchy_decisions:0 "군주국 수립"
+ FRL_monarchy_decisions_desc:0 "수많은 지역이 자랑스러운 우리 왕국의 영향권에 놓임에 따라 우리는 각 지역에 충성스러운 군주국을 수립하여 왕국의 긍지와 영광을 더욱 드높일 수 있습니다."
+ #
+ BAT_LAT_FRL_monarchy:0 "발트 연합공국 수립"
+ BAT_LAT_FRL_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ BAT_EST_FRL_monarchy:0 "발트 연합공국 수립"
+ BAT_EST_FRL_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ FIN_FRL_monarchy:0 "핀란드 왕국 수립"
+ FIN_FRL_monarchy_desc:0 "핀란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 핀란드 왕국을 수립할 수 있을 것입니다."
+ POL_FRL_monarchy:0 "폴란드 왕국 수립"
+ POL_FRL_monarchy_desc:0 "폴란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 폴란드 왕국을 수립할 수 있을 것입니다."
+ UKR_FRL_monarchy:0 "우크라이나 왕국 수립"
+ UKR_FRL_monarchy_desc:0 "우크라이나 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 우크라이나 왕국을 수립할 수 있을 것입니다."
+ RAJ_FRL_monarchy:0 "인도 토후 연맹 수립"
+ RAJ_FRL_monarchy_desc:0 "인도 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 인도 토후 연맹을 수립할 수 있을 것입니다."
+ 
+ #프랑스 제국
+ FRN_monarchy_decisions:0 "군주국 수립"
+ FRN_monarchy_decisions_desc:0 "수많은 지역이 자랑스러운 우리 제국의 영향권에 놓임에 따라 우리는 각 지역에 충성스러운 군주국을 수립하여 제국의 긍지와 영광을 더욱 드높일 수 있습니다."
+ #
+ BAT_LAT_FRN_monarchy:0 "발트 연합공국 수립"
+ BAT_LAT_FRN_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ BAT_EST_FRN_monarchy:0 "발트 연합공국 수립"
+ BAT_EST_FRN_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ FIN_FRN_monarchy:0 "핀란드 왕국 수립"
+ FIN_FRN_monarchy_desc:0 "핀란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 핀란드 왕국을 수립할 수 있을 것입니다."
+ POL_FRN_monarchy:0 "폴란드 왕국 수립"
+ POL_FRN_monarchy_desc:0 "폴란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 폴란드 왕국을 수립할 수 있을 것입니다."
+ UKR_FRN_monarchy:0 "우크라이나 왕국 수립"
+ UKR_FRN_monarchy_desc:0 "우크라이나 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 우크라이나 왕국을 수립할 수 있을 것입니다."
+ RAJ_FRN_monarchy:0 "인도 토후 연맹 수립"
+ RAJ_FRN_monarchy_desc:0 "인도 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 인도 토후 연맹을 수립할 수 있을 것입니다."
+ 
+ #대영제국
+ ENG_monarchy_decisions:0 "군주국 수립"
+ ENG_monarchy_decisions_desc:0 "수많은 지역이 자랑스러운 우리 제국의 영향권에 놓임에 따라 우리는 각 지역에 충성스러운 군주국을 수립하여 제국의 긍지와 영광을 더욱 드높일 수 있습니다."
+ #
+ BAT_LAT_ENG_monarchy:0 "발트 연합공국 수립"
+ BAT_LAT_ENG_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ BAT_EST_ENG_monarchy:0 "발트 연합공국 수립"
+ BAT_EST_ENG_monarchy_desc:0 "발트 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 발트 연합공국을 수립할 수 있을 것입니다."
+ FIN_ENG_monarchy:0 "핀란드 왕국 수립"
+ FIN_ENG_monarchy_desc:0 "핀란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 핀란드 왕국을 수립할 수 있을 것입니다."
+ POL_ENG_monarchy:0 "폴란드 왕국 수립"
+ POL_ENG_monarchy_desc:0 "폴란드 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 폴란드 왕국을 수립할 수 있을 것입니다."
+ UKR_ENG_monarchy:0 "우크라이나 왕국 수립"
+ UKR_ENG_monarchy_desc:0 "우크라이나 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 우크라이나 왕국을 수립할 수 있을 것입니다."
+ RAJ_ENG_monarchy:0 "영국령 인도 복원"
+ RAJ_ENG_monarchy_desc:0 "인도 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 영국령 인도를 복원할 수 있을 것입니다."
+ 
+ #한국
+ KOR_monarchy_decisions:0 "군주국 수립"
+ KOR_monarchy_decisions_desc:0 "수많은 지역이 자랑스러운 우리 제국의 영향권에 놓임에 따라 우리는 각 지역에 충성스러운 군주국을 수립하여 제국의 긍지와 영광을 더욱 드높일 수 있습니다."
+ #
+ RAJ_KOR_monarchy:0 "인도 토후 연맹 수립"
+ RAJ_KOR_monarchy_desc:0 "인도 지역이 우리의 영향권에 놓임에 따라 우리는 충성스러운 인도 토후 연맹을 수립할 수 있을 것입니다."
+ 
+ #포르투갈
+ POR_monarchy_decisions:0 "재결합된 왕국"
+ POR_monarchy_decisions_desc:0 "수많은 인내 끝에 우리는 많은 영토를 얻었고 자랑스러운 연합왕국의 부활을 선언할 수 있습니다."
+ #
+ POR_iberia_monarchy:0 "이베리아 연합왕국 수립"
+ POR_iberia_monarchy_desc:0 "이베리아 지역이 우리의 영향권에 놓임에 따라 우리는 자랑스러운 이베리아 연합왕국을 수립할 수 있을 것입니다."
+ POR_KIB_monarchy:0 "이베리아-브라질 연합왕국 수립"
+ POR_KIB_monarchy_desc:0 "이베리아와 브라질 지역이 우리의 영향권에 놓임에 따라 우리는 자랑스러운 이베리아-브라질 연합왕국을 수립할 수 있을 것입니다."
+ 
+ #러시아
+ RUS_russia_decisions:0 "새로운 러시아"
+ RUS_russia_decisions_desc:0 "마침내 러시아를 좀먹던 공산주의의 망령이 사라졌습니다. 이제 우리는 새로운 러시아를 수립해야만 합니다."
+ #
+ RUS_new_government:0 "러시아 신정부 수립"
+ RUS_new_government_desc:0 "마침내 러시아를 좀먹던 공산주의의 망령이 사라졌습니다. 이제 우리는 러시아를 이끌 새로운 정부를 수립해야만 합니다."
+ RUS_white_army:0 "백군 장성들의 귀환"
+ RUS_white_army_desc:0 "마침내 러시아를 좀먹던 공산주의의 망령이 사라졌습니다. 이제 우리는 군대에 남은 빨갱이들을 몰아내고 망명 중인 백군 장성들에게 귀환을 요청할 수 있습니다."
+ RUS_renaming_city:0 "도시명 변경"
+ RUS_renaming_city_desc:0 "마침내 러시아를 좀먹던 공산주의의 망령이 사라졌습니다. 이제 우리는 도시명에 남은 공산주의의 잔재를 완전히 지워내야만 합니다."
+ RUS_renaming_city2:0 "도시명 변경"
+ RUS_renaming_city2_desc:0 "마침내 러시아를 좀먹던 공산주의의 망령이 사라졌습니다. 이제 우리는 도시명에 남은 공산주의의 잔재를 완전히 지워내야만 합니다."
+ RUS_capital:0 "수도 문제"
+ RUS_capital_desc:0 "마침내 러시아를 좀먹던 공산주의의 망령이 사라졌습니다. 그러나 우리에게는 중대한 문제가 하나 있습니다. 모스크바가 계속 러시아의 수도여야 할까요? 아니면 페트로그라드로 천도해야 할까요?"

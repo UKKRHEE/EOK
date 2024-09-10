@@ -1,0 +1,2128 @@
+###########################
+# monarchy Decisions
+###########################
+
+GER_monarchy_decisions = {
+
+	# 발트 연합공국 (라트비아)
+	BAT_LAT_GER_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			is_subject = no
+			LAT = { is_subject_of = GER }
+			has_government = neutrality
+			NOT = {
+				EST = {
+					is_subject_of = GER
+				}
+			}
+		}
+
+		visible = {
+			original_tag = GER
+			is_subject = no
+			has_government = neutrality
+		}
+		
+	    fire_only_once = yes
+
+		complete_effect = {
+			LAT = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    create_country_leader = {
+				    name = "아돌프 프리드리히"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/BAT/Portrait_BAT_Adolf_Friedrich.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 발트 연합공국 (에스토니아)
+	BAT_EST_GER_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			is_subject = no
+			EST = { is_subject_of = GER }
+			has_government = neutrality
+			NOT = {
+				LAT = {
+					is_subject_of = GER
+				}
+			}
+		}
+
+		visible = {
+			original_tag = GER
+			is_subject = no
+			has_government = neutrality
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			EST = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    create_country_leader = {
+				    name = "아돌프 프리드리히"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/BAT/Portrait_BAT_Adolf_Friedrich.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 핀란드 왕국
+	FIN_GER_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			is_subject = no
+			FIN = { is_subject_of = GER }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = GER
+			is_subject = no
+			has_government = neutrality
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			FIN = {
+			    set_cosmetic_tag = FIN_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "국민연합당"
+				    name = "국민연합당"
+			    }
+			    create_country_leader = {
+				    name = "배이뇌 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/FIN/Portrait_FIN_Vaino_I.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 폴란드 왕국
+	POL_GER_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			is_subject = no
+			POL = { is_subject_of = GER }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = GER
+			is_subject = no
+			has_government = neutrality
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			POL = {
+			    set_cosmetic_tag = POL_KINGDOM
+			    set_party_name = {
+				    ideology = neutrality
+				    long_name = "POL_wettin_party"
+				    name = "POL_wettin_party"
+			    }
+			    promote_character = POL_friedrich_christian
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+
+	# 우크라이나 왕국
+	UKR_GER_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			is_subject = no
+			UKR = { is_subject_of = GER }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = GER
+			is_subject = no
+			has_government = neutrality
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			UKR = {
+			    set_cosmetic_tag = UKR_monarchy
+			    set_party_name = {
+				    ideology = neutrality
+				    long_name = "우크라이나 군주주의 운동"
+				    name = "우크라이나 군주주의 운동"
+			    }
+			    create_country_leader = {
+				    name = "다닐로 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/UKR/Portrait_UKR_Danylo_Skoropadsky.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+
+	# 인도 토후 연맹
+	RAJ_GER_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = GER
+		}
+
+		available = {
+			is_subject = no
+			RAJ = { is_subject_of = GER }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = GER
+			is_subject = no
+			has_government = neutrality
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			RAJ = {
+			    set_cosmetic_tag = RAJ_monarchy
+			    set_party_name = {
+				    ideology = neutrality
+				    long_name = "토후회의"
+				    name = "토후회의"
+			    }
+			    create_country_leader = {
+				    name = "아사프 자히 7세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/RAJ/Portrait_RAJ_Osman_Ali_Khan.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+}
+
+AUS_HUN_monarchy_decisions = {
+
+	# 발트 연합공국 (라트비아)
+	BAT_LAT_HUN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			is_subject = no
+			LAT = { is_subject_of = HUN }
+			has_government = neutrality
+			NOT = {
+				EST = {
+					is_subject_of = HUN
+				}
+			}
+		}
+
+		visible = {
+			original_tag = HUN
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			LAT = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    create_country_leader = {
+				    name = "레오 슈테판 폰 합스부르크"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/BAT/Portrait_BAT_Leo_Stefan.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 발트 연합공국 (에스토니아)
+	BAT_EST_HUN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			is_subject = no
+			EST = { is_subject_of = HUN }
+			has_government = neutrality
+			NOT = {
+				LAT = {
+					is_subject_of = HUN
+				}
+			}
+		}
+
+		visible = {
+			original_tag = HUN
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			EST = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    create_country_leader = {
+				    name = "레오 슈테판 폰 합스부르크"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/BAT/Portrait_BAT_Leo_Stefan.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 핀란드 왕국
+	FIN_HUN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			is_subject = no
+			FIN = { is_subject_of = HUN }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = HUN
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			FIN = {
+			    set_cosmetic_tag = FIN_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "국민연합당"
+				    name = "국민연합당"
+			    }
+			    create_country_leader = {
+				    name = "칼 구스타프 에밀 만네르헤임"
+				    desc = ""
+				    picture = "portrait_fin_carl_mannerheim.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 폴란드 왕국
+	POL_HUN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			is_subject = no
+			POL = { is_subject_of = HUN }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = HUN
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			POL = {
+			    set_cosmetic_tag = POL_KINGDOM
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "POL_habsburg_party"
+				    name = "POL_habsburg_party"
+			    }
+			    promote_character = POL_karl_albrecht
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+
+	# 우크라이나 왕국
+	UKR_HUN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			is_subject = no
+			UKR = { is_subject_of = HUN }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = HUN
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			UKR = {
+			    set_cosmetic_tag = UKR_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "우크라이나 군주주의 운동"
+				    name = "우크라이나 군주주의 운동"
+			    }
+			    create_country_leader = {
+				    name = "다닐로 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/UKR/Portrait_UKR_Danylo_Skoropadsky.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 인도 토후 연맹
+	RAJ_HUN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = HUN
+		}
+
+		available = {
+			is_subject = no
+			RAJ = { is_subject_of = HUN }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = HUN
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = HUN_proclaim_the_restoration_of_austria_hungary
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			RAJ = {
+			    set_cosmetic_tag = RAJ_monarchy
+			    set_party_name = {
+				    ideology = neutrality
+				    long_name = "토후회의"
+				    name = "토후회의"
+			    }
+			    create_country_leader = {
+				    name = "아사프 자히 7세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/RAJ/Portrait_RAJ_Osman_Ali_Khan.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+FRO_monarchy_decisions = {
+
+	# 발트 연합공국 (라트비아)
+	BAT_LAT_FRO_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			LAT = { is_subject_of = FRA }
+			has_government = neutrality
+			NOT = {
+				EST = {
+					is_subject_of = FRA
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_orleanist_restoration
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			LAT = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+				if = {
+					limit = {
+						date < 1940.8.25
+					}
+					create_country_leader = {
+						name = "장 3세"
+						desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+						picture = GFX_portrait_fra_jean_duke_of_guise
+						expire = "1965.1.1"
+						ideology = moderatism
+						traits = {
+							duke_of_orleans
+						}
+					}
+				}
+				else = {
+					create_country_leader = {
+						name = "앙리 6세"
+						desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+						picture = GFX_portrait_fra_henry_count_of_paris
+						expire = "1965.1.1"
+						ideology = moderatism
+						traits = {
+							count_of_paris
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 발트 연합공국 (에스토니아)
+	BAT_EST_FRO_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			EST = { is_subject_of = FRA }
+			has_government = neutrality
+			NOT = {
+				LAT = {
+					is_subject_of = FRA
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_orleanist_restoration
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			EST = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    if = {
+					limit = {
+						date < 1940.8.25
+					}
+					create_country_leader = {
+						name = "장 3세"
+						desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+						picture = GFX_portrait_fra_jean_duke_of_guise
+						expire = "1965.1.1"
+						ideology = moderatism
+						traits = {
+							duke_of_orleans
+						}
+					}
+				}
+				else = {
+					create_country_leader = {
+						name = "앙리 6세"
+						desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+						picture = GFX_portrait_fra_henry_count_of_paris
+						expire = "1965.1.1"
+						ideology = moderatism
+						traits = {
+							count_of_paris
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 핀란드 왕국
+	FIN_FRO_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			FIN = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_orleanist_restoration
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			FIN = {
+			    set_cosmetic_tag = FIN_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "국민연합당"
+				    name = "국민연합당"
+			    }
+			    create_country_leader = {
+				    name = "칼 구스타프 에밀 만네르헤임"
+				    desc = ""
+				    picture = "portrait_fin_carl_mannerheim.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 폴란드 왕국
+	POL_FRO_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			POL = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_orleanist_restoration
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			POL = {
+			    set_cosmetic_tag = POL_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "세임"
+				    name = "세임"
+			    }
+			    create_country_leader = {
+				    name = "아우구스틴 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/POL/Portrait_POL_Augustyn_Czartoryski.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+
+	# 우크라이나 왕국
+	UKR_FRO_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			UKR = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_orleanist_restoration
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			UKR = {
+			    set_cosmetic_tag = UKR_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "우크라이나 군주주의 운동"
+				    name = "우크라이나 군주주의 운동"
+			    }
+			    create_country_leader = {
+				    name = "다닐로 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/UKR/Portrait_UKR_Danylo_Skoropadsky.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 인도 토후 연맹
+	RAJ_FRO_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			RAJ = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_orleanist_restoration
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			RAJ = {
+			    set_cosmetic_tag = RAJ_monarchy
+			    set_party_name = {
+				    ideology = neutrality
+				    long_name = "토후회의"
+				    name = "토후회의"
+			    }
+			    create_country_leader = {
+				    name = "아사프 자히 7세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/RAJ/Portrait_RAJ_Osman_Ali_Khan.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}	
+
+FRL_monarchy_decisions = {
+
+	# 발트 연합공국 (라트비아)
+	BAT_LAT_FRL_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			LAT = { is_subject_of = FRA }
+			has_government = neutrality
+			NOT = {
+				EST = {
+					is_subject_of = FRA
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_the_legitimate_heir
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			LAT = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    if = {
+					limit = {
+						date < 1941.2.21
+					}
+					create_country_leader = {
+						name = "알퐁스 1세"
+						desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+						picture = GFX_portrait_SPA_alfonso_xiii
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							disgraced_monarch
+						}
+					}
+				}
+				else = {
+					create_country_leader = {
+						name = "자크 2세"
+						desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+						picture = GFX_portrait_fra_infante_jaime
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							the_legitimist
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 발트 연합공국 (에스토니아)
+	BAT_EST_FRL_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			EST = { is_subject_of = FRA }
+			has_government = neutrality
+			NOT = {
+				LAT = {
+					is_subject_of = FRA
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_the_legitimate_heir
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			EST = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    if = {
+					limit = {
+						date < 1941.2.21
+					}
+					create_country_leader = {
+						name = "알퐁스 1세"
+						desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+						picture = GFX_portrait_SPA_alfonso_xiii
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							disgraced_monarch
+						}
+					}
+				}
+				else = {
+					create_country_leader = {
+						name = "자크 2세"
+						desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+						picture = GFX_portrait_fra_infante_jaime
+						expire = "1965.1.1"
+						ideology = despotism
+						traits = {
+							the_legitimist
+						}
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 핀란드 왕국
+	FIN_FRL_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			FIN = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_the_legitimate_heir
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			FIN = {
+			    set_cosmetic_tag = FIN_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "국민연합당"
+				    name = "국민연합당"
+			    }
+			    create_country_leader = {
+				    name = "칼 구스타프 에밀 만네르헤임"
+				    desc = ""
+				    picture = "portrait_fin_carl_mannerheim.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 폴란드 왕국
+	POL_FRL_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			POL = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_the_legitimate_heir
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			POL = {
+			    set_cosmetic_tag = POL_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "세임"
+				    name = "세임"
+			    }
+			    create_country_leader = {
+				    name = "아우구스틴 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/POL/Portrait_POL_Augustyn_Czartoryski.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+
+	# 우크라이나 왕국
+	UKR_FRL_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			UKR = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_the_legitimate_heir
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			UKR = {
+			    set_cosmetic_tag = UKR_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "우크라이나 군주주의 운동"
+				    name = "우크라이나 군주주의 운동"
+			    }
+			    create_country_leader = {
+				    name = "다닐로 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/UKR/Portrait_UKR_Danylo_Skoropadsky.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 인도 토후 연맹
+	RAJ_FRL_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			RAJ = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_the_legitimate_heir
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			RAJ = {
+			    set_cosmetic_tag = RAJ_monarchy
+			    set_party_name = {
+				    ideology = neutrality
+				    long_name = "토후회의"
+				    name = "토후회의"
+			    }
+			    create_country_leader = {
+				    name = "아사프 자히 7세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/RAJ/Portrait_RAJ_Osman_Ali_Khan.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+FRN_monarchy_decisions = {
+
+	# 발트 연합공국 (라트비아)
+	BAT_LAT_FRN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			LAT = { is_subject_of = FRA }
+			has_government = neutrality
+			NOT = {
+				EST = {
+					is_subject_of = FRA
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_proclaim_the_third_empire
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			LAT = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    create_country_leader = {
+					name = "나폴레옹 6세"
+					desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+					picture = GFX_portraits_fra_napoleon_vi
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+						
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 발트 연합공국 (에스토니아)
+	BAT_EST_FRN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			EST = { is_subject_of = FRA }
+			has_government = neutrality
+			NOT = {
+				LAT = {
+					is_subject_of = FRA
+				}
+			}
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_proclaim_the_third_empire
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			EST = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    create_country_leader = {
+					name = "나폴레옹 6세"
+					desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+					picture = GFX_portraits_fra_napoleon_vi
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+						
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 핀란드 왕국
+	FIN_FRN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			FIN = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_proclaim_the_third_empire
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			FIN = {
+			    set_cosmetic_tag = FIN_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "국민연합당"
+				    name = "국민연합당"
+			    }
+			    create_country_leader = {
+				    name = "칼 구스타프 에밀 만네르헤임"
+				    desc = ""
+				    picture = "portrait_fin_carl_mannerheim.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 폴란드 왕국
+	POL_FRN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			POL = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_proclaim_the_third_empire
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			POL = {
+			    set_cosmetic_tag = POL_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "세임"
+				    name = "세임"
+			    }
+			    create_country_leader = {
+				    name = "아우구스틴 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/POL/Portrait_POL_Augustyn_Czartoryski.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+
+	# 우크라이나 왕국
+	UKR_FRN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			UKR = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_proclaim_the_third_empire
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			UKR = {
+			    set_cosmetic_tag = UKR_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "우크라이나 군주주의 운동"
+				    name = "우크라이나 군주주의 운동"
+			    }
+			    create_country_leader = {
+				    name = "다닐로 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/UKR/Portrait_UKR_Danylo_Skoropadsky.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 인도 토후 연맹
+	RAJ_FRN_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = FRA
+		}
+
+		available = {
+			is_subject = no
+			RAJ = { is_subject_of = FRA }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = FRA
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = FRA_proclaim_the_third_empire
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			RAJ = {
+			    set_cosmetic_tag = RAJ_monarchy
+			    set_party_name = {
+				    ideology = neutrality
+				    long_name = "토후회의"
+				    name = "토후회의"
+			    }
+			    create_country_leader = {
+				    name = "아사프 자히 7세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/RAJ/Portrait_RAJ_Osman_Ali_Khan.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+ENG_monarchy_decisions = {
+
+	# 발트 연합공국 (라트비아)
+	BAT_LAT_ENG_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = ENG
+		}
+
+		available = {
+			is_subject = no
+			LAT = { is_subject_of = ENG }
+			has_government = neutrality
+			NOT = {
+				EST = {
+					is_subject_of = ENG
+				}
+			}
+		}
+
+		visible = {
+			original_tag = ENG
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = ENG_the_kings_party
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			LAT = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    create_country_leader = {
+					name = "조지 왕자"
+					desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+					picture = "gfx/leaders/monarchy/ENG/Portrait_ENG_Prince_George.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+						
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 발트 연합공국 (에스토니아)
+	BAT_EST_ENG_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = ENG
+		}
+
+		available = {
+			is_subject = no
+			EST = { is_subject_of = ENG }
+			has_government = neutrality
+			NOT = {
+				LAT = {
+					is_subject_of = ENG
+				}
+			}
+		}
+
+		visible = {
+			original_tag = ENG
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = ENG_the_kings_party
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			EST = {
+			    set_cosmetic_tag = BAT_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "발트 기사단"
+				    name = "발트 기사단"
+			    }
+			    create_country_leader = {
+					name = "조지 왕자"
+					desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
+					picture = "gfx/leaders/monarchy/ENG/Portrait_ENG_Prince_George.dds"
+					expire = "1965.1.1"
+					ideology = despotism
+					traits = {
+						
+					}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 핀란드 왕국
+	FIN_ENG_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = ENG
+		}
+
+		available = {
+			is_subject = no
+			FIN = { is_subject_of = ENG }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = ENG
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = ENG_the_kings_party
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			FIN = {
+			    set_cosmetic_tag = FIN_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "국민연합당"
+				    name = "국민연합당"
+			    }
+			    create_country_leader = {
+				    name = "칼 구스타프 에밀 만네르헤임"
+				    desc = ""
+				    picture = "portrait_fin_carl_mannerheim.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 폴란드 왕국
+	POL_ENG_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = ENG
+		}
+
+		available = {
+			is_subject = no
+			POL = { is_subject_of = ENG }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = ENG
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = ENG_the_kings_party
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			POL = {
+			    set_cosmetic_tag = POL_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "세임"
+				    name = "세임"
+			    }
+			    create_country_leader = {
+				    name = "아우구스틴 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/POL/Portrait_POL_Augustyn_Czartoryski.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+
+	# 우크라이나 왕국
+	UKR_ENG_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = ENG
+		}
+
+		available = {
+			is_subject = no
+			UKR = { is_subject_of = ENG }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = ENG
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = ENG_the_kings_party
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			UKR = {
+			    set_cosmetic_tag = UKR_monarchy
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "우크라이나 군주주의 운동"
+				    name = "우크라이나 군주주의 운동"
+			    }
+			    create_country_leader = {
+				    name = "다닐로 1세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/UKR/Portrait_UKR_Danylo_Skoropadsky.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+	
+	# 영국령 인도
+	RAJ_ENG_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = ENG
+		}
+
+		available = {
+			is_subject = no
+			RAJ = { is_subject_of = ENG }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = ENG
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = ENG_the_kings_party
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			RAJ = {
+			    set_cosmetic_tag = RAJ_UK
+				set_party_name = {
+				    ideology = neutrality
+				    long_name = "인도 총독부"
+				    name = "인도 총독부"
+			    }
+			    create_country_leader = {
+			    	name = "마운트배튼 경"
+			    	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+			    	picture = "gfx/leaders/monarchy/RAJ/Portrait_RAJ_Louis_Mountbatten.dds"
+			    	expire = "1965.1.1"
+			    	ideology = despotism
+			    	traits = {
+		
+			    	}
+			    }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+
+KOR_monarchy_decisions = {
+
+	# 인도 토후 연맹
+	RAJ_KOR_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			is_subject = no
+			RAJ = { is_subject_of = KOR }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = KOR
+			is_subject = no
+			has_government = neutrality
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			RAJ = {
+			    set_cosmetic_tag = RAJ_monarchy
+			    set_party_name = {
+				    ideology = neutrality
+				    long_name = "토후회의"
+				    name = "토후회의"
+			    }
+			    create_country_leader = {
+				    name = "아사프 자히 7세"
+				    desc = ""
+				    picture = "gfx/leaders/monarchy/RAJ/Portrait_RAJ_Osman_Ali_Khan.dds"
+				    expire = "1965.1.1"
+				    ideology = despotism
+				    traits = {}
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}	
+}
+
+POR_monarchy_decisions = {
+
+	# 이베리아 연합왕국
+	POR_iberia_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = POR
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 112
+			controls_state = 41
+			NOT = {
+				controls_state = 500
+			}
+			SPR = { exists = no }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = POR
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = POR_restoration_of_the_monarchy
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			POR = {
+			    set_cosmetic_tag = POR_iberia
+				every_state = {
+					limit = { is_core_of = SPR }
+					add_core_of = POR
+				}
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+	
+	# 이베리아-브라질 연합왕국
+	POR_KIB_monarchy = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = POR
+		}
+
+		available = {
+			is_subject = no
+			controls_state = 112
+			controls_state = 41
+			controls_state = 500
+			SPR = { exists = no }
+			BRA = { exists = no }
+			has_government = neutrality
+		}
+
+		visible = {
+			original_tag = POR
+			is_subject = no
+			has_government = neutrality
+			has_completed_focus = POR_the_kingdom_reunited
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			POR = {
+			    set_cosmetic_tag = KIB_kingdom_iberia_and_brazil
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

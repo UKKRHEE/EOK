@@ -1,0 +1,232 @@
+KOR_alternate_plan_emperor = {
+	name = "Korea Emperor Plan"
+	desc = "God help the Emperor"
+	
+	allowed = {
+		original_tag = KOR
+	}
+	enable = {
+		OR = {
+			has_country_flag = KOR_AI_RANDOM_EMPEROR
+			has_game_rule = {
+				rule = KOR_ai_behavior
+				option = EMPEROR
+			}
+		}
+	}
+	abort = {
+
+	}
+
+	ai_national_focuses = {
+		KOR_repair_eok                 # 제국 개편	
+		KOR_council                    # 1936년 중추원 회의
+		KOR_industrial_effort          # 경제 개발 5개년 계획			
+		KOR_f_monarchism               # 오얏꽃의 나라	
+		KOR_f_monarchism_2             # 한국식 입헌군주제
+		KOR_military_reform            # 군제개혁
+		# 1937
+		KOR_army_reform                # 육군 개혁
+		KOR_extra_tech_slot            # 국방과학연구소 개선
+		KOR_extra_tech_slot_2          # 과학집현전 창설
+		KOR_lend_lease                 # 개입 준비
+		KOR_intervention_asia          # 동아시아 정국에 개입
+		KOR_volunteer                  # 특별의용군 창설
+		KOR_lend_lease_2               # 무기수출법 통과
+		KOR_eu_diplomacy               # 유럽에서의 외교전
+		# 1938
+		KOR_claim_north_man            # 북만주 영유권 주장
+		KOR_f_monarchism_4             # 제국익문사에 지침 하달
+		KOR_f_monarchism_3             # 충군애국 정신
+		KOR_aviation_effort            # 황립 항공대 증원
+		KOR_fighter_focus              # 한국제 전투기와 한국인 정예 조종사
+		KOR_production_effort          # 군수 공업 개발
+		KOR_f_factory                  # 민간 산업 육성
+		# 1939
+		KOR_f_steel                    # 포항 제철소
+		KOR_production_effort_2        # 대구 공업 단지
+		KOR_f_oil                      # 만주 석유 채굴
+		KOR_production_effort_3        # 합이빈 공업 단지
+		KOR_the_asia_pact              # 동양평화론
+		KOR_an_sia_alliance            # 시암과의 협력
+		KOR_an_mon_alliance            # 몽골과의 협력
+		KOR_f_monarchism_5             # 만주계 한국인을 등용
+		KOR_f_monarchism_6             # 관료주의 정비
+		# 1940
+		KOR_qing                       # 호랑이 아래의 용
+		KOR_claim_north_man_2          # 용을 길들이다
+		KOR_equipment_effort           # 국산 무기 개발
+		KOR_artillery_focus            # 포 위력 강화
+		KOR_mechanization_effort       # 차량화 및 기계화 실시
+		# 1941
+		KOR_light_medium_armor         # 국산 전차 개발
+		KOR_f_monarchism_7             # 상제는 황제를 도우소서
+		KOR_navy_reform                # 해군 개혁
+		KOR_submarine_effort           # 잠수함 강화
+		KOR_carrier_king               # 항공모함 개발에 집중
+		KOR_chungmugong                # 충무공의 후예
+		# 1942
+		KOR_transport                  # 수송선 확보
+		KOR_marine_corps               # 해병대 양성
+		KOR_fort_1                     # 한반도 요새화
+		KOR_fort_2                     # 만주 요새화
+		KOR_anti_aircraft              # 대공망 형성
+		KOR_airborne                   # 공수 사단 양성
+		KOR_cas_effort                 # 근접항공기 증원
+		# 1943
+		KOR_faction_research           # 과학집현전 확대
+		KOR_japan_attack               # 반일전선 구축
+		KOR_ryukyu                     # 류큐 독립군 창설
+		KOR_taegukgi                   # 상제는 태극기를 지키소서
+		KOR_claim_primorsky            # 연해주 영유권 주장
+		# 1944
+		KOR_fire_power                 # 압도적 화력
+		KOR_gee_kor                    # 독일 복위식 방문
+		KOR_aushun_kor                 # 오-헝 복위식 방문
+		KOR_alliance_1                 # 연합국 지지
+		KOR_secret_weapons             # 무궁화 꽃이 피었습니다
+		KOR_atomic_armaments           # 핵무장 개시
+		KOR_construction_effort        # 한반도 변방 지역 도시화
+		KOR_gyeongbu_line              # 경부선
+		KOR_construction_effort_2      # 만주 변방 지역 도시화
+		KOR_infrastructure_effort_2    # 한반도-만주 철도
+		# 1945
+		KOR_rocket_effort              # 현대식 천자총통
+		KOR_f_factory_2                # 태평성대 
+		KOR_munitions_industry         # 모두 무장하라!	
+		KOR_miracle_on_the_han_river   # 한강의 기적
+		KOR_nav_effort                 # 뇌격기 증원
+		KOR_bomber_focus               # 폭격기 증원
+		# 1946	
+		KOR_cruiser_effort             # 순양함 강화
+		KOR_ryukyu_3                   # 류큐를 영향권으로 편입
+		KOR_comintern_war              # 멸공의 횃불
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+KOR_alternate_plan_Hanseong_Advance = {
+	name = "Korea Hanseong advance Plan"
+	desc = "Great Korea"
+	
+	allowed = {
+		original_tag = KOR
+	}
+	enable = {
+		OR = {
+			has_country_flag = KOR_AI_RANDOM_FASCIST
+			has_game_rule = {
+				rule = KOR_ai_behavior
+				option = HANSEONG_ADVANCE
+			}
+		}
+	}
+	abort = {
+
+	}
+
+	ai_national_focuses = {
+		KOR_repair_eok                 # 제국 개편	
+		KOR_council                    # 1936년 중추원 회의
+		KOR_industrial_effort          # 경제 개발 5개년 계획			
+		KOR_f_fascism                  # 한성 진군	
+		KOR_f_fascism_2                # 대막리지의 영도
+		KOR_military_reform            # 군제 개혁				  							
+		# 1937
+		KOR_army_reform                # 육군 개혁
+		KOR_extra_tech_slot            # 국방과학연구소 개선
+		KOR_extra_tech_slot_2          # 과학집현전 창설
+		KOR_lend_lease                 # 개입 준비
+		KOR_intervention_asia          # 동아시아 정국에 개입
+		KOR_volunteer                  # 특별의용군 창설
+		KOR_lend_lease_2               # 무기수출법 통과
+		KOR_eu_diplomacy               # 유럽에서의 외교전
+		# 1938
+		KOR_claim_north_man            # 북만주 영유권 주장
+		KOR_f_fascism_4                # 제국익문사 장악
+		KOR_f_fascism_3                # 새로운 화랑
+		KOR_aviation_effort            # 황립 항공대 증원
+		KOR_fighter_focus              # 한국제 전투기와 한국인 정예 조종사
+		KOR_production_effort          # 군수 공업 개발
+		KOR_f_factory                  # 민간 산업 육성
+		# 1939
+		KOR_f_steel                    # 포항 제철소
+		KOR_production_effort_2        # 대구 공업 단지
+		KOR_f_oil                      # 만주 석유 채굴
+		KOR_production_effort_3        # 합이빈 공업 단지
+		KOR_axis_1                     # 추축국 지지
+		KOR_axis_2                     # 신질서에 합류
+		KOR_the_asia_pact              # 동양평화론
+		KOR_an_sia_alliance            # 시암과의 협력
+		KOR_an_mon_alliance            # 몽골과의 협력
+		KOR_mechanization_effort       # 차량화 및 기계화 실시
+		# 1940
+		KOR_f_fascism_5                # 만주계 한국인의 한국화
+		KOR_f_fascism_6                # 한국 군국주의
+		KOR_fort_1                     # 한반도 요새화
+		KOR_fort_2                     # 만주 요새화
+		KOR_f_fascism_7                # 동방의 맹수
+		KOR_chi_war                    # 제2차 조중전쟁
+		KOR_light_medium_armor         # 국산 전차 개발
+		# 1941
+		KOR_equipment_effort           # 국산 무기 개발
+		KOR_artillery_focus            # 포 위력 강화
+		KOR_fire_power                 # 압도적 화력
+		KOR_navy_reform                # 해군 개혁
+		KOR_submarine_effort           # 잠수함 강화
+		# 1942
+		KOR_carrier_king               # 항공모함 개발에 집중
+		KOR_chungmugong                # 충무공의 후예
+		KOR_transport                  # 수송선 확보
+		KOR_marine_corps               # 해병대 양성
+		KOR_anti_aircraft              # 대공망 형성
+		KOR_airborne                   # 공수 사단 양성
+		KOR_cas_effort                 # 근접항공기 증원
+		# 1943
+		KOR_claim_primorsky            # 연해주 영유권 주장
+		KOR_comintern_war              # 멸공의 횃불
+		KOR_taegukgi                   # 상제는 태극기를 지키소서
+		KOR_rocket_effort              # 현대식 천자총통
+		KOR_construction_effort        # 한반도 변방 지역 도시화
+		KOR_gyeongbu_line              # 경부선
+		# 1944
+        KOR_secret_weapons             # 무궁화 꽃이 피었습니다
+		KOR_atomic_armaments           # 핵무장 개시
+		KOR_construction_effort_2      # 만주 변방 지역 도시화
+		KOR_infrastructure_effort_2    # 한반도-만주 철도
+		KOR_naval_training             # 대규모 해군 훈련 개시
+		KOR_imjin_war_revenge          # 제2차 조일전쟁
+		KOR_ryukyu                     # 류큐 독립군 창설
+		# 1945
+		KOR_f_factory_2                # 태평성대 
+		KOR_munitions_industry         # 모두 무장하라!	
+		KOR_miracle_on_the_han_river   # 한강의 기적
+		KOR_nav_effort                 # 뇌격기 증원
+		KOR_bomber_focus               # 폭격기 증원
+		KOR_cruiser_effort             # 순양함 강화
+		# 1946
+		KOR_ryukyu_3                   # 류큐를 영향권으로 편입
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

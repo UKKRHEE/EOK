@@ -1,0 +1,17 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_decision_cat_picture_kor_alliance"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_korea_alliance.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_picture_dual_empire"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_dual_empire.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_picture_haedong_empire"
+		texturefile = "gfx/interface/decisions/decision_cat_picture_haedong_empire.dds"
+	}
+}

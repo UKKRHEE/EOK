@@ -1,0 +1,516 @@
+ideas = {
+	
+	country = {
+		RGC_exiled_imperial_family = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+			
+			removal_cost = -1
+
+			picture = state_shintoism
+			
+			modifier = {
+				army_morale_factor = 0.1
+				stability_factor = 0.1
+				war_support_factor = 0.05
+			}
+		}
+
+		RGC_banditry = {
+
+			available = {
+				OR = {
+					has_country_flag = RGC_northern_bandits
+					has_country_flag = RGC_eastern_bandits
+					has_country_flag = RGC_western_bandits
+				}
+			}
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = chi_army_corruption2
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+
+		RGC_kwantung_veto = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = generic_secret_police
+			
+			modifier = {
+				political_advisor_cost_factor = 0.25
+				trade_laws_cost_factor = 0.25
+				mobilization_laws_cost_factor = 0.25
+				economy_cost_factor = 0.25
+			}
+		}
+
+		RGC_low_legitimacy_5 = {
+			
+			name = RGC_low_legitimacy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = rgc_low_legitimacy
+			
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.5
+			}
+		}
+		
+		RGC_low_legitimacy_4 = {
+			
+			name = RGC_low_legitimacy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = rgc_low_legitimacy2
+			
+			modifier = {
+				stability_factor = -0.4
+				war_support_factor = -0.4
+			}
+		}
+		
+		RGC_low_legitimacy_3 = {
+			
+			name = RGC_low_legitimacy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = rgc_low_legitimacy3
+			
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.3
+			}
+		}
+		
+		RGC_low_legitimacy_2 = {
+			
+			name = RGC_low_legitimacy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = rgc_low_legitimacy4
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+			}
+		}
+		
+		RGC_low_legitimacy_1 = {
+			
+			name = RGC_low_legitimacy
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = rgc_low_legitimacy5
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+
+		RGC_mukden_military_academy = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = generic_army_war_college
+			
+			modifier = {
+				max_command_power = 20
+			}
+		}
+
+		RGC_national_defense_state = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = ast_naval_auxiliary_patrol
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		RGC_white_russian_advisers = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = generic_war_preparation
+			
+			modifier = {
+				army_morale_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}
+
+		RGC_five_people_armies = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				conscription = 0.02
+			}
+		}
+
+		RGC_five_year_plan_air = {
+
+			name = RGC_five_year_plan
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = man_five_year_plan_air
+			
+			research_bonus = { air_equipment = 0.1 }
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_air_base_factor = 0.05
+			}
+		}
+		RGC_five_year_plan_tank = {
+
+			name = RGC_five_year_plan
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = man_five_year_plan_tank
+
+			research_bonus = { armor = 0.05 }
+			
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+			}
+		}
+		RGC_five_year_plan_industry = {
+
+			name = RGC_five_year_plan
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = man_five_year_plan_industry
+			
+			research_bonus = { industry = 0.05 }
+			modifier = {
+				production_speed_industrial_complex_factor = 0.05
+			}
+		}
+		RGC_underground_gun_shops = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = generic_central_management
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.25
+					reliability = -0.4
+					instant = yes
+				}
+			}
+		}
+		RGC_arms_seized_1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = generic_army_problems
+			
+			targeted_modifier = {
+				tag = MAN
+				attack_bonus_against = -0.1
+				defense_bonus_against = -0.1
+			}
+		}
+		RGC_arms_seized_2 = {
+
+			allowed = {
+				always = no
+			}
+			name = RGC_arms_seized_1
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+
+			picture = generic_army_problems
+			
+			targeted_modifier = {
+				tag = MAN
+				attack_bonus_against = -0.25
+				defense_bonus_against = -0.25
+			}
+		}
+		RGC_arms_seized_3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				original_tag = RGC
+			}
+			
+			removal_cost = -1
+			name = RGC_arms_seized_1
+			picture = generic_army_problems
+			
+			targeted_modifier = {
+				tag = MAN
+				attack_bonus_against = -0.4
+				defense_bonus_against = -0.4
+			}
+		}
+
+		RGC_bolster_nationalism = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = chi_war_of_resistance
+			
+			targeted_modifier = {
+				tag = JAP
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+	}
+	
+	aircraft_manufacturer = {
+		designer = yes
+
+		RGC_mamc_light = {
+
+			picture = generic_air_manufacturer_1
+
+			available = {
+				has_completed_focus = RGC_mamc
+			}
+
+			allowed = {
+				original_tag = RGC
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		RGC_mamc_medium = {
+
+			picture = generic_air_manufacturer_1
+
+			available = {
+				has_completed_focus = RGC_mamc
+			}
+
+			allowed = {
+				original_tag = RGC
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		RGC_mamc_heavy = {
+
+			picture = generic_air_manufacturer_1
+
+			available = {
+				has_completed_focus = RGC_mamc
+			}
+
+			allowed = {
+				original_tag = RGC
+				has_dlc = "Waking the Tiger"
+			}
+
+			cost = 75
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+						
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+}

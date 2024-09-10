@@ -1,0 +1,24 @@
+
+state={
+	id=925
+	name="STATE_925"
+	manpower=1289800
+	
+	state_category = town
+	
+	buildings_max_level_factor=1.000
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+		}
+	}
+
+	provinces={
+		4606 1139 7074 4144 4114
+	}
+}

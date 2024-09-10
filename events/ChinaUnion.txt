@@ -1,0 +1,373 @@
+add_namespace = chiuni
+
+### 한국의 지원 제안 ###
+country_event = {
+	id = chiuni.1
+	title = chiuni.1.t
+	desc = chiuni.1.d
+	picture = GFX_report_event_chinese_soldiers_0
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiuni.1.a
+		custom_effect_tooltip = chiuni_tooltip_1
+		set_party_name = { ideology = neutrality long_name = SHX_yan_party_long name = SHX_yan_party }
+		set_cosmetic_tag = SHX_union
+		every_state = {
+			limit = {
+				is_core_of = CHI
+			}
+			add_core_of = SHX
+		}
+		KOR = { country_event = { id = chiuni.2 } }
+	}
+}
+
+### 새로운 친우 ###
+country_event = {
+	id = chiuni.2
+	title = chiuni.2.t
+	desc = chiuni.2.d
+	picture = GFX_report_event_chinese_soldiers_0
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiuni.2.a
+		puppet = SHX
+		set_autonomy = { target = SHX autonomy_state = autonomy_dominion }
+		hidden_effect = { news_event = { id = eok_news.15 days = 1 } }
+		if = {
+			limit = {
+				614 = {
+					is_controlled_by = CHI
+				}
+			}
+			SHX = {
+				transfer_state = 614
+				add_state_core = 614
+			}
+		}
+		if = {
+			limit = {
+				924 = {
+					is_controlled_by = CHI
+				}
+			}
+			SHX = {
+				transfer_state = 924
+				add_state_core = 924
+			}
+		}
+		if = {
+			limit = {
+				925 = {
+					is_controlled_by = CHI
+				}
+			}
+			SHX = {
+				transfer_state = 925
+				add_state_core = 925
+			}
+		}
+		if = {
+			limit = {
+				608 = {
+					is_controlled_by = CHI
+				}
+			}
+			SHX = {
+				transfer_state = 608
+				add_state_core = 608
+			}
+		}
+		if = {
+			limit = {
+				609 = {
+					is_controlled_by = CHI
+				}
+			}
+			SHX = {
+				transfer_state = 609
+				add_state_core = 609
+			}
+		}
+	}
+}
+
+### 중국 옥좌의 주인 ###
+country_event = {
+	id = chiuni.3
+	title = chiuni.3.t
+	desc = chiuni.3.d
+	picture = GFX_report_event_royal_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiuni.3.a
+		SHX = { country_event = { id = chiuni.4 } }
+	}
+	
+	option = {
+		name = chiuni.3.b
+		SHX = { country_event = { id = chiuni.5 } }
+	}
+	
+	option = {
+		name = chiuni.3.c
+		SHX = { country_event = { id = chiuni.6 } }
+	}
+}
+
+### 주위쉰의 즉위 ###
+country_event = {
+	id = chiuni.4
+	title = chiuni.4.t
+	desc = chiuni.4.d
+	picture = GFX_report_event_royal_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiuni.4.a
+		create_country_leader = {
+			name = "주유순"
+			desc = ""
+			picture = "gfx/leaders/SHX/Portrait_SHX_Zhu_Yuxun.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				compassionate_gentleman
+			}
+		}
+		set_party_name = { ideology = neutrality long_name = SHX_ming_party_long name = SHX_ming_party }
+		set_cosmetic_tag = CHI_ming
+		hidden_effect = { news_event = { id = eok_news.16 days = 1 } }
+	}
+}
+
+### 쿵더청의 즉위 ###
+country_event = {
+	id = chiuni.5
+	title = chiuni.5.t
+	desc = chiuni.5.d
+	picture = GFX_report_event_royal_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiuni.5.a
+		create_country_leader = {
+			name = "쿵더청"
+			desc = ""
+			picture = "gfx/leaders/SHX/Portrait_SHX_Kung_Techeng.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				gentle_scholar
+			}
+		}
+		set_party_name = { ideology = neutrality long_name = SHX_kung_party_long name = SHX_kung_party }
+		set_cosmetic_tag = CHI_monarchy
+		hidden_effect = { news_event = { id = eok_news.16 days = 1 } }
+	}
+}
+
+### 위안커딩의 즉위 ###
+country_event = {
+	id = chiuni.6
+	title = chiuni.6.t
+	desc = chiuni.6.d
+	picture = GFX_report_event_royal_parade
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiuni.6.a
+		create_country_leader = {
+			name = "위안커딩"
+			desc = ""
+			picture = "gfx/leaders/SHX/Portrait_SHX_Yuan_Keding.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				inexperienced_imperialist
+			}
+		}
+		set_party_name = { ideology = neutrality long_name = SHX_yuan_party_long name = SHX_yuan_party }
+		set_cosmetic_tag = CHI_monarchy
+		hidden_effect = { news_event = { id = eok_news.16 days = 1 } }
+	}
+}
+
+### 중국 분할 ###
+country_event = {
+	id = chiuni.7
+	title = chiuni.7.t
+	desc = chiuni.7.d
+	picture = GFX_report_event_chinese_japanese_handshake
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = CHI
+		is_subject = no
+		has_war_with = JAP
+		has_war_with = RGC
+		surrender_progress > 0.75
+		NOT = {
+			controls_state = 613 #난징
+		}
+	}
+
+	option = {
+		name = chiuni.7.a
+		dismantle_faction = yes
+		if = {
+			limit = {
+				CHI = {
+					has_war_with = JAP
+				}
+			}
+			JAP = {
+				country_event = {
+					id = chiuni.8
+				}
+			}
+		}
+		if = {
+			limit = {
+				CHI = {
+					has_war_with = RGC
+				}
+			}
+			RGC = {
+				country_event = {
+					id = chiuni.8
+				}
+			}
+		}
+		if = {
+			limit = {
+				CHI = {
+					has_war_with = KOR
+				}
+			}
+			KOR = {
+				country_event = {
+					id = chiuni.8
+				}
+			}
+		}
+		if = {
+			limit = {
+				CHI = {
+					has_war_with = SHX
+				}
+			}
+			SHX = {
+				transfer_state = 605
+				transfer_state = 744
+				transfer_state = 607
+				transfer_state = 597
+				country_event = {
+					id = chiuni.8
+				}
+			}
+		}
+		### 중화민국 재편정부 ###
+		RGC = {
+			annex_country = {
+				target = CHI transfer_troops = no
+			}
+			country_event = {
+				id = chiuni.9 days = 4
+			}
+		}
+		### 일본 ###
+		JAP = {
+			transfer_state = 743
+		}
+	}
+}
+
+### 군벌들과의 평화 ###
+country_event = {
+	id = chiuni.8
+	title = chiuni.8.t
+	desc = chiuni.8.d
+	picture = GFX_report_event_asian_politicians
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = chiuni.8.a
+		white_peace = YUN
+		white_peace = PRC
+		white_peace = XSM
+		white_peace = SIK
+		if = {
+			limit = {
+				SHX = {
+					has_war_with = JAP
+				}
+			}
+			white_peace = SHX
+		}
+	}
+}
+
+country_event = {
+	id = chiuni.9
+	title = chiuni.9.t
+	desc = chiuni.9.d
+	picture = GFX_report_event_chinese_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = chiuni.9.a
+		ai_chance = {
+			base = 90
+			modifier = {
+				factor = 0
+				NOT = { 608 = { is_controlled_by = ROOT } }
+			}
+		}
+		trigger = {
+			owns_state = 608
+		}
+		set_capital = { state = 608 }
+	}
+
+	option = {
+		name = chiuni.9.b
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 0
+				NOT = { 613 = { is_controlled_by = ROOT } }
+			}
+		}
+		trigger = {
+			owns_state = 613
+		}
+		hidden_effect = {
+			set_capital = { state = 613 }
+		}
+	}
+
+	option = {
+		name = chiuni.9.c
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 1
+				NOT = { 608 = { is_controlled_by = ROOT } }
+				NOT = { 613 = { is_controlled_by = ROOT } }
+			}			
+		}
+	}
+}

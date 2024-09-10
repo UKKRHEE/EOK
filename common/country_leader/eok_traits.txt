@@ -1,0 +1,163 @@
+leader_traits = {
+
+	emperor_gangju = {
+		random = no
+		stability_factor = 0.3
+		drift_defence_factor = 0.9
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	academic_genius = {
+		random = no
+		research_speed_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	korean_nationalist = {
+		random = no
+		political_power_factor = 0.10
+		army_core_attack_factor = 0.10
+		army_core_defence_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	anti_dictatorialist = {
+		random = no
+		drift_defence_factor = 0.25
+		fascism_acceptance = -25
+		fascism_drift = -0.01
+		communism_acceptance = -25
+		communism_drift = -0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	fusionist = {
+		random = no
+		stability_weekly = 0.001
+		compliance_gain = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	linguistic_genius = {
+		random = no
+		improve_relations_maintain_cost_factor = -0.75
+		trade_opinion_factor = 0.10
+		opinion_gain_monthly_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	radical_enlightenment = {
+		random = no
+		democratic_acceptance = 50
+		stability_factor = -0.1
+		production_speed_arms_factory_factor = 0.05
+		production_speed_dockyard_factor = 0.05
+		production_speed_industrial_complex_factor = 0.05
+		production_speed_infrastructure_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	daemagliji = {
+		random = no
+		fascism_acceptance = 75
+		war_support_factor = 0.25
+		air_chief_cost_factor = -0.25
+		army_chief_cost_factor = -0.25
+		navy_chief_cost_factor = -0.25
+		high_command_cost_factor = -0.25
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	korean_lenin = {
+		random = no
+		opinion_gain_monthly_same_ideology_factor = 1.0
+		communism_acceptance = 75
+		communism_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	constitutional_monarchists = {
+		random = no
+		democratic_acceptance = 50
+		neutrality_acceptance = 50
+		political_power_factor = 0.10
+		drift_defence_factor = 0.10
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	daegongists = {
+		random = no
+		stability_factor = 0.10
+		foreign_subversive_activites = -0.5
+		required_garrison_factor = -0.15
+		resistance_damage_to_garrison = -0.15
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	old_reformer = {
+		random = no
+		stability_weekly = 0.003
+		consumer_goods_factor = 0.03
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	democracy_won
+		random = no
+		stability_weekly = 0.001
+		democratic_drift = 0.01
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### 국민정신 ###
+	three_equalities = {
+		random = no
+		sprite = 13
+
+		research_speed_factor = 0.03
+		stability_factor = 0.03
+		consumer_goods_factor = -0.03
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

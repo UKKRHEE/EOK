@@ -1,0 +1,75 @@
+﻿### 청나라 군대명 ###
+
+RYU_INF_01 =
+{
+	name = "Infantry Unit"
+
+	for_countries = { RYU }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RYU_INF_01 }
+
+	fallback_name = "%d Ryukyu Hohei Shidan"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Ryukyu Hohei Shidan" }
+		2 = { "%d Ryukyu Hohei Shidan" }
+		3 = { "%d Ryukyu Hohei Shidan" }
+		4 = { "%d Ryukyu Hohei Shidan" }
+		5 = { "%d Ryukyu Hohei Shidan" }
+		6 = { "%d Ryukyu Hohei Shidan" }
+		7 = { "%d Ryukyu Hohei Shidan" }
+		8 = { "%d Ryukyu Hohei Shidan" }
+		9 = { "%d Ryukyu Hohei Shidan" }
+		10 = { "%d Ryukyu Hohei Shidan" }
+		11 = { "%d Ryukyu Hohei Shidan" }
+		12 = { "%d Ryukyu Hohei Shidan" }
+		13 = { "%d Ryukyu Hohei Shidan" }
+		14 = { "%d Ryukyu Hohei Shidan" }
+		15 = { "%d Ryukyu Hohei Shidan" }
+		16 = { "%d Ryukyu Hohei Shidan" }
+		17 = { "%d Ryukyu Hohei Shidan" }
+		18 = { "%d Ryukyu Hohei Shidan" }
+		19 = { "%d Ryukyu Hohei Shidan" }
+		20 = { "%d Ryukyu Hohei Shidan" }
+	}
+}
+
+RYU_CAV_01 =
+{
+	name = "Cavalry Unit"
+
+	for_countries = { RYU }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RYU_INF_01 }
+
+	fallback_name = "%d Ryukyu Kihei Shidan"
+
+	# Names with numbers (only one number per entry).
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Ryukyu Kihei Shidan" }
+		2 = { "%d Ryukyu Kihei Shidan" }
+		3 = { "%d Ryukyu Kihei Shidan" }
+		4 = { "%d Ryukyu Kihei Shidan" }
+		5 = { "%d Ryukyu Kihei Shidan" }
+		6 = { "%d Ryukyu Kihei Shidan" }
+		7 = { "%d Ryukyu Kihei Shidan" }
+		8 = { "%d Ryukyu Kihei Shidan" }
+		9 = { "%d Ryukyu Kihei Shidan" }
+		10 = { "%d Ryukyu Kihei Shidan" }
+	}
+}

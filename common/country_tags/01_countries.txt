@@ -1,0 +1,4 @@
+KOS	= "countries/Kosovo.txt"
+##EOK MOD##
+RGC = "countries/RGC.txt"
+RYU = "countries/Ryukyu.txt"

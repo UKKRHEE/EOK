@@ -1,0 +1,957 @@
+ideas = {
+	country = {
+
+        KOR_yi_wu = { 
+			available = {
+				NOT = { has_government = communism }
+			}
+
+			allowed = {
+				original_tag = KOR
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+				drift_defence_factor = 0.3
+			}
+		}
+
+		KOR_kor_vs_man = {
+			
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.25
+				conscription_factor = -0.25
+                stability_factor = -0.15
+				war_support_factor = -0.15
+			}
+		}
+
+		KOR_council = {
+			
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_advisor_cost_factor = 0.30
+				trade_laws_cost_factor = 0.30
+				mobilization_laws_cost_factor = 0.30
+				economy_cost_factor = 0.30
+			}
+		}
+
+		KOR_manchu_autonomy = {
+			
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_constitutional_guarantees
+			
+			modifier = {
+		        monthly_population = 0.30
+				stability_factor = 0.10
+			}
+		}
+		
+		KOR_manchu_employment = {
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				political_power_factor = 0.10
+				stability_factor = 0.10
+				war_support_factor = 0.10
+                conscription_factor = 0.10
+		        monthly_population = 0.10
+			}
+		}
+
+		KOR_manchu_conscript = {
+			
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = tfv_can_conscription_crisis
+			
+			modifier = {
+				stability_factor = -0.25
+        		conscription = 0.03
+				conscription_factor = 0.30
+			}
+		}
+		
+		KOR_new_hwarang = {
+		
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_reserve_divisions
+			
+			modifier = {
+				conscription = 0.02
+			}
+		}
+		
+		KOR_torch_of_democracy = {
+		
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_democratic_drift_bonus
+			
+			modifier = {
+				stability_factor = 0.25
+				enemy_justify_war_goal_time = 0.25
+				drift_defence_factor = 0.5
+				democratic_acceptance = 50
+			}
+		}
+
+		KOR_emperor_hurray = {
+			
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = KOR_emperor_hurray
+			
+			modifier = {
+            	neutrality_acceptance = 50
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+				generate_wargoal_tension = -0.50
+			    justify_war_goal_time = -0.50
+			}
+		}
+		
+		KOR_tiger = {
+		
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = KOR_tiger
+			
+			modifier = {
+				fascism_acceptance = 50
+				war_support_factor = 0.25
+				army_morale_factor = 0.15
+				army_org_Factor = 0.15
+			}
+		}
+
+		KOR_korea_hurray = {
+			
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = KOR_Korea_hurray
+			
+			modifier = {
+				training_time_army_factor = -0.10
+                army_morale_factor = 0.10
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+			}
+		}
+		
+		KOR_hirohito_kor_jap = { 
+			available = {
+				has_government = democratic
+			}
+
+			allowed = {
+				original_tag = KOR
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+			}
+
+            picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+			}
+		}
+		
+		KOR_government_general_japan_democratic = {
+			available = {
+				has_government = democratic
+			}
+			
+			allowed = {
+				original_tag = KOR
+			}
+			
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			
+			picture =
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+
+		KOR_yi_sun_sin = {
+
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+       	    picture = generic_navy_bonus
+			
+			equipment_bonus = {			
+				ship_hull_carrier = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_heavy = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_cruiser = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_light = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				ship_hull_submarine = {
+					build_cost_ic = -0.1 instant = yes
+				}
+				convoy = {
+					build_cost_ic = -0.1 instant = yes
+				}
+			}
+
+	        modifier = {
+		        navy_max_range_factor = 0.15
+	            industrial_capacity_dockyard = 0.10
+			}
+		}	
+
+		KOR_korea_attack = {
+
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+       		picture = generic_artillery_regiments
+
+	        modifier = {
+		        army_attack_factor = 0.15
+			}
+		}
+
+		KOR_imperial_guard = {
+
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+       		picture = ast_abandon_the_westminster_system
+
+	        modifier = {
+				land_reinforce_rate = 0.03
+				army_org = 15
+			}
+		}
+
+		KOR_kor_chi_support = {
+
+			picture = generic_war_preparation
+
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				planning_speed = 0.05
+                army_morale_factor = 0.05
+			}
+		}
+		
+		CHI_korean_drill = {
+
+			picture = generic_intel_bonus
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				army_leader_start_attack_level = 1
+			}
+		}
+
+		KOR_kor_pact = {
+
+			picture = HUN_treaty_of_triannon
+
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		KOR_kor_ger_pact = {
+
+			available = {
+				NOT = { is_in_faction_with = SOV }
+				NOT = { has_war_together_with = SOV }
+				NOT = { has_government = communism }
+			}
+
+			picture = anti_soviet_pact
+
+			research_bonus = {
+				land_doctrine = 0.07
+			}
+
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				light_tank_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				medium_tank_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				heavy_tank_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.05 instant = yes
+				}
+			}
+
+			modifier = {
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		KOR_intel = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_factor = -0.25
+				encryption = 1
+				decryption = 1
+			}
+		}
+		
+		KOR_intel_d = {
+		
+			picture = KOR_intel
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				drift_defence_factor = 0.3
+				encryption = 1
+				decryption = 1
+			}
+		}
+		
+		KOR_intel_n = {
+		
+			picture = KOR_intel
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				encryption = 1
+				decryption = 1
+				enemy_partisan_effect = -0.15
+			}
+		}
+		
+		KOR_intel_f = {
+		
+			picture = KOR_intel
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				encryption = 1
+				decryption = 1
+				non_core_manpower = 0.01
+			}
+		}
+		
+		KOR_volunteer_army = {
+		
+			picture = chi_army_corruption3
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				send_volunteer_divisions_required = -0.75
+				send_volunteers_tension = -0.75
+				send_volunteer_size = 5
+			}
+		}
+		
+		KOR_arms_export = {
+		
+			picture = MEX_callistas
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				lend_lease_tension = -0.75
+			}
+		}
+		
+		KOR_reign_of_peace = {
+
+			picture = FRA_national_mobilization_focus
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_rail_way_factor = 0.05
+			}
+		}
+		
+		KOR_all_armed = {
+
+			picture = generic_license_production
+
+			modifier = {
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+			}
+		}
+
+		kor_han_river = {
+
+			picture = chi_hyper_inflation5
+
+			modifier = {
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_dockyard_factor = 0.05
+				production_speed_rail_way_factor = 0.05
+			}
+		}
+
+		KOR_fighter_pilot = {
+
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+       		picture = air_war_plans_division_focus
+
+	        modifier = {
+		        air_agility_factor = 0.15
+		        air_ace_generation_chance_factor = 0.30
+			}
+		}
+
+		KOR_air_force = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_air_bonus
+
+			equipment_bonus = {
+				fighter_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				cv_fighter_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				CAS_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				cv_CAS_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				cv_nav_bomber_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				nav_bomber_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				tac_bomber_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				heavy_fighter_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+				strat_bomber_equipment = {
+					build_cost_ic = -0.1
+					instant = yes
+				}
+			}
+		}
+		
+		QIN_KOR_eco_reparations = {
+
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			available = {
+				NOT = {
+					has_war_with = KOR
+				}
+			}
+
+			removal_cost = -1
+
+       		picture = tur_etatism
+
+	        targeted_modifier = {
+				tag = KOR
+				trade_cost_for_target_factor = -0.5
+				cic_to_target_factor = 0.25
+			}
+		}
+		
+		QIN_KOR_eco_reparations2 = {
+
+			allowed = {
+				original_tag = KOR
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+			
+			available = {
+				NOT = {
+					has_war_with = KOR
+				}
+			}
+
+			removal_cost = -1
+
+       		picture = tur_etatism
+
+	        targeted_modifier = {
+				tag = KOR
+				trade_cost_for_target_factor = -0.75
+				cic_to_target_factor = 0.50
+			}
+		}
+	}
+	
+    materiel_manufacturer = {
+			
+	    designer = yes
+			
+	    KOR_st = {
+
+	    	picture = KOR_st
+                        
+		    allowed = {
+		    	original_TAG = KOR
+		    }
+	    		
+		    research_bonus = {
+		    	infantry_weapons = 0.20
+	    	}
+			
+		    traits = { infantry_equipment_manufacturer }
+	    }
+    }
+	
+    aircraft_manufacturer = {
+			
+	    designer = yes
+		
+	    KOR_kai_light = {
+					
+		    picture = KOR_kai
+				
+		    allowed = {
+		    	original_tag = KOR
+		    }
+			
+		    research_bonus = {
+		    	air_equipment = 0.05
+		    }
+
+		    cost = 150
+			
+		    traits = { light_aircraft_manufacturer }
+	    }
+		
+		KOR_kai_medium = {
+					
+		    picture = KOR_kai
+				
+		    allowed = {
+		    	original_tag = KOR
+		    }
+			
+		    research_bonus = {
+		    	air_equipment = 0.05
+		    }
+
+		    cost = 150
+			
+		    traits = { medium_aircraft_manufacturer }
+	    }
+		
+		KOR_kai_heavy = {
+					
+		    picture = KOR_kai
+				
+		    allowed = {
+		    	original_tag = KOR
+		    }
+			
+		    research_bonus = {
+		    	air_equipment = 0.05
+		    }
+
+		    cost = 150
+			
+		    traits = { heavy_aircraft_manufacturer }
+	    }
+    }
+
+    industrial_concern = {
+
+	    KOR_posco = {
+
+		    picture = KOR_posco
+			
+		    allowed = {
+		    	original_TAG = KOR
+		    }
+			
+		    research_bonus = {
+		    	industry = 0.10
+		    }
+			
+		    traits = { industrial_concern }
+	    }
+
+	    KOR_kepco = {
+					
+		    picture = KOR_kepco
+				
+		    allowed = {
+		    	original_tag = KOR
+		    }
+			
+		    research_bonus = {
+		    	electronics = 0.10
+		    }
+
+		    cost = 150
+			
+		    traits = { electronics_developer }
+	    }
+    }
+
+    tank_manufacturer = {
+	    KOR_add_fast = {
+			
+		    picture = KOR_add
+
+		    allowed = {
+		    	original_TAG = KOR
+		    }
+
+		    research_bonus = {
+		    	armor = 0.10
+		    }
+			
+		    traits = { fast_tank_manufacturer }
+	    }
+		
+		KOR_add_medium = {
+			
+		    picture = KOR_add
+
+		    allowed = {
+		    	original_TAG = KOR
+		    }
+
+		    research_bonus = {
+		    	armor = 0.10
+		    }
+			
+		    traits = { medium_tank_manufacturer }
+	    }
+		
+		KOR_add_heavy = {
+			
+		    picture = KOR_add
+
+		    allowed = {
+		    	original_TAG = KOR
+		    }
+
+		    research_bonus = {
+		    	armor = 0.10
+		    }
+			
+		    traits = { heavy_tank_manufacturer }
+	    }
+    }
+
+    naval_manufacturer = {
+		
+	    designer = yes
+		
+	    KOR_hyundai_pacific = {
+			
+		    picture = KOR_hyundai
+		
+		    allowed = {
+		    	original_TAG = KOR
+		    }
+						
+		    research_bonus = {
+		    	naval_equipment = 0.10
+		    }
+			
+		    traits = { pacific_fleet_naval_manufacturer }
+    	}
+		
+		KOR_hyundai_coastal = {
+			
+		    picture = KOR_hyundai
+    
+		    allowed = {
+		    	original_TAG = KOR
+		    }
+
+		    research_bonus = {
+		    	naval_equipment = 0.10
+		    }
+			
+		    traits = { coastal_defence_naval_manufacturer }
+	    }
+		
+	    KOR_hyundai_escort = {
+			
+		    picture = KOR_hyundai
+    
+		    allowed = {
+		    	original_TAG = KOR
+		    }
+
+		    research_bonus = {
+		    	naval_equipment = 0.10
+		    }
+			
+		    traits = { convoy_escort_naval_manufacturer }
+	    }
+    }
+}

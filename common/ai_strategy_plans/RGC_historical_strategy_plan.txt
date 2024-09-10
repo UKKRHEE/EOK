@@ -1,0 +1,79 @@
+RGC_historical_plan = {
+	name = "Reorganized China historical plan"
+	desc = "Historical behavior for Reorganized China"
+
+	allowed = {
+		original_tag = RGC
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = RGC_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_country_flag = RGC_AI_RANDOM_OBEDIENCE
+			has_game_rule = {
+				rule = RGC_ai_behavior
+				option = RGC_OBEDIENCE
+			}
+		}
+	}
+	abort = {
+		JAP = {
+			OR = {
+				has_completed_focus = JAP_strengthen_civilian_government
+				has_completed_focus = JAP_the_unthinkable_option
+			}
+		}
+	}
+
+	ai_national_focuses = {
+		RGC_pacify_the_countryside
+		CHI_invite_foreign_investors
+		RGC_trade_delegation
+		RGC_army_modernization
+		RGC_mukden_military_academy
+		RGC_law_university
+		RGC_obedience
+		RGC_first_five_year_plan
+		RGC_expand_the_textile_industry
+		RGC_hoankyoku
+		RGC_invite_japanese_investors
+		RGC_expand_the_railways
+		RGC_develop_aluminum_sources
+		RGC_expand_showa_steel_works
+		RGC_mukden_arsenal
+		RGC_social_research_unit
+
+		RGC_research_and_education_department
+		RGC_alliance_with_the_kwantung_army
+		RGC_chinese_leadership
+	}
+
+	focus_factors = {
+		RGC_vassalize_mengukuo = 0
+		RGC_national_cooperation_government = 0
+		RGC_the_two_emperors = 0
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

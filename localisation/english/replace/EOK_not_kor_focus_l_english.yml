@@ -1,0 +1,265 @@
+﻿l_english:
+ ### 중국 국민당 ###
+ CHI_foreign_threats_desc:0 "몇 년 전, 일본은 우리의 영토를 강탈하고 괴뢰국을 세웠습니다. 그들은 전 중국을 예속시키기 전까지 맘추지 않을 것입니다. 지역 독재자들과의 거래를 해서라도, 반드시 그들과 대면할 준비를 해야만 합니다."
+ 
+ CHI_commit_to_korean_independence:0 "한국과의 관계 개선"
+ CHI_commit_to_korean_independence_desc:0 "끝 없던 한국과의 충돌을 멈춰야 합니다. 더 나은 중국을 위해서는 그들의 도움이 필요하기에 적어도 지금 당장은 한국과의 좋은 관계를 만들 것입니다."
+ 
+ KOR_china_korea_Improving:0 "관계 개선"
+ 
+ CHI_secure_the_peninsula:0 "한국 공격"
+ CHI_secure_the_peninsula_desc:0 "만주 지대를 완전히 회복하고 한국이 다시는 우리에게 대들지 못하게 하는 것이 우리의 최우선 관심사입니다."
+ 
+ CHI_whampoa_military_academy:0 "중앙육군학교"
+ 
+ CHI_reach_out_to_korea:0 "한국과의 거래"
+ CHI_reach_out_to_korea_desc:0 "비록 한국이 계속해서 우리에게 치욕을 주고 남만주를 강탈했었더라도, 현재의 상황에서는 그들의 도움을 구해야 합니다."
+ 
+ CHI_small_arms_expertise:0 "공동 총기 개발"
+ CHI_small_arms_expertise_desc:0 "개인용 소총은 여전히 우리 군대의 주력 무기입니다. 이 분야를 현대식으로 유지할 수 있도록 우리의 자원을 중점적으로 사용할 것입니다."
+ 
+ CHI_heavy_weapons:0 "화력 극대화"
+ CHI_heavy_weapons_desc:0 "강력한 화력이 없는 군대는 심각한 공격에 대항할 수 없습니다. 우리의 군대는 반드시 화력이 극대화된 장비로 적절히 무장해야 합니다."
+ 
+ CHI_guarantee_the_manchu_route:0 "만주 경로 보장"
+ CHI_guarantee_the_manchu_route_desc:0 "일본과의 전쟁이 발발했을 때, 우리의 국경과 이어지는 만주의 경로를 통해 외부 세계로부터 지원을 받을 가능성이 높습니다."
+ 
+ CHI_Korea_military_mission:0 "한국 군사사절단"
+ CHI_Korea_military_mission_desc:0 "한국군은 아시아에서 가장 잘 훈련된 군대 중 하나입니다. 우리도 그들에게서 많은 것을 배울 수 있습니다."
+ 
+ CHI_korean_drill:0 "한국식 훈련"
+ CHI_korean_drill_desc:0 "한국인들은 전통적으로 화력에 특화된 군대를 만들었습니다. 그들의 훈련 방식과 제식을 받아들인다면, 우리의 불안정한 화력을 개선시킬 수 있을 것입니다."
+ 
+ ### 일본 ###
+ JAP_if_man_accepts:1 "만약 §H재편정부§!가 승낙한다면 발생합니다:\n"
+ 
+ JAP_exchange_the_exiles_desc:0 "일찍이 우리는 좌파 장교와 공무원들을 재편정부의 비공식적인 망명자로 만들어버렸습니다. 이제는 우파인 자들을 대신 보내 그들을 돌려받을 것입니다."
+ 
+ JAP_build_up_the_manchurian_army:0 "국경군 증강"
+ JAP_build_up_the_manchurian_army_desc:0 "북방에서 발발할 전쟁의 최전선을 위해서 우리는 어떤 적들의 공격 가능성도 감당할 만큼 강한 군대를 길러내야 합니다."
+ 
+ JAP_create_a_manchurian_imperial_air_force:0 "한국과의 불가침 조약"
+ JAP_create_a_manchurian_imperial_air_force_desc:0 "역사적으로 한국과의 관계는 험악했지만, 과장이 아니라, 우리는 북방 공격에 대비해 군대를 자유로이 움직일 수 있도록 그들과 불가침조약을 체결해야 합니다."
+ 
+ JAP_liberate_manchuria:0 "남중국 해방"
+ JAP_liberate_manchuria_desc:0 "남중국은 여전히 권위주의자들의 지배 하에 있습니다. 우리가 벌인 식민통치의 추한 잔재입니다. 이 상황을 해결할 방안을 마련해 지역을 적법한 중국의 관리로 되돌려주어야 합니다."
+ JAP_liberate_shina_tt:0 "남중국을 정복하면 결정이 가능해질 것입니다.\n"
+ 
+ JAP_the_korean_question:0 "한국에 민주주의 전파"
+ JAP_the_korean_question_desc:0 "우리는 한동안 한국과 최악의 관계였지만 이에 대한 문제는 더욱 더 긴급해지고 있습니다. 우리가 권위에 눌리는 우리 이웃을 외면 한다면 진정 민주주의의 이상을 고수하겠다고 주장할 수 있을까요?"
+ 
+ JAP_the_manchurian_project:0 "지나 계획"
+ JAP_the_manchurian_project_desc:0 "우리의 열도는 쓸만한 땅이 많지 않고, 우리의 본토는 가진 것이 많지 않습니다. 우리 스스로를 개발할 수 없다면, 대신 대륙의 땅을 개발할 수 있습니다. 재편정부를 위한 대규모 산업화 계획을 시작할 것입니다."
+ 
+ JAP_develop_aluminum_sources_desc:0 "우리의 항공기 계획은 충분한 알루미늄을 필요로 하고, 지나의 자원은 널리 개발되어야만 합니다."
+ 
+ JAP_expand_manchurian_railways:0 "지나 철도 확충"
+ JAP_expand_manchurian_railways_desc:0 "지나의 기반시설은 산업화 증가를 이끌기 위해 과감히 확장될 필요가 있습니다."
+ 
+ JAP_japanese_settlement_desc:0 "지나에 우리 국민들을 정착하게 하면, 노동력을 증가시키고 적절한 공장 부지를 만들 수 있을 것입니다."
+ 
+ JAP_war_with_korea:0 "제2차 조일전쟁"
+ JAP_war_with_korea_desc:0 "한국은 우리의 대동아공영권 수립을 계속해 방해하고 있습니다. 이는 우리에게 대적한 것이나 마찬가지이며 확신할 수 있는 것은 한국을 빠른 시일 내에 굴복시켜야 한다는 것입니다."
+ 
+ JAP_non_aggression_pact_with_korea:0 "한국과의 불가침 조약"
+ JAP_non_aggression_pact_with_korea_desc:0 "역사적으로 한국과의 관계는 험악했지만, 과장이 아니라, 우리는 북방 공격에 대비해 군대를 자유로이 움직일 수 있도록 그들과 불가침조약을 체결해야 합니다."
+ 
+ JAP_intervene_in_china:1 "지나에서의 충돌"
+ 
+ ### 청나라 ### 
+ MAN_mukden_military_academy:0 "대청국 육군군관학교"
+
+ MAN_invite_japanese_settlers:0 "이민자 초청"
+
+ MAN_obedience:0 "유지"
+ MAN_obedience_desc:0 "대청이 중원을 통치하는 동안 압도적인 한족들의 인구수로 인해 만주족이라는 우리의 정체성을 잃을뻔 했습니다. 비록 베이징을 수복해야하는 것은 명백하지만 다른 부분에서는 현상 유지를 지지해야 합니다."
+ 
+ MAN_invite_japanese_investors:0 "투자자 초청"
+ MAN_invite_japanese_investors_desc:0 "우리 나라를 발전시키려면 외부의 도움이 필요합니다. 다수의 회사가 우리 국가에 투자를 할 의향을 내비쳤습니다."
+ 
+ MAN_expand_showa_steel_works:0 "선통 제강소 확장"
+ MAN_expand_showa_steel_works_desc:0 "선통 제강소는 우리 중공업의 중추입니다. 투자한다면 향후 큰 이득을 거둘 수 있을 것입니다."
+ 
+ MAN_national_defense_state:0 "국방국가"
+ MAN_national_defense_state_desc:0 "옛 대청의 영광이 회복될 때까지, 우리는 어떤 희생도 감내하며 가용할 수 있는 자원을 군사력 확증에 사용하는 등, 모든 노력을 다해야만 합니다."
+ 
+ MAN_alliance_with_the_kwantung_army:0 "군부 숙청"
+ MAN_alliance_with_the_kwantung_army_desc:0 "군부 내 몇몇 장성은 가끔 우리의 사상과 맞지 않을 때도 있습니다. 우리의 대의를 위하여 그들은 철저히 배제되어야만 합니다."
+ 
+ MAN_chinese_leadership:0 "대청의 지도자상"
+ MAN_chinese_leadership_desc:0 "청나라에는 청나라에 걸맞는 지도자가 필요합니다. 우리는 황제 폐하 뛰어난 지도력을 널리 알려야 합니다."
+ 
+ MAN_national_cooperation_government:0 "자금성으로의 귀환"
+ MAN_national_cooperation_government_desc:0 "마침내 다시 한번 우리는 자금성으로 돌아왔습니다. 이 경사스러운 날을 기념합시다!"
+ 
+ MAN_the_two_emperors:0 "두 황제"
+ MAN_the_two_emperors_desc:0 "한국은 오랫동안 공화주의자들의 위협에 맞서 우리의 편을 들어주었습니다. 청국과 한국의 두 황제는 형제나 다름없습니다!"
+ 
+ MAN_assertiveness_desc:0 "가증스러운 한국은 겉으로는 우호적인 척하며 대청의 영토를 갉아먹고 있습니다. 반드시 단죄해야만 합니다."
+ 
+ MAN_request_control_of_the_railways:0 "철도 통제권 확립"
+ MAN_request_control_of_the_railways_desc:0 "우리의 국토는 넓고, 철도를 통제하는 것은 곧 나라를 통제하는 것입니다. \n\n다가올 전쟁에 대비해 철도에 대한 통제권을 확실히 확립해야 합니다."
+ 
+ MAN_local_arms_procurement_desc:0 "보급은 전쟁의 핵심입니다. 만일 우리 충분한 보급을 확보할려면, 우리가 관리할 수 있는 무기의 생산지가 필요합니다."
+ 
+ MAN_bolster_nationalism:0 "애국심 고취"
+ MAN_bolster_nationalism_desc:0 "너무 오래도록, 사람들은 청나라를 냉소적으로 생각했습니다. 그러나 모든 국가에는 사상이 있습니다. 우리는 국민들이 가진 정체성의 감각을 바로세우고 사상을 현실로 바꿀 것입니다."
+ 
+ MAN_five_equal_peoples:0 "협화의 왕도낙토"
+ MAN_five_equal_peoples_desc:0 "하나의 민족이 만인지상의 위치에서 다른 민족을 다스리는 날은 끝났습니다. 청나라는 국가의 새로운 유형이 될 것이고, 여러 민족이 조화를 이루고 함께 살아갈 것입니다."
+ 
+ MAN_empower_the_legislative_council:0 "입법회에 힘을"
+ MAN_empower_the_legislative_council_desc:0 "입법회는 현재 우리의 주군이 앞서 결정한 바를 동의하기만 하는 다소 형식적인 의제 기구입니다. 만일 우리가 국민들의 진정한 충성을 얻고자 한다면, 반드시 입법 과정을 완전히 민주화 해야 합니다."
+ 
+ MAN_five_people_armies:0 "협화군"
+ MAN_five_people_armies_desc:0 "모든 시민이 평등하다면, 외세의 압제자로부터 조국을 지킬 준비와 의지를 평등하게 가져야만 합니다."
+ 
+ MAN_purge_the_general_affairs_council:0 "국무원 숙청"
+ MAN_purge_the_general_affairs_council_desc:0 "국무원에는 우리 정부를 좀먹는 기생충과 매국노들이 있습니다. 이대로 둘 순 없습니다. 정부에 충성을 다하지 않을 누구라도, 조금의 혐의라도 있다면 제거되어야만 합니다."
+ 
+ MAN_reform_the_civil_service:0 "공무원 조직 개혁"
+ MAN_reform_the_civil_service_desc:0 "국무원은 빙산의 일각이었습니다. 기생충들이 공무원 조직의 많은 부분을 효과적으로 장악했고 완전히 우리의 통제 바깥에 있었습니다. 우리의 행정관을 그곳에 두어야 합니다."
+ 
+ MAN_independence_war:0 "수복전쟁"
+ MAN_independence_war_desc:0 "허울 뿐인 우호를 벗어던지고 옛 강역을 찾아 싸울 때가 왔습니다. 청나라는 고향 만주의 모든 영토를 수복할 것입니다."
+ 
+ ### 중화민국 재편정부 ###
+ RGC_pacify_the_countryside:0 "시골 지역 안정화"
+ RGC_pacify_the_countryside_desc:0 "권력을 잡은 이후로, 무법자와 역도들은 나라 안의 외딴 곳에서 우리의 통치에 도전했습니다. 만약 정부답게 이를 심각한 상황으로 받아들여야 한다면, 테러리스트를 뿌리 뽑고 주민들에게 통치력을 집행할 수 있음을 보여줄 필요가 있습니다."
+ RGC_pacify_the_countryside_effect_tooltip:0 "주마다 부대를 배치하면 시골 지역의 도적떼를 무력화할 수 있습니다.\n"
+ 
+ RGC_army_modernization:0 "육군 현대화"
+ RGC_army_modernization_desc:0 "우리 육군은 미약하고 낡았습니다. 가용할 수 있는 모든 자원을 주어도 이렇다면, 용납할 수 없습니다. 우리가 해야만 하는 일을 합시다."
+ 
+ RGC_mukden_military_academy:0 "육군군관학교"
+ RGC_mukden_military_academy_desc:0 "목표에 더 가까이 다가갈 수 있도록, 훌륭하고 충성스러운 장교가 우리 군대를 이끌어야 합니다."
+ 
+ RGC_invite_japanese_settlers:0 "일본인 이민자 초청"
+ RGC_invite_japanese_settlers_desc:0 "우리에게는 사람으로 채우지 못할 넓은 공간이 있습니다. 나라 안의 많은 지역이 황야 상태로 방치되어있습니다. 이민자들이 그곳에서 새로운 공동체를 이루면 경제를 더 개발할 수 있을 것입니다."
+ 
+ RGC_collective_farms:0 "집단 농장"
+ RGC_collective_farms_desc:0 "개인 소유 농장과 일가족에 의한 경영 체계는 후진적이고 비효율적입니다. 모든 인력과 일개 집단이 거주하는 토지를 결합한다면  더욱 효율적인 개발이 가능해질 것입니다."
+ 
+ RGC_law_university:0 "법학대학"
+ RGC_law_university_desc:0 "우리 나라는 아직 어립니다. 정부에 대한 가장 현대적인 이해에 기초하여, 완전히 새로운 법률 체계를 만들 진짜 기회를 가질 수 있습니다. 그러려면, 아시아 최고의 지성들을 한 곳에 모으도록 특별한 기관을 만들어야 합니다."
+ 
+ RGC_research_and_education_department:0 "연구교육부"
+ RGC_research_and_education_department_desc:0 "우리 국가가 성장하려면, 그에 맞게 교육과 연구기관도 성장할 필요가 있습니다. 더욱 큰 노력을 쏟아 가장 필요로 하는 곳에 중점을 두고 연구에 주력해야 합니다."
+ 
+ RGC_trade_delegation:0 "무역 대표단"
+ RGC_trade_delegation_desc:0 "세계 각국은 우리보다 앞선 산업적 방법을 가지고 있습니다. 대표단을 보내 그들의 기술을 배워, 우리의 것을 개선시킬 좋은 방법을 찾아야 합니다."
+ 
+ RGC_expand_the_textile_industry:0 "섬유 산업 확충"
+ RGC_expand_the_textile_industry_desc:0 "오랫동안 우리 산업의 중심은 섬유공업이었고, 이는 더 많은 외국 자본을 끌어들여 우리의 산업기반을 확충하는 쉬운 길이 될 것입니다."
+ 
+ RGC_obedience:0 "복종"
+ RGC_obedience_desc:0 "일본의 꼭두각시라 불리는 우리지만, 그것은 우리 사이의 밀접하고 대등한 관계를 근본적으로 오해한 것입니다. 후원자에게 대항하는 것은 어린이가 부모에게 대항하는 것과 같습니다."
+ 
+ RGC_hoankyoku:0 "보안국"
+ RGC_hoankyoku_desc:0 "우리 정부가 지향하는 최고의 소원은 중국의 밝은 미래입니다. 많은 이들이 이것을 파괴하는데 흥미를 두고 있음이 분명합니다. 그런 자들을 소탕하고 국가를 수호할 조직을 창설해야만 합니다."
+ 
+ RGC_first_five_year_plan:0 "제1차 5개년 계획"
+ RGC_first_five_year_plan_desc:0 "공산주의와의 제휴로 더럽혀졌다해도, 5개년 계획은 나라의 경제 개발을 계획하는데 가치가 있었습니다. 이러한 계획을 더 시행해 우리 산업의 확충에 박차를 가해야 합니다."
+ 
+ RGC_invite_japanese_investors:0 "일본인 투자자 초청"
+ RGC_invite_japanese_investors_desc:0 "우리 나라를 발전시키려면 외부의 도움이 필요합니다. 다수의 일본계 회사가 우리 국가에 투자를 할 의향을 내비쳤습니다."
+ 
+ RGC_expand_the_railways:0 "철도 확충"
+ RGC_expand_the_railways_desc:0 "현대적인 철도 체계는 우리 국가의 전 분야를 연결하고 한 지붕 아래로 모으는 열쇠입니다."
+ 
+ RGC_develop_aluminum_sources:0 "알루미늄 산출지 개발"
+ RGC_develop_aluminum_sources_desc:0 "보크사이트 대량 매장지는 채굴할 수 있습니다. 우리의 항공 산업에 생동력을 불어넣을 것입니다."
+ 
+ RGC_expand_showa_steel_works:0 "쇼와 제강소 확장"
+ RGC_expand_showa_steel_works_desc:0 "쇼와 제강소는 우리 중공업의 중추입니다. 투자한다면 향후 큰 이득을 거둘 수 있을 것입니다."
+ 
+ RGC_social_research_unit:0 "사회연구부"
+ RGC_social_research_unit_desc:0 "우리 국민들의 삶과 관습을 연구할 특별 전담반을 만들어, 국가의 생산적인 시민으로 가꿀 좋은 지침을 마련할 수 있을 것입니다."
+ 
+ RGC_second_five_year_plan:0 "제2차 5개년 계획"
+ RGC_second_five_year_plan_desc:0 "제1차 5개년 계획이 성공을 거두었고, 이는 또 다른 경제 개발 계획을 재개할 만한 이유가 될 것입니다."
+ 
+ RGC_national_defense_state:0 "국방국가"
+ RGC_national_defense_state_desc:0 "전쟁에서 이겨 다시 중국 전체의 지배자가 될 때까지, 우리는 어떤 희생도 감내하며 가용할 수 있는 자원을 전쟁을 치르는데 사용하는 등, 모든 노력을 다해야만 합니다."
+ 
+ RGC_mukden_arsenal:0 "민국 조병창"
+ RGC_mukden_arsenal_desc:0 "옛 조병창을 신식 군수산업단지의 핵심으로 삼아 우리 군대에 현대 무기를 보급할 것입니다."
+ 
+ RGC_mamc:0 "중일항공기제조회사"
+ RGC_mamc_desc:0 "중국과 일본이 협력하여 항공기제조회사를 설립해 다른 곳에 견주어도 손색없는 현대적 공군을 만들어낼 것입니다."
+ 
+ RGC_alliance_with_the_kwantung_army:0 "일본군과의 동맹"
+ RGC_alliance_with_the_kwantung_army_desc:0 "국내에 주둔한 일본군은 가끔 우리의 사상과 맞지 않을 때도 있습니다. 작은 분쟁을 감내하고 함께 할 수 있다면 우리는 더 가깝게 연계될 수 있을 것입니다."
+ 
+ RGC_chinese_leadership:0 "중국의 지도자상"
+ RGC_chinese_leadership_desc:0 "중국인들은 중국의 지도자가 필요합니다. 우리는 중국 전체에 대한 통치의 완전한 복원에 다름아닌 목표를 공개적으로 선언해야 합니다."
+ 
+ RGC_national_cooperation_government:0 "국민협력정부"
+ RGC_national_cooperation_government_desc:0 "일본인들이 직접통치를 고려하고 있다는 충격적인 소문을 들었습니다. 용납할 수 없습니다. 우리의 함께 힘을 합쳐 얻은 중국 땅은 우리가 행정을 맡아야만 합니다."
+ 
+ RGC_the_two_emperors:0 "덴노와 주석"
+ RGC_the_two_emperors_desc:0 "우리가 절대로 일본과 완전히 대등한 동반자가 될 수 없다는 터무니 없는 생각에 너무 시간을 쏟았습니다. 일본의 덴노와 중국의 주석은 앞으로도 좋은 관계를 유지할 것입니다."
+ 
+ RGC_assertiveness:0 "주장"
+ RGC_assertiveness_desc:0 "일본은 화가 치솟는 오만함으로 우리를 지배하려 하고 있습니다. 그들에게 우리 역시 존중을 받을 만한 국가라는 것을 상기시켜야 합니다."
+ 
+ RGC_request_control_of_the_railways:0 "철도 통제권 요청"
+ RGC_request_control_of_the_railways_desc:0 "우리의 국토는 넓고, 철도를 통제하는 것은 곧 나라를 통제하는 것입니다. \n\n그리고 일본은 철도를 통제하고 있습니다.\n\n 그것은 바뀌어야 합니다."
+ 
+ RGC_staff_the_court_with_manchus:0 "항일 정치인"
+ RGC_staff_the_court_with_manchus_desc:0 "우리가 진정한 중국으로 거듭나기 위해서는 일본의 간섭을 몰아내야 하고 이를 위해 항일 정치인들을 몰래 기용할 필요가 있습니다."
+ 
+ RGC_expand_the_imperial_guards:0 "민국 친위대 확충"
+ RGC_expand_the_imperial_guards_tt:1 "4개 부대의 §Y7 보병§!과 §Y2 포병§! 대대를 얻습니다.\n"
+ RGC_expand_the_imperial_guards_desc:0 "민국 친위대는 우리의 신생 군대에서 가려낸 정예들로 구성될 것이며 모든 군인들의 귀감이 될 것입니다."
+ 
+ RGC_local_arms_procurement:0 "현지산 무기 조달"
+ RGC_local_arms_procurement_desc:0 "일본인들이 영원히 우리에게 총을 보급해줄 것이라 기대할 수 없습니다. 만일 우리 스스로 하려면, 우리가 관리할 수 있는 무기의 생산지가 필요합니다."
+ 
+ RGC_bolster_nationalism:0 "화평반공건국"
+ RGC_bolster_nationalism_desc:0 "너무 오래도록, 사람들은 재편정부가 일본인의 손에 인위적으로 세워진 것이라 생각했습니다. 그러나 모든 국가에는 사상이 있습니다. 우리는 국민들이 가진 정체성의 감각을 바로세우고 말뿐이던 사상, 화평반공건국을 현실로 바꿀 것입니다."
+ 
+ RGC_five_equal_peoples:0 "오족공화"
+ RGC_five_equal_peoples_desc:0 "한 사람이 만인지상의 위치에서 다른 모두를 다스리는 날은 끝났습니다. 재편정부는 국가의 새로운 유형이 될 것이고, 다섯 민족 - 만주족, 몽골족, 회족, 장족 그리고 한족이 조화를 이루고 함께 살아갈 것입니다."
+ 
+ RGC_white_russian_advisers:0 "정예 참모"
+ RGC_white_russian_advisers_desc:0 "우리의 편으로 전향한 군인들 중 유능한 이들을 뽑아 참모로 임명하여 군사력을 강화할 수 있을 것입니다."
+ 
+ RGC_empower_the_legislative_council:0 "입법원에 힘을"
+ RGC_empower_the_legislative_council_desc:0 "입법원은 현재 우리의 일본인 주군이 앞서 결정한 바를 동의하기만 하는 다소 형식적인 의제 기구입니다. 만일 우리가 진정한 주권국이 되고자 한다면, 반드시 입법 과정부터 완전한 자치를 얻어야만 합니다."
+ 
+ RGC_five_people_armies:0 "재편군"
+ RGC_five_people_armies_desc:0 "모든 시민이 새롭고 평등하다면, 외세의 압제자로부터 조국을 지킬 준비와 의지를 평등하게 가져야만 합니다."
+ RGC_five_people_armies_tt:2 "§Y3개 보병 대대§!로 이루어진 7개의 사단을 얻습니다.\n"
+ 
+ RGC_purge_the_general_affairs_council:0 "행정원 숙청"
+ RGC_purge_the_general_affairs_council_desc:0 "행정원에는 우리 정부를 완전히 통제하고자 일본이 임명한 일본인 고문들과 친일파들이 존재합니다. 이대로 둘 순 없습니다. 정부에 충성을 다하지 않을 누구라도, 조금의 혐의라도 있다면 제거되어야만 합니다."
+ 
+ RGC_reform_the_civil_service:0 "공무원 조직 개혁"
+ RGC_reform_the_civil_service_desc:0 "행정원은 빙산의 일각이었습니다. 일본인들은 공무원 조직의 많은 부분을 효과적으로 장악했고 완전히 우리의 통제 바깥에 있었습니다. 우리의 행정관을 그곳에 두어야 합니다."
+ 
+ RGC_independence_war:0 "독립전쟁"
+ RGC_independence_war_desc:0 "압제의 족쇄를 벗어던지고 오랜 자유를 찾아 싸울 때가 왔습니다. 재편정부는 모든 외세의 압제를 벗어나 중국에서 최초로 마음껏 숨쉴 것입니다."
+ 
+ RGC_imperial_divinity:0 "혁명 수호"
+ RGC_imperial_divinity_desc:0 "신해혁명의 기치는 무슨 상황에서든 반드시 지켜져야만 합니다."
+ 
+ RGC_imperial_university:0 "민국대학"
+ RGC_imperial_university_desc:0 "민국에는 더 나아가고자 하는 명석한 사람들이 필요합니다. 우리 사람들 중 최고이자 가장 명민한 이들이 함께 서로를 가르치고 배울 수 있는 장소를 만들어야 합니다."
+ 
+ RGC_move_capitals:1 "천도"
+ RGC_move_capitals_desc:0 "중화민국의 수도는 난징입니다. 이제 그곳을 되찾았으니, 주석 각하는 옛 집으로 귀향해 승리를 만끽하실 것입니다."
+ 
+ RGC_claim_the_mandate_of_heaven:0 "혁명 완수"
+ RGC_claim_the_mandate_of_heaven_desc:0 "전쟁에서의 승리는 곧 인민들이 우리가 진정한 중국임을 인정한 것과 다름없습니다. 재편정부가 중국 전체의 정통성 있는 정부가 아니라는 어떠한 의심조차, 이 압도적인 증거 앞에 쓸려 사라지고 말 것입니다."
+ 
+ RGC_reclaim_the_empire:0 "혁명 전파"
+ RGC_reclaim_the_empire_desc:0 "자유를 얻고 승리한 지금, 중국의 나머지 반란군에 맞서 전쟁을 치를 시간입니다. 우리는 이 나라를 지배하거나, 그러지 못한다면 차라리 파멸할 것입니다."
+ 
+ RGC_assert_our_authority:0 "우리의 권위 주장"
+ RGC_assert_our_authority_desc:0 "나라의 변방은 내부적으로 분열됐습니다. 반란군과 도적떼는 군벌이나 지도자 따위의 말로 자칭하며 지배하는 자들 뿐입니다. 그들을 굴복시켜야, 우리의 찬란한 통치가 중국 전체에 퍼질 것입니다."
+ 
+ RGC_offer_vassalization:0 "자애로운 손길"
+ RGC_offer_vassalization_desc:0 "전쟁은 나라를 갈라놓았습니다. 중앙정부에 합류하기를 거부한 자들에게 제안을 한다면, 우리가 끝낼 수 있습니다."
+ 
+ SOV_end_the_khalkhin_gol_conflict:0 "1905년을 기억해라"

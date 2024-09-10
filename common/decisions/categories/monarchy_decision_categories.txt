@@ -1,0 +1,116 @@
+GER_monarchy_decisions = {
+
+	icon = generic_monarchism
+
+	allowed = {
+		original_tag = GER
+	}
+
+	visible = {
+		original_tag = GER
+	}
+}
+
+AUS_HUN_monarchy_decisions = {
+
+	icon = generic_monarchism
+
+	allowed = {
+		original_tag = HUN
+	}
+
+	visible = {
+		original_tag = HUN
+	}
+}
+
+FRO_monarchy_decisions = {
+
+	icon = generic_monarchism
+
+	allowed = {
+		original_tag = FRA
+	}
+
+	visible = {
+		original_tag = FRA
+	}
+}
+
+FRL_monarchy_decisions = {
+
+	icon = generic_monarchism
+
+	allowed = {
+		original_tag = FRA
+	}
+
+	visible = {
+		original_tag = FRA
+	}
+}
+
+FRN_monarchy_decisions = {
+
+	icon = generic_monarchism
+
+	allowed = {
+		original_tag = FRA
+	}
+
+	visible = {
+		original_tag = FRA
+	}
+}
+
+ENG_monarchy_decisions = {
+
+	icon = generic_monarchism
+
+	allowed = {
+		original_tag = ENG
+	}
+
+	visible = {
+		original_tag = ENG
+	}
+}
+
+KOR_monarchy_decisions = {
+
+	icon = generic_monarchism
+
+	allowed = {
+		original_tag = KOR
+	}
+
+	visible = {
+		original_tag = KOR
+	}
+}
+
+POR_monarchy_decisions = {
+
+	icon = generic_monarchism
+
+	allowed = {
+		original_tag = POR
+	}
+
+	visible = {
+		original_tag = POR
+	}
+}
+
+#RUS_russia_decisions = {
+#
+#	icon = generic_political_actions
+#
+#	allowed = {
+#		original_tag = SOV
+#	}
+#
+#	visible = {
+#		original_tag = SOV
+#	}
+#}

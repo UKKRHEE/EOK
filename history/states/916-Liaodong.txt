@@ -1,0 +1,33 @@
+state={
+	id=916
+	name="STATE_916"
+	resources={
+		steel=27.000
+	}
+	history={
+		owner = KOR
+		add_core_of = KOR
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 5
+			9854 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			6981 3
+		}
+	}
+
+	provinces={
+		836 3839 3849 3895 3970 6804 6860 6910 6981 9854
+	}
+	manpower=3523160
+	buildings_max_level_factor=1.000
+	state_category=city
+}

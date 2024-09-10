@@ -1,0 +1,29 @@
+
+state={
+	id=914
+	name="STATE_914"
+	resources={
+		aluminium=5.000
+	}
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			10065 5
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		1003 4107 7070 7155 10065 11915 
+	}
+	manpower=2534105
+	buildings_max_level_factor=1.000
+	state_category=city
+}

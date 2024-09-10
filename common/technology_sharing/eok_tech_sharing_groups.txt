@@ -1,0 +1,15 @@
+
+ technology_sharing_group = {
+
+	id = kor_faction_research
+	name = kor_faction_research_name
+	desc = kor_faction_research_desc
+	picture = GFX_technology_sharing_default
+    
+	research_sharing_per_country_bonus = 0.1
+
+    available = {
+        is_in_faction_with = KOR
+    }
+
+}

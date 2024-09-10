@@ -1,0 +1,221 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_kor_fascism"
+		texturefile = "gfx/event_pictures/report_event_kor_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_kor_mon"
+		texturefile = "gfx/event_pictures/report_event_kor_mon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_kor_right_and_left"
+		texturefile = "gfx/event_pictures/report_event_kor_right_left.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_kor_soldiers"
+		texturefile = "gfx/event_pictures/report_event_kor_soldiers.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_kor_democratic"
+		texturefile = "gfx/event_pictures/report_event_kor_democratic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_kor_chi_trade"
+		texturefile = "gfx/event_pictures/report_event_kor_chi_trade.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_kor_military_march"
+		texturefile = "gfx/event_pictures/report_event_kor_military_march.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_kor_lee_beom_seok"
+		texturefile = "gfx/event_pictures/report_event_kor_lee_beom_seok.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_kor_imperial_house"
+		texturefile = "gfx/event_pictures/report_event_kor_imperial_house.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_kor_enemy_fall"
+		texturefile = "gfx/event_pictures/report_event_kor_enemy_fall.dds"
+	}
+
+	spriteType = {
+		name = "GFX_report_event_kor_artillery"
+		texturefile = "gfx/event_pictures/report_event_kor_artillery.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_kor_palace"
+		texturefile = "gfx/event_pictures/report_event_kor_palace.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_central_theater"
+		texturefile = "gfx/event_pictures/report_event_central_theater.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_crown_prince"
+		texturefile = "gfx/event_pictures/report_event_crown_prince.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_emperor"
+		texturefile = "gfx/event_pictures/report_event_emperor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_gold"
+		texturefile = "gfx/event_pictures/report_event_gold.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_intelligence_agency"
+		texturefile = "gfx/event_pictures/report_event_intelligence_agency.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_line"
+		texturefile = "gfx/event_pictures/report_event_line.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_korean_american"
+		texturefile = "gfx/event_pictures/report_event_korean_american.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_korean_language_society"
+		texturefile = "gfx/event_pictures/report_event_korean_language_society.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_kronprinz_wilhelm"
+		texturefile = "gfx/event_pictures/report_event_kronprinz_wilhelm.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_na_woon_gyu"
+		texturefile = "gfx/event_pictures/report_event_na_woon_gyu.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_patriotic_woman"
+		texturefile = "gfx/event_pictures/report_event_patriotic_woman.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_phillip_jaisohn"
+		texturefile = "gfx/event_pictures/report_event_phillip_jaisohn.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_political_gangster"
+		texturefile = "gfx/event_pictures/report_event_political_gangster.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_tiger_hunting"
+		texturefile = "gfx/event_pictures/report_event_tiger_hunting.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_qing"
+		texturefile = "gfx/event_pictures/news_event_qing.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_japan_military_march"
+		texturefile = "gfx/event_pictures/news_event_japan_military_march.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_kor_chi_trade"
+		texturefile = "gfx/event_pictures/news_event_kor_chi_trade.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_kor_army"
+		texturefile = "gfx/event_pictures/news_event_kor_army.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_kor_army2"
+		texturefile = "gfx/event_pictures/news_event_kor_army2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_fall_of_nanjing_kor"
+		texturefile = "gfx/event_pictures/news_event_fall_of_nanjing_kor.dds"
+	}
+
+	spriteType = {
+		name = "GFX_news_event_fall_of_beijing_kor"
+		texturefile = "gfx/event_pictures/news_event_fall_of_beijing_kor.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_fall_of_shenyang"
+		texturefile = "gfx/event_pictures/news_event_fall_of_shenyang.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_chi_soldiers_city"
+		texturefile = "gfx/event_pictures/news_event_chi_soldiers_city.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_kor_democracy"
+		texturefile = "gfx/event_pictures/news_event_kor_democracy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_kor_monarchism"
+		texturefile = "gfx/event_pictures/news_event_kor_monarchism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_kor_fascism"
+		texturefile = "gfx/event_pictures/news_event_kor_fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_shx_union"
+		texturefile = "gfx/event_pictures/news_event_shx_union.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_shx_monarchy"
+		texturefile = "gfx/event_pictures/news_event_shx_monarchy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_central_theater"
+		texturefile = "gfx/event_pictures/report_event_central_theater.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_kor_election"
+		texturefile = "gfx/event_pictures/report_event_kor_election.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_kor_democracy"
+		texturefile = "gfx/event_pictures/report_event_kor_democracy.dds"
+	}
+	
+}
+	
+	
+	

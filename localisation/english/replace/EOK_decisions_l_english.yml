@@ -1,0 +1,144 @@
+﻿l_english:
+ ### 사건과 결정 - 한국 ###
+ #정치적 행동
+ KOR_constitutional_monarchy:0 "입헌군주제 시행"
+ KOR_constitutional_monarchy_desc:0 "우리의 황제 폐하께서는 군림하되 통치하지 않는 군주가 되실 준비가 되셨습니다."
+ KOR_return_lee_beom_seok:0 "이범석 장군 사면"
+ KOR_return_lee_beom_seok_desc:0 "우리는 전쟁 중이고 사상은 불순할지라도 군재는 확실한 이범석 장군은 여전히 구금되어 있습니다. 어쩌면 그에게 자유를 대가로 자신의 군재를 발휘하게 만들 필요가 있을지도 모릅니다..."
+ KOR_manchuria1:0 "만주 치안 확립"
+ KOR_manchuria1_desc:0 "만주의 몇몇 지역은 확보한지 많은 시간이 흘렀지만 여전히 불안합니다. 불안을 끝내기 위해서는 치안 확립에 박차를 가해야 합니다."
+ KOR_manchuria1_tooltip:0 "새롭게 얻은 만주 지역에서 §Y한국§! 핵심주를 §G획득§!합니다.\n새롭게 얻은 만주 지역에서 §Y중국§! 핵심주를 §R제거§!합니다.\n"
+ KOR_manchuria2:0 "만주 치안 강화"
+ KOR_manchuria2_desc:0 "만주의 몇몇 지역은 확보한지 많은 시간이 흘렀지만 여전히 불안합니다. 불안을 끝내기 위해서는 치안 강화에 박차를 가해야 합니다."
+ KOR_manchuria2_tooltip:0 "새롭게 얻은 만주 지역에서 §Y한국§! 핵심주를 §G획득§!합니다.\n새롭게 얻은 만주 지역에서 §Y중국§! 핵심주를 §R제거§!합니다.\n"
+ 
+ #외교정책
+ KOR_china_monarchy:0 "중화연방에 복벽 '권유'"
+ KOR_china_monarchy_desc:0 "일련의 사건을 거치며 중국에 공화정은 오히려 해악을 불러온다는 것이 증명되었고 우리는 대륙의 안정을 위하여 친우 중화연방에게 복벽을 '권고'해야만 합니다."
+ KOR_sue_for_peace_MAN:0 "[From.GetNameDef]에 조건부 항복 제안"
+ KOR_sue_for_peace_MAN_desc:0 "우리는 만주에서의 영향력을 잃었습니다. 군은 잃어버린 영토를 되찾는 것이 가능하다고 생각하지 않습니다. 문민정부는 적어도 반도에 관한 주권을 유지할 조건을 찾아야 한다고 제안합니다."
+ KOR_sue_for_peace_TT:0 "§Y만주§!의 핵심 주가 §Y한국§! 혹은 한국의 속국들에 의해 통제되고 있지 않습니다."
+ 
+ #수호권
+ KOR_alliance:0 "수호권"
+ KOR_alliance_desc:0 "우리의 자랑스러운 수호권은 아시아인을 위한 아시아를 만들고 태평성대를 가져올 매우 중요한 기구입니다. 수호권은 더욱 더 커져야만 합니다."
+ KOR_alliance_qing:0 "청국 초청"
+ KOR_alliance_qing_desc:0 "수호권은 확장되어야만 합니다. 더욱 강력한 세력권을 위하여 청국을 우리의 동맹으로 초청해야 합니다."
+ KOR_alliance_mongolia:0 "몽골 초청"
+ KOR_alliance_mongolia_desc:0 "수호권은 확장되어야만 합니다. 더욱 강력한 세력권을 위하여 몽골을 우리의 동맹으로 초청해야 합니다."
+ KOR_alliance_tibet:0 "티베트 초청"
+ KOR_alliance_tibet_desc:0 "수호권은 확장되어야만 합니다. 더욱 강력한 세력권을 위하여 티베트를 우리의 동맹으로 초청해야 합니다."
+ KOR_alliance_siam:0 "시암 초청"
+ KOR_alliance_siam_desc:0 "수호권은 확장되어야만 합니다. 더욱 강력한 세력권을 위하여 시암을 우리의 동맹으로 초청해야 합니다."
+ 
+ #이중제국 및 해동성국
+ KOR_dual_empire_category:0 "대한-일본 제국 수립"
+ KOR_dual_empire_category_desc:0 "일본을 다시 독립시킨다면 그들은 또 다시 침략의 길을 걷게 될 위험이 있기에 우리는 동양의 평화를 위해 이중제국 체제를 성립할 필요가 있습니다. 바로 한국 황제가 일본 덴노를 겸하는 형태로 말입니다."
+ KOR_dual_empire:0 "대한-일본 제국 수립"
+ KOR_dual_empire_flag:0 "대한-일본 제국이 선포됨"
+ KOR_haedong_empire_category:0 "해동성국 수립"
+ KOR_haedong_empire_category_desc:0 "이중제국 체제가 수립된 이후 현재 국명은 한국인과 일본인만을 위한다는 오해를 살 수 있다는 의견이 제시되었고 우리는 이러한 의견을 존중해야 마땅합니다. 발해의 이명이던 해동성국을 새로운 국명으로 제정하고 황제 겸 천황 대신 성황 겸 해동천자라는 고유의 황제 칭호를 만들어 사용하며 국민들이 해동인이라는 하나의 정체성을 갖게 합시다."
+ KOR_haedong_empire:0 "해동성국 수립"
+ 
+ ### 사건과 결정 - 청국 ###
+ MAN_constitutional_monarchy:0 "입헌군주제 시행"
+ MAN_constitutional_monarchy_desc:0 "우리의 황제 폐하께서는 군림하되 통치하지 않는 군주가 되실 준비가 되셨습니다."
+ 
+ ### 사건과 결정 - 재편정부 ###
+ RGC_banditry_category:0 "도적"
+ RGC_banditry_category_desc:0 "일본군은 국가 건설보다는 군사적 점령을 행하고 있으며 거주민들을 돕는 데는 적은 관심을 보이고 있습니다. 이름 뿐인 재편정부가 일본의 명령을 시행할 자원도 아주 적습니다. 이러한 권력의 공백이, '자유의 투사'를 자처하며 살인과 강도를 일삼고 여기에 '국가 해방'이니 '프롤레타리아 국제주의' 따위의 어지러운 이상으로 이름붙인 온갖 도적떼를 만들고 말았습니다. 그러나 대부분은 악행에 덧씌울 어떤 유형의 사상도 갖지 않았을 것입니다."
+ 
+ RGC_bandit_raids:0 "도적떼의 습격"
+ RGC_bandit_raids_desc:0 "정처없이 떠도는 도적과 테러범들은 못 박히지 않은 모든 것을 훔치고, 가져갈 수 없으면 태워버립니다! 부대를 더 증원해 막아야 합니다!"
+ 
+ RGC_pacify_bandits_mission_explanation:0 "해당 주에 사단을 주둔시키면 [?Root.RGC_maintain_control_timer|H0]일 동안 지역의 도적떼를 평정할 것입니다.\n"
+ 
+ RGC_pacify_bandits_in_the_northern_countryside:0 "북부 전원지대의 도적떼 평정"
+ RGC_hunt_down_northern_bandits:0 "북부 도적떼 소탕"
+ RGC_hunt_down_northern_bandits_tt:0 "북부 도적떼 제거됨.\n"
+ RGC_maintain_northern_control:0 "북부 통제권 지속"
+ 
+ RGC_pacify_bandits_in_the_eastern_countryside:0 "동부 전원지대의 도적떼 평정"
+ RGC_hunt_down_eastern_bandits:0 "동부 도적떼 소탕"
+ RGC_hunt_down_eastern_bandits_tt:0 "동부 도적떼 제거됨.\n"
+ RGC_maintain_eastern_control:0 "동부 통제권 지속"
+ 
+ RGC_pacify_bandits_in_the_western_countryside:0 "서부 전원지대의 도적떼 평정"
+ RGC_hunt_down_western_bandits:0 "서부 도적떼 소탕"
+ RGC_hunt_down_western_bandits_tt:0 "서부 도적떼 제거됨.\n"
+ RGC_maintain_western_control:0 "서부 통제권 지속"
+ 
+ RGC_northern_bandits:0 "북부에서 도적떼가 준동하고 있습니다."
+ RGC_eastern_bandits:0 "동부에서 도적떼가 준동하고 있습니다."
+ RGC_western_bandits:0 "서부에서 도적떼가 준동하고 있습니다."
+ 
+ RGC_recruit_bandits_north:0 "북부 도적떼 징병"
+ RGC_recruit_bandits_north_desc:0 "도적떼 소탕에 쓰일 모든 총알을 합쳐도 다가올 전투에서 쓸 것보다 많지 않습니다. 우리의 국민과 싸우는 대신, 민국을 위해 복무하는 길을 제안해볼 수도 있을 것입니다."
+ 
+ RGC_recruit_bandits_west:0 "서부 도적떼 징병"
+ RGC_recruit_bandits_west_desc:0 "도적떼 소탕에 쓰일 모든 총알을 합쳐도 다가올 전투에서 쓸 것보다 많지 않습니다. 우리의 국민과 싸우는 대신, 민국을 위해 복무하는 길을 제안해볼 수도 있을 것입니다."
+ 
+ RGC_recruit_bandits_east:0 "동부 도적떼 징병"
+ RGC_recruit_bandits_east_desc:0 "도적떼 소탕에 쓰일 모든 총알을 합쳐도 다가올 전투에서 쓸 것보다 많지 않습니다. 우리의 국민과 싸우는 대신, 민국을 위해 복무하는 길을 제안해볼 수도 있을 것입니다."
+ 
+ RGC_recruit_bandits_generic:0 "도적떼 잔당 징병"
+ RGC_recruit_bandits_generic_desc:0 "우리와 싸우던 자들로 감옥과 노동 수용소가 가득찼습니다. 우리의 자유를 위해 싸우려면 한 명의 군인과 한 정의 총이 더 필요합니다. 주석 각하께서는 눈부신 자비와 은혜를 베푸시어 범죄자들에게 군역을 짊어지는 길을 주셨습니다."
+ 
+ RGC_release_bandits:0 "도적떼 사면"
+ RGC_release_bandits_desc:0 "과거의 범죄자들과 하류인생들은 민국에 바치는 희생 정신을 증명했고 이제 사회로 안전히 돌아가게 되었습니다."
+ 
+ RGC_war_preparations:0 "독립전쟁"
+ 
+ RGC_raise_manchu_banner:0 "휘날리는 깃발"
+ RGC_raise_manchu_banner_desc:0 "25년 전, 혁명의 뜻을 받든 군대가 민국을 수립했습니다. 시간이 흘렀지만 그 정신은 아직 사라지지 않았습니다. 중화민족의 재편을 위하여 다시 한번 군대를 모읍시다."
+ 
+ RGC_disband_the_banners:0 "내려오는 깃발"
+ RGC_disband_the_banners_desc:0 "복무가 끝났고, 재편군은 고향과 가족에게로 다시 돌아갔습니다. 그들이 다시 필요할 때까지는 말입니다."
+ 
+ RGC_fund_underground_gun_shops:0 "지하 작업장의 건립"
+ RGC_fund_underground_gun_shops_desc:0 "주요 공장과 같은 규모를 가질 수도 없고, 품질 관리도 조악하지만, 나라 곳곳에 뿔뿔이 흩어진 소규모 작업장에 무기 생산을 위임하는 것은 생산량을 빠르게 높일 좋은 방법입니다."
+ 
+ RGC_remove_underground_gun_shops:0 "지하 작업장의 폐쇄"
+ RGC_remove_underground_gun_shops_desc:0 "우리가 세웠던 무기 작업장은 본분을 다했습니다. 더 조직화된 무기 생산 체계로 돌아갈 시간입니다."
+ 
+ RGC_divert_machine_tools:0 "공작기계 탈취"
+ RGC_divert_machine_tools_desc:0 "우리가 철도를 통제하게 되었으니, 공작기계의 일부가 "행정적 착오"로 인해 "분실"할 수도 있습니다."
+ 
+ RGC_prepare_to_seize_arms:0 "일본군 무기 저장고의 점거 준비"
+ RGC_prepare_to_seize_arms_desc:0 "나라 곳곳에 설치된 무기고와 보급창은 경비가 허술합니다. 잘 조율된 공격으로 인명 피해는 최소화할 수 있으며, 현대식 무기를 손에 넣고 탄약과 보급품을 일본에게서 빼앗을 수 있습니다. 더 많은 시간과 자원이 주어진다면 더 많은 무기고를 점거할 수 있을 것입니다."
+ 
+ RGC_seize_arms:0 "계획 실행"
+ RGC_seize_arms_desc:0 "거침없이 쳐라! 민국을 위하여!"
+ RGC_can_prepare_more_tt:0 "향후 추가적인 저장고의 점거를 위한 준비가 아직 준비 중입니다.\n"
+ 
+ ### 사건과 결정 - 바닐라 수정 ###
+ MAN_banditry_category:0 "도적"
+ MAN_banditry_category_desc:0 "우리 군대는 군벌에 가까우며 만주 거주민들을 돕는 데는 적은 관심을 보이고 있습니다. 또한 명령을 내린다 하더라도 이를 따를 가능성도 아주 적습니다. 이러한 권력의 공백이, '자유의 투사'를 자처하며 살인과 강도를 일삼고 여기에 '국가 해방'이니 '프롤레타리아 국제주의' 따위의 어지러운 이상으로 이름붙인 온갖 도적떼를 만들고 말았습니다. 그러나 대부분은 악행에 덧씌울 어떤 유형의 사상도 갖지 않았을 것입니다."
+ 
+ MAN_prepare_to_seize_arms:0 "한국군 무기 저장고의 점거 준비"
+ MAN_prepare_to_seize_arms_desc:0 "나라 곳곳에 설치된 무기고와 보급창은 경비가 허술합니다. 잘 조율된 공격으로 인명 피해는 최소화할 수 있으며, 현대식 무기를 손에 넣고 탄약과 보급품을 한국에게서 빼앗을 수 있습니다. 더 많은 시간과 자원이 주어진다면 더 많은 무기고를 점거할 수 있을 것입니다."
+ 
+ PRC_return_manchuria_communist:0 "남중국 반환 요구"
+ PRC_return_manchuria_communist_desc:0 "일본 제국주의자들은 진정한 주인, 중국의 자유민들에게서 영토를 빼앗아갔습니다. 일본의 우리 동지들이 압제자를 축출한 지금, 우리 인민들에게 돌려주기를 요청할 수 있을 것입니다."
+ 
+ SOV_seize_manchuria:0 "남중국 점거"
+ SOV_seize_manchuria_desc:0 "일본 내전의 결과에 따라, [RGC.GetName](은)는 일본의 통치를 벗어나 자유로워졌습니다. 마침내 그 지역에 소련의 지배를 공고히 할 황금 같은 기회가 왔으니, 신속히 움직여야 합니다."
+ 
+ SOV_return_manchuria:0 "남중국 반환"
+ SOV_return_manchuria_desc:0 "중국의 정당성 있는 인민의 체제로 남중국을 반환할 것입니다."
+ 
+ JAP_return_manchuria:0 "남중국 반환"
+ JAP_sue_for_peace_CHI:1 "[From.GetNameDef]에 항복 조건 제의"
+ JAP_sue_for_peace_TT:0 "§Y남중국§!의 핵심 주가 §Y일본§! 혹은 일본의 속국들에 의해 통제되고 있지 않습니다."
+ 
+ JAP_test_the_soviets_desc:0 "우리는 [SOV.GetNameDef](와)과 국경선을 공유하고 있습니다. 언제라도 우리 군대와 충돌할 수 있는 일촉즉발의 상황이 여러 번 있었으며, 우리에게는 작은 도발에 소비에트가 어떻게 반응할지 시험해볼 수 있는 기회가 될 것입니다."
+ 
+ JAP_border_conflict_warning_SOV_desc:0 "사할린 섬에서의 국경 지대에서, 우리의 국경 수비대와 일본 병사들 사이에 충돌이 있었습니다. 일본의 정보원이 보고한 바로는 대규모 대치 상황의 첫 단계가 될 것이라고 합니다. 일본과의 접경지대에 즉시 증원해야 합니다."
+ 
+ JAP_border_incident_forgotten_desc:1 "사할린 섬에서 맞닿은 소비에트 국경에서 일어난 사건을 이용하고 싶다면, 서둘러 타격해야만 합니다."
+ 
+ sov_jap_border_conflict_won:0 "사할린 섬에서의 국경 분쟁 경험:"
+ 
+ develop_kirin_aluminium_deposits:0 "길림 보크사이트 매장지 개발"
+ 
+ develop_liaotung_iron_ore_deposits:0 "요동 철광석 매장지 개발"

@@ -1,0 +1,540 @@
+characters={
+	### 지도자 ###
+	MAN_chen_duxiu={
+		name=MAN_chen_duxiu
+		portraits={
+			civilian={
+				large="GFX_portrait_MAN_chen_duxiu"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	MAN_liang_qichao={
+		name=MAN_liang_qichao
+		portraits={
+			civilian={
+				large=GFX_portrait_MAN_liang_qichao
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	MAN_qing_aisin_gioro_puyi={
+		name=MAN_qing_aisin_gioro_puyi
+		portraits={
+			civilian={
+				large="GFX_portrait_man_henry_pu_yi_emperor"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			traits={ warrior_code }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ warrior_code }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	MAN_baoxi={
+		name=MAN_baoxi
+		portraits={
+			civilian={
+				small="GFX_idea_MAN_baoxi"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = baoxi
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				silent_workhorse
+			}
+		}
+	}
+	
+	MAN_feng_hanqing={
+		name=MAN_feng_hanqing
+		portraits={
+			civilian={
+				small="GFX_idea_MAN_feng_hanqing"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = feng_hanqing
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				popular_figurehead
+			}
+		}
+	}
+	
+	MAN_zhang_yanqing={
+		name=MAN_zhang_yanqing
+		portraits={
+			civilian={
+				small="GFX_idea_MAN_zhang_yanqing"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = zhang_yanqing
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				ideological_crusader
+			}
+		}
+	}
+	
+	MAN_xie_jieshi={
+		name=MAN_xie_jieshi
+		portraits={
+			civilian={
+				small="GFX_idea_MAN_xie_jieshi"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = xie_jieshi
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				war_industrialist
+			}
+		}
+	}
+	
+	MAN_luo_zhenyu={
+		name=MAN_luo_zhenyu
+		portraits={
+			civilian={
+				small="GFX_idea_MAN_luo_zhenyu"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = luo_zhenyu
+			allowed = {
+				original_tag = MAN
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	### 이론가 ###
+	MAN_qing_army_research = {
+		name=MAN_qing_army_research
+		portraits={
+			army={
+				small="GFX_idea_generic_infantry_bonus"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = qing_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = MAN
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	
+	MAN_qing_naval_research={
+		name=MAN_qing_naval_research
+		portraits={
+			army={
+				small="GFX_idea_escort_effort_focus"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = qing_naval_research
+			ledger = navy
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				naval_theorist
+			}
+		}
+	}
+	
+	MAN_qing_air_research={
+		name=MAN_qing_air_research
+		portraits={
+			army={
+				small="GFX_idea_air_war_plans_division_focus"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = qing_air_research
+			ledger = air
+			allowed = {
+				original_tag = MAN
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	MAN_aisin_gioro_zaitao={
+		name=MAN_aisin_gioro_zaitao
+		portraits={
+			army={
+				large=GFX_portrait_MAN_zaitao
+				small=GFX_idea_MAN_zaitao
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = aisin_gioro_zaitao
+	    	allowed = {
+	    		original_tag = MAN
+	    	}
+	    	traits = {
+				army_chief_offensive_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		corps_commander={
+			traits = {
+				trickster
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	MAN_qing_zhang_jinghui={
+		name=MAN_qing_zhang_jinghui
+		portraits={
+			army={
+				small="GFX_idea_MAN_zhang_jinghui"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = qing_zhang_jinghui
+	    	allowed = {
+	    		original_tag = MAN
+	    	}
+	    	traits = {
+				army_chief_defensive_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+	}
+	
+	MAN_yu_zhishan={
+		name=MAN_yu_zhishan
+		portraits={
+			army={
+				small="GFX_idea_MAN_yu_zhishan"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = yu_zhishan
+	    	allowed = {
+	    		original_tag = MAN
+	    	}
+	    	traits = {
+				army_chief_morale_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+	}
+	
+	MAN_zhang_zuolin={
+		name=MAN_zhang_zuolin
+		portraits={
+			army={
+				large="gfx/leaders/Asia/portrait_asia_generic_land_8.dds"
+				small="gfx/interface/ideas/idea_asia_generic_land_8.dds"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = zhang_zuolin
+	    	allowed = {
+	    		original_tag = MAN
+	    	}
+	    	traits = {
+				army_chief_maneuver_3
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				organizer
+				logistics_wizard
+				skilled_staffer
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	MAN_yin_zuoqian = {
+		name=MAN_yin_zuoqian
+		portraits={
+			army={
+				small="GFX_idea_MAN_yin_zuoqian"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = yin_zuoqian
+		    allowed = {
+		    	original_tag = MAN
+	    	}
+		    traits = {
+				navy_chief_decisive_battle_1
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 공군참모총장 ###
+	MAN_cao_bingsen = {
+		name=MAN_cao_bingsen
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_3"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = cao_bingsen
+			
+	    	allowed = {
+		    	original_tag = MAN
+		    }
+		    traits = {
+				air_chief_ground_support_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 군지휘관 ###
+	MAN_qing_aisin_gioro_xiqia = {
+		name=MAN_qing_aisin_gioro_xiqia
+		portraits={
+			army={
+				large=GFX_portrait_man_aisin_gioro_xiqia
+				small=GFX_idea_MAN_aisin_gioro_xiqia
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = qing_aisin_gioro_xiqia
+			ledger = army
+		    allowed = {
+		    	original_tag = MAN
+		    }
+		    traits = {
+				army_infantry_2
+			}
+		}
+		corps_commander={
+			traits = {
+				career_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	MAN_zhang_xueliang = {
+		name=MAN_zhang_xueliang
+		portraits={
+			army={
+				large=GFX_portrait_chi_zhang_xueliang
+				small=GFX_idea_CHI_zhang_xueliang
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = zhang_xueliang
+			ledger = army
+		    allowed = {
+		    	original_tag = MAN
+		    }
+		    traits = {
+				army_artillery_2
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	MAN_qing_zhang_haipeng = {
+		name=MAN_qing_zhang_haipeng
+		portraits={
+			army={
+				large=GFX_portrait_man_zhang_haipeng
+				small=GFX_idea_MAN_zhang_haipeng
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = qing_zhang_haipeng
+			ledger = army
+		    allowed = {
+		    	original_tag = MAN
+		    }
+		    traits = {
+				army_cavalry_2
+			}
+		}
+		corps_commander={
+			traits = {
+				#
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 원수 ###
+	MAN_aisin_gioro_pujie={
+		name=MAN_aisin_gioro_pujie
+		portraits={
+			army={
+				large=GFX_portrait_MAN_pujie
+			}
+		}
+		field_marshal={
+			traits = { 
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	### 육군 장성 ###
+	MAN_aisin_gioro_xianyu={
+		name=MAN_aisin_gioro_xianyu
+		portraits={
+			army={
+				large=GFX_portrait_man_yoshiko_kawashima
+			}
+		}
+		gender = female
+		corps_commander={
+			traits = { 
+				cavalry_officer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	### 해군 제독 ###
+	MAN_sa_zhenbing = {
+		name=MAN_sa_zhenbing
+		portraits={
+			army={
+				large=GFX_portrait_MAN_sa_zhenbing
+			}
+		}
+		navy_leader={
+			traits = {
+				battleship_adherent
+				navy_career_officer
+				gentlemanly
+				naval_lineage
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			maneuvering_skill = 4
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+}

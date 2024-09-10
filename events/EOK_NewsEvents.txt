@@ -1,0 +1,1036 @@
+﻿###########################
+# 한국 뉴스 이벤트
+###########################
+
+add_namespace = eok_news
+add_namespace = eok_news_fall
+
+#한국 민주주의
+news_event = {
+	id = eok_news.1
+	title = eok_news.1.t
+	desc = eok_news.1.desc
+	picture = GFX_news_event_kor_democracy
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.1.a
+		trigger = {
+			NOT = {
+				TAG = KOR
+			}
+		}
+	}
+	option = {
+		name = eok_news.1.b
+		trigger = { TAG = KOR }
+	}
+}
+
+#한국 파시즘
+news_event = {
+	id = eok_news.2
+	title = eok_news.2.t
+	desc = eok_news.2.desc
+	picture = GFX_news_event_kor_fascism
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.1.a
+		trigger = {
+			NOT = {
+				TAG = KOR
+			}
+		}
+	}
+	option = {
+		name = eok_news.2.b
+		trigger = { TAG = KOR }
+	}
+}
+
+#한국 군주주의
+news_event = {
+	id = eok_news.3
+	title = eok_news.1.t
+	desc = eok_news.3.desc
+	picture = GFX_news_event_kor_monarchism
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.1.a
+		trigger = {
+			NOT = {
+				TAG = KOR
+			}
+		}
+	}
+	option = {
+		name = eok_news.3.b
+		trigger = { TAG = KOR }
+	}
+}
+
+news_event = {
+	id = eok_news.4
+	title = eok_news.4.t
+	desc = eok_news.4.desc
+	picture = GFX_news_event_001
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.4.a
+		trigger = {
+			OR = {
+				TAG = KOR
+				TAG = MAN
+			}
+		}
+	}
+	option = {
+		name = eok_news.4.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = eok_news.4.c
+		trigger = { 
+			NOT = {
+				TAG = KOR
+				TAG = MAN
+				TAG = CHI
+			}
+		}
+	}
+}
+
+#북경사변
+news_event = {
+	id = eok_news.5
+	title = eok_news.5.t
+	desc = eok_news.5.desc
+	picture = GFX_news_event_qing
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.5.a
+		trigger = {
+			OR = {
+				TAG = KOR
+				TAG = MAN
+			}
+		}
+	}
+	option = {
+		name = eok_news.5.b
+		trigger = {
+			TAG = CHI
+		}
+	}
+	option = {
+		name = eok_news.5.c
+		trigger = {
+			NOT = {
+				TAG = KOR
+				TAG = MAN
+				TAG = CHI
+			}
+		}
+	}
+}
+
+#만주전쟁
+news_event = {
+	id = eok_news.6
+	title = eok_news.6.t
+	desc = eok_news.6.desc
+	picture = GFX_news_event_018
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.6.a
+		trigger = {
+			TAG = KOR
+		}
+	}
+	option = {
+		name = eok_news.6.b
+		trigger = {
+			TAG = MAN
+		}
+	}
+	option = {
+		name = eok_news.6.c
+		trigger = { 
+			NOT = {
+				TAG = KOR
+				TAG = MAN
+			}
+		}
+	}
+}
+
+#한국의 대규모 해군 훈련
+news_event = {
+	id = eok_news.7
+	title = eok_news.7.t
+	desc = eok_news.7.desc
+	picture = GFX_news_event_020
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.7.a
+		trigger = {
+			OR = {
+				TAG = KOR
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = eok_news.7.b
+		trigger = { 
+			NOT = {
+				TAG = KOR
+				TAG = JAP
+			}
+		}
+	}
+}
+
+#일본의 대규모 해군 훈련
+news_event = {
+	id = eok_news.8
+	title = eok_news.8.t
+	desc = eok_news.8.desc
+	picture = GFX_news_event_020
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.8.a
+		trigger = {
+			OR = {
+				TAG = KOR
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = eok_news.8.b
+		trigger = { 
+			NOT = {
+				TAG = KOR
+				TAG = JAP
+			}
+		}
+	}
+}
+
+#한국의 동양평화론
+news_event = {
+	id = eok_news.9
+	title = eok_news.9.t
+	desc = eok_news.9.desc
+	picture = GFX_news_event_kor_army2
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.9.a
+		trigger = {
+			TAG = KOR
+		}
+	}
+	option = {
+		name = eok_news.9.b
+		trigger = {
+			TAG = JAP
+		}
+	}
+	option = {
+		name = eok_news.9.c
+		trigger = { 
+			NOT = {
+				TAG = KOR
+				TAG = JAP
+			}
+		}
+	}
+}
+
+#황제 회담
+news_event = {
+	id = eok_news.10
+	title = eok_news.10.t
+	desc = eok_news.10.desc
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.10.a
+		trigger = {
+			OR = {
+				TAG = KOR
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = eok_news.10.b
+		trigger = {
+			OR = {
+				TAG = ENG
+				TAG = FRA
+			}
+		}
+	}
+	option = {
+		name = wtt_news.10.d
+		trigger = { 
+			NOT = {
+				TAG = KOR
+				TAG = GER
+				TAG = ENG
+				TAG = FRA
+			}
+		}
+	}
+}
+
+#새로운 삼제동맹
+news_event = {
+	id = eok_news.11
+	title = eok_news.11.t
+	desc = eok_news.11.desc
+	picture = GFX_news_event_generic_parliament
+	
+	major = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = eok_news.11.a
+		trigger = {
+			OR = {
+				TAG = KOR
+				TAG = GER
+				TAG = ENG
+			}
+		}
+	}	
+	option = {
+		name = eok_news.11.b
+		trigger = { 
+			NOT = {
+				TAG = KOR
+				TAG = GER
+				TAG = ENG
+			}
+		}
+	}
+}
+
+#한독조약
+news_event = {
+	id = eok_news.12
+	title = eok_news.12.t
+	desc = eok_news.12.desc
+	picture = GFX_news_event_generic_sign_treaty3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.12.a
+		trigger = { 
+			OR = {
+				TAG = KOR
+				TAG = GER
+			}
+		}
+	}
+	option = {
+		name = eok_news.12.b
+		trigger = {
+			TAG = SOV
+		}
+	}
+	option = {
+		name = eok_news.12.c
+		trigger = { 
+			NOT = {
+				TAG = KOR
+				TAG = GER
+				TAG = SOV
+			}
+		}
+	}
+}
+
+#황제협약의 발흥
+news_event = {
+	id = eok_news.13
+	title = eok_news.13.t
+	desc = eok_news.13.desc
+	picture = GFX_news_event_royal_visit
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.13.a
+		trigger = { 
+			OR = {
+				TAG = HUN
+				TAG = KOR
+			}
+		}
+	}
+	option = {
+		name = eok_news.13.b
+		trigger = { 
+			NOT = {
+				TAG = HUN
+				TAG = KOR
+			}
+		}
+	}
+}
+
+#류큐 독립군
+news_event = {
+	id = eok_news.14
+	title = eok_news.14.t
+	desc = eok_news.14.desc
+	picture = GFX_news_event_japanese_parade
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.14.a
+		trigger = {
+			TAG = RYU
+		}
+	}
+	option = {
+		name = eok_news.14.b
+		trigger = {
+			TAG = KOR
+		}
+	}
+	option = {
+		name = eok_news.14.c
+		trigger = {
+			TAG = JAP
+		}
+	}
+	option = {
+		name = eok_news.14.d
+		trigger = { 
+			NOT = {
+				TAG = RYU
+				TAG = KOR
+				TAG = JAP
+			}
+		}
+	}
+}
+
+news_event = {
+	id = eok_news.15
+	title = eok_news.15.t
+	desc = eok_news.15.desc
+	picture = GFX_news_event_shx_union
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.15.a
+		trigger = {
+			NOT = {
+				TAG = KOR
+				TAG = SHX
+				TAG = CHI
+				TAG = PRC
+			}
+		}
+	}
+	
+	option = {
+		name = eok_news.15.b
+		trigger = {
+			OR = {
+				TAG = CHI
+				TAG = PRC
+			}
+		}
+	}
+	
+	option = {
+		name = eok_news.15.c
+		trigger = {
+			OR = {
+				TAG = KOR
+				TAG = SHX
+			}
+		}
+	}
+}
+
+news_event = {
+	id = eok_news.16
+	title = eok_news.16.t
+	desc = eok_news.16.desc
+	picture = GFX_news_event_shx_monarchy
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.16.a
+		trigger = {
+			NOT = {
+				TAG = KOR
+				TAG = SHX
+			}
+		}
+	}
+	
+	option = {
+		name = eok_news.16.b
+		trigger = {
+			OR = {
+				TAG = KOR
+				TAG = SHX
+			}
+		}
+	}
+}
+
+#독일의 칭다오 지배를 용인한 한국
+news_event = {
+	id = eok_news.17
+	title = eok_news.17.t
+	desc = eok_news.17.desc
+	picture = GFX_news_event_sign_treaty3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_news.16.a
+		trigger = {
+			original_tag = GER
+		}
+	}
+	option = {
+		name = eok_news.17.b
+		trigger = {
+			original_tag = KOR
+		}
+	}
+	option = {
+		name = wtt_news.17.b
+		trigger = {
+			OR = {
+				TAG = CHI
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = wtt_news.16.d
+		trigger = { 
+			NOT = { 
+				original_tag = GER
+				original_tag = KOR
+				original_tag = CHI
+				original_tag = JAP
+			}
+		}
+	}
+}
+
+#대한-일본 제국
+news_event = {
+	id = eok_news.18
+	title = eok_news.18.t
+	desc = eok_news.18.desc
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.18.a
+		trigger = {
+			original_tag = KOR
+		}
+	}
+	option = {
+		name = eok_news.18.b
+		trigger = {
+			NOT = { original_tag = KOR }
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = wtt_news.53.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+}
+
+#해동성국
+news_event = {
+	id = eok_news.19
+	title = eok_news.19.t
+	desc = eok_news.19.desc
+	picture = GFX_news_event_generic_parliament
+
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.19.a
+		trigger = {
+			original_tag = KOR
+		}
+	}
+	option = {
+		name = eok_news.19.b
+		trigger = {
+			NOT = { original_tag = KOR }
+			NOT = { has_war_with = FROM }
+		}
+	}
+	option = {
+		name = wtt_news.53.c
+		trigger = {
+			has_war_with = FROM
+		}
+	}
+}
+
+news_event = {
+	id = eok_news.20
+	title = eok_news.20.t
+	desc = eok_news.20.desc
+	picture = GFX_news_event_japanese_parade
+
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.20.a
+		trigger = {
+			is_literally_china = yes
+		}
+	}
+	option = {
+		name = eok_news.20.b
+		trigger = {
+			original_tag = RGC
+		}
+	}
+	option = {
+		name = eok_news.20.c
+		trigger = {
+			original_tag = JAP
+		}
+	}
+	option = {
+		name = eok_news.20.d
+		trigger = {
+			NOT = {
+			 	original_tag = RGC
+			 	original_tag = JAP
+			 	is_literally_china = yes
+			}
+		}
+	}
+}
+
+news_event = {
+	id = eok_news.21
+	title = eok_news.21.t
+	desc = eok_news.21.desc
+	picture = GFX_news_event_generic_rally_3
+
+	is_triggered_only = yes
+	
+	option = {
+		name = eok_news.21.a
+		trigger = {
+			original_tag = RGC
+		}
+	}
+	
+	option = {
+		name = eok_news.21.b
+		trigger = {
+			NOT = {
+				original_tag = RGC
+			}
+		}
+	}
+}
+
+#도쿄 함락(한국)
+news_event = {
+	id = eok_news_fall.1
+	title = eok_news_fall.1.t
+	desc = eok_news_fall.1.desc
+	picture = GFX_news_event_kor_army
+	
+	major = yes
+	
+	trigger = {
+		282 = { is_controlled_by = KOR }
+		282 = { is_owned_by = JAP }
+		KOR = { has_war_with = JAP }
+		NOT = { has_global_flag = fall_of_tokyo_kor }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_tokyo_kor
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = KOR
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = eok_news_fall.1.b
+		trigger = { TAG = KOR }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = JAP }
+	}
+}
+
+#한성 함락(일본)
+news_event = {
+	id = eok_news_fall.2
+	title = eok_news_fall.2.t
+	desc = eok_news_fall.2.desc
+	picture = GFX_news_event_japan_military_march
+	
+	major = yes
+	
+	trigger = {
+		525 = { is_controlled_by = JAP }
+		525 = { is_owned_by = KOR }
+		JAP = { has_war_with = KOR }
+		NOT = { has_global_flag = fall_of_hanseong_jap }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_hanseong_jap
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = JAP
+				TAG = KOR
+			}
+		}
+	}
+	option = {
+		name = eok_news_fall.2.b
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = KOR }
+	}
+}
+
+#한성 함락(중국)
+news_event = {
+	id = eok_news_fall.3
+	title = eok_news_fall.3.t
+	desc = eok_news_fall.3.desc
+	picture = GFX_news_event_chi_soldiers_city
+	
+	major = yes
+	
+	trigger = {
+		525 = { is_controlled_by = CHI }
+		525 = { is_owned_by = KOR }
+		CHI = { has_war_with = KOR }
+		NOT = { has_global_flag = fall_of_hanseong_chi }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_hanseong_chi
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = CHI
+				TAG = KOR
+			}
+		}
+	}
+	option = {
+		name = eok_news_fall.3.b
+		trigger = { TAG = CHI }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = KOR }
+	}
+}
+
+#난징 함락(한국)
+news_event = {
+	id = eok_news_fall.4
+	title = eok_news_fall.4.t
+	desc = eok_news_fall.4.desc
+	picture = GFX_news_event_fall_of_nanjing_kor
+	
+	major = yes
+	
+	trigger = {
+		613 = { is_controlled_by = KOR }
+		613 = { is_owned_by = CHI }
+		KOR = { has_war_with = CHI }
+		NOT = { has_global_flag = fall_of_nanjing_kor }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_nanjing_kor
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = KOR
+				TAG = CHI
+			}
+		}
+	}
+	option = {
+		name = eok_news_fall.4.b
+		trigger = { TAG = KOR }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = CHI }
+	}
+}
+
+#심양 함락(한국)
+news_event = {
+	id = eok_news_fall.5
+	title = eok_news_fall.5.t
+	desc = eok_news_fall.5.desc
+	picture = GFX_news_event_fall_of_shenyang
+	
+	major = yes
+	
+	trigger = {
+		716 = { is_controlled_by = KOR }
+		716 = { is_owned_by = MAN }
+		KOR = { has_war_with = MAN }
+		NOT = { has_global_flag = fall_of_shenyang_kor }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_shenyang_kor
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = KOR
+				TAG = MAN
+			}
+		}
+	}
+	option = {
+		name = eok_news_fall.5.b
+		trigger = { TAG = KOR }
+	}
+	option = {
+		name = news.100.c
+		trigger = { TAG = MAN }
+	}
+}
+
+#베이징 함락
+news_event = {
+	id = eok_news_fall.6
+	title = eok_news_fall.6.t
+	desc = eok_news_fall.6.desc
+	picture = GFX_news_event_fall_of_beijing_kor
+	
+	major = yes
+	
+	trigger = {
+		608 = { is_controlled_by = RGC }
+	    608 = { is_owned_by = MAN }
+		RGC = { has_war_with = MAN }
+		NOT = { has_global_flag = fall_of_beijing_rgc }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_beijing_rgc
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = RGC
+				TAG = JAP
+				TAG = MAN
+				TAG = KOR
+			}
+		}
+	}
+	option = {
+		name = eok_news_fall.6.b
+		trigger = { TAG = RGC }
+	}
+	option = {
+		name = eok_news_fall.6.c
+		trigger = { TAG = JAP }
+	}
+	option = {
+		name = news.100.c
+		trigger = {
+			OR = {
+				TAG = MAN
+				TAG = KOR
+			}
+		}
+	}
+}
+
+#난닝 함락
+news_event = {
+	id = eok_news_fall.7
+	title = eok_news_fall.7.t
+	desc = eok_news_fall.7.desc
+	picture = GFX_news_event_chi_soldiers_city
+	
+	major = yes
+	
+	trigger = {
+		594 = { is_controlled_by = CHI }
+	    594 = { is_owned_by = RGC }
+		CHI = { has_war_with = RGC }
+		NOT = { has_global_flag = fall_of_nanning_man }
+	}
+	
+	immediate = {
+		set_global_flag = fall_of_nanning_man
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		name = news.145.a
+		trigger = {
+			NOT = {
+				TAG = CHI
+				TAG = KOR
+				TAG = RGC
+				TAG = JAP
+			}
+		}
+	}
+	option = {
+		name = eok_news_fall.7.b
+		trigger = { TAG = CHI }
+	}
+	option = {
+		name = eok_news_fall.7.c
+		trigger = { TAG = KOR }
+	}
+	option = {
+		name = news.100.c
+		trigger = {
+			OR = {
+				TAG = RGC
+				TAG = JAP
+			}
+		}
+	}
+}

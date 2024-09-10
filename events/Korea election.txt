@@ -1,0 +1,322 @@
+﻿################
+# 한국 선거 이벤트  
+################
+
+add_namespace = kor_ele
+
+country_event = { # 1937년 선거
+	id = kor_ele.1
+	title = kor_ele.1.t
+	desc = kor_ele.1.d
+	picture = GFX_report_event_kor_election
+	fire_only_once = yes
+
+	trigger = {
+		tag = KOR
+		date > 1937.3.01
+		date < 1937.4.01
+		KOR = { is_subject = no }
+		has_government = democratic
+	}
+
+	option = { # 한인사회당
+		name = kor_ele.1.a
+
+		ai_chance = { factor = 33 }
+		
+		add_popularity = { ideology = democratic popularity = 0.2 }
+		
+		country_event = {
+			id = kor_ele.2
+		}	
+	}
+
+	option = { # 독립협회
+		name = kor_ele.1.b
+
+		ai_chance = { factor = 34 }
+
+		add_political_power = 5
+		
+		add_popularity = { ideology = democratic popularity = 0.15 }
+	
+		country_event = {
+			id = kor_ele.3
+		}	
+	}
+
+	option = { # 신한혁명당
+		name = kor_ele.1.c
+
+		ai_chance = { factor = 33 }
+
+		add_political_power = 10
+		
+		add_popularity = { ideology = democratic popularity = 0.10 }
+	
+		country_event = {
+			id = kor_ele.4
+		}	
+	}	
+}
+
+country_event = { # 한인사회당
+	id = kor_ele.2
+	title = kor_ele.2.t
+	desc = kor_ele.2.d
+	is_triggered_only = yes
+
+	option = { # 안창호
+		name = kor_ele.2.a
+		ai_chance = { factor = 50 }
+
+		set_party_name = { ideology = democratic long_name = KOR_ks_party name = KOR_ks_party }
+
+        create_country_leader = {
+			name = "안창호"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Ahn_Chang_ho.dds"
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				daegongists
+			}
+		}
+	}
+
+	option = { # 여운형
+		name = kor_ele.2.b
+		ai_chance = { factor = 50 }
+
+		set_party_name = { ideology = democratic long_name = KOR_ks_party name = KOR_ks_party }
+
+        create_country_leader = {
+			name = "여운형"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Lyuh_Woon_hyung.dds"
+			expire = "1965.1.1"
+			ideology = socialism
+			traits = {
+				fusionist
+			}
+		}
+	}
+}
+
+country_event = { # 독립협회
+	id = kor_ele.3
+	title = kor_ele.2.t
+	desc = kor_ele.3.d
+	is_triggered_only = yes
+
+	option = { # 서재필
+		name = kor_ele.3.a
+		ai_chance = { factor = 50 }
+
+		set_party_name = { ideology = democratic long_name = KOR_democratic_party name = KOR_democratic_party }
+
+        create_country_leader = {
+			name = "서재필"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Philip_Jason.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				radical_enlightenment
+			}
+		}
+	}
+
+	option = { # 김규식
+		name = kor_ele.3.b
+		ai_chance = { factor = 50 }
+	
+		set_party_name = { ideology = democratic long_name = KOR_democratic_party name = KOR_democratic_party }
+    
+        create_country_leader = {
+			name = "김규식"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Kim_Gyu_Sik.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				linguistic_genius
+			}
+		}
+	}
+}
+
+country_event = { # 신한혁명당
+	id = kor_ele.4
+	title = kor_ele.2.t
+	desc = kor_ele.4.d
+	is_triggered_only = yes
+
+	option = { # 김구
+		name = kor_ele.4.a
+		ai_chance = { factor = 50 }
+
+		set_party_name = { ideology = democratic long_name = KOR_nk_party name = KOR_nk_party }
+
+		create_country_leader = {
+			name = "김구"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Kim_Koo.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				korean_nationalist
+				anti_communist
+			}
+		}
+	}
+
+	option = { # 이상설
+		name = kor_ele.4.b
+		ai_chance = { factor = 50 }
+
+		set_party_name = { ideology = democratic long_name = KOR_nk_party name = KOR_nk_party }
+
+        create_country_leader = {
+			name = "이상설"
+			desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Yi_Sang_sul.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {
+				academic_genius
+			}
+		}
+	}
+}
+
+country_event = { # 1942년 선거
+	id = kor_ele.5
+	title = kor_ele.1.t
+	desc = kor_ele.1.d
+	picture = GFX_report_event_kor_election
+	fire_only_once = yes
+
+	trigger = {
+		tag = KOR
+		date > 1942.3.01
+		date < 1942.4.01
+		KOR = { is_subject = no }
+		has_government = democratic
+	}
+
+	option = { # 한인사회당
+		name = kor_ele.1.a
+
+		ai_chance = { factor = 33 }
+		
+		add_popularity = { ideology = democratic popularity = 0.2 }
+		
+		hidden_effect = {
+			set_popularities = {
+		    	democratic = 43
+		    	communism = 17
+		    	fascism = 10
+		    	neutrality = 30
+			}
+		}
+		
+		country_event = {
+			id = kor_ele.2
+		}	
+	}
+
+	option = { # 독립협회
+		name = kor_ele.1.b
+
+		ai_chance = { factor = 34 }
+
+		add_political_power = 10
+		
+		add_popularity = { ideology = democratic popularity = 0.1 }
+	
+		country_event = {
+			id = kor_ele.3
+		}	
+	}
+
+	option = { # 신한혁명당
+		name = kor_ele.1.c
+
+		ai_chance = { factor = 33 }
+
+		add_political_power = 5
+		
+		add_popularity = { ideology = democratic popularity = 0.15 }
+	
+		country_event = {
+			id = kor_ele.4
+		}	
+	}	
+}
+
+#1947년 선거
+country_event = { # 1947년 선거
+	id = kor_ele.5
+	title = kor_ele.1.t
+	desc = kor_ele.1.d
+	picture = GFX_report_event_kor_election
+	fire_only_once = yes
+
+	trigger = {
+		tag = KOR
+		date > 1947.3.01
+		date < 1947.4.01
+		KOR = { is_subject = no }
+		has_government = democratic
+	}
+
+	option = { # 한인사회당
+		name = kor_ele.1.a
+
+		ai_chance = { factor = 33 }
+		
+		add_popularity = { ideology = democratic popularity = 0.2 }
+		
+		hidden_effect = {
+			set_popularities = {
+		    	democratic = 43
+		    	communism = 17
+		    	fascism = 10
+		    	neutrality = 30
+			}
+		}
+		
+		country_event = {
+			id = kor_ele.2
+		}	
+	}
+
+	option = { # 독립협회
+		name = kor_ele.1.b
+
+		ai_chance = { factor = 34 }
+
+		add_political_power = 10
+		
+		add_popularity = { ideology = democratic popularity = 0.1 }
+	
+		country_event = {
+			id = kor_ele.3
+		}	
+	}
+
+	option = { # 신한혁명당
+		name = kor_ele.1.c
+
+		ai_chance = { factor = 33 }
+
+		add_political_power = 5
+		
+		add_popularity = { ideology = democratic popularity = 0.15 }
+	
+		country_event = {
+			id = kor_ele.4
+		}	
+	}	
+}

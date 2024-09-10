@@ -1,0 +1,864 @@
+﻿###########################
+# Korea Events
+###########################
+
+add_namespace = kor_dom
+
+country_event = { #중추원 회의 - 개회
+	id = kor_dom.1
+	title = kor_dom.1.t
+	desc = kor_dom.1.d
+	picture = GFX_report_event_kor_democratic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.1.a
+		set_country_flag = KOR_opening
+		hidden_effect = {
+			country_event = {
+				id = kor_dom.2
+				days = 3
+			}
+		}	
+	}	
+}
+
+country_event = { #중추원 회의 - 불청객들
+	id = kor_dom.2
+	title = kor_dom.2.t
+	desc = kor_dom.2.d
+	picture = GFX_report_event_kor_fascism
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.2.a
+		add_stability = -0.10
+		hidden_effect = {
+			country_event = {
+				id = kor_dom.3
+				days = 3
+			}
+		}	
+	}	
+}
+
+country_event = { #중추원 회의 - 한성 진군
+	id = kor_dom.3
+	title = kor_dom.3.t
+	desc = kor_dom.3.d
+	picture = GFX_report_event_kor_military_march
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.3.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				OR = {
+					has_game_rule = {
+						rule = KOR_ai_behavior 
+						option = EMPEROR
+					}
+					has_game_rule = {
+						rule = KOR_ai_behavior 
+						option = HANSEONG_ADVANCE
+					}	
+				}
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = kor_dom.4
+				days = 3
+			}
+		}	
+	}	
+	
+	option = {
+		name = kor_dom.3.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = KOR_ai_behavior 
+					option = EASTERN_DEMOCRACY
+				}
+			}
+		}
+		
+		hidden_effect = {
+			country_event = {
+				id = kor_dom.5
+				days = 3
+			}
+		}	
+	}
+}
+
+country_event = { #중추원 회의 - 자유대한
+	id = kor_dom.4
+	title = kor_dom.4.t
+	desc = kor_dom.4.d
+	picture = GFX_report_event_kor_democracy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.4.a
+		set_country_flag = KOR_d
+		add_stability = 0.10
+		add_political_power = 50
+		set_country_flag = KOR_lee_beom_seok_arrest
+		remove_unit_leader = 3001
+		add_ideas = KOR_yi_wu
+		hidden_effect = {
+			set_popularities = {
+		    	democratic = 63
+		    	communism = 4
+		    	fascism = 3
+		    	neutrality = 30
+			}
+		}
+		create_country_leader = {
+	    	name = "중추원"
+	        desc = ""
+			picture = "gfx/leaders/KOR/Portrait_KOR_Council.dds"
+			expire = "1965.1.1"
+			ideology = liberalism
+			traits = {
+				democracy_won
+			}
+		}
+		set_party_name = {
+			ideology = democratic
+			long_name = "중추원"
+			name = "중추원"
+		}
+		set_politics = {
+			ruling_party = democratic
+			last_election = "1932.3.11"
+			election_frequency = 60
+			elections_allowed = yes
+		}
+		custom_effect_tooltip = kor_dom_tooltip_1
+		hidden_effect = { news_event = { id = eok_news.1 days = 1 } }
+	}	
+}
+
+country_event = { #중추원 회의 - 알현
+	id = kor_dom.5
+	title = kor_dom.5.t
+	desc = kor_dom.5.d
+	picture = GFX_report_event_kor_palace
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.5.a
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = KOR_ai_behavior 
+					option = EMPEROR
+				}
+			}
+		}
+		add_political_power = -50
+		hidden_effect = {
+			country_event = {
+				id = kor_dom.6
+				days = 3
+			}
+		}	
+	}	
+	
+	option = {
+		name = kor_dom.5.b
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 0
+				has_game_rule = {
+					rule = KOR_ai_behavior 
+					option = HANSEONG_ADVANCE
+				}
+			}
+		}
+		add_political_power = -50
+		remove_ideas = KOR_lee_beom_seok
+		remove_unit_leader = 3001
+		set_country_flag = KOR_lee_beom_seok_arrest
+		hidden_effect = {
+			country_event = {
+				id = kor_dom.7
+				days = 3
+			}
+		}	
+	}
+}
+
+country_event = { #중추원 회의 - 단결대한
+	id = kor_dom.6
+	title = kor_dom.4.t
+	desc = kor_dom.6.d
+	picture = GFX_report_event_kor_lee_beom_seok
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.6.a
+		hidden_effect = {
+			set_popularities = {
+		    	democratic = 15
+		    	communism = 2
+		    	fascism = 63
+		    	neutrality = 20
+			}
+		}
+		set_country_flag = KOR_f
+        set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+		}
+		hidden_effect = { news_event = { id = eok_news.2 days = 1 } }	
+	}	
+}
+
+country_event = { #중추원 회의 - 충군대한
+	id = kor_dom.7
+	title = kor_dom.4.t
+	desc = kor_dom.7.d
+	picture = GFX_report_event_kor_imperial_house
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.7.a
+		hidden_effect = {
+			set_popularities = {
+		    	democratic = 30
+		    	communism = 12
+		    	fascism = 5
+		    	neutrality = 53
+			}
+		}
+		set_country_flag = KOR_n
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+		hidden_effect = { news_event = { id = eok_news.3 days = 1 } }
+	}	
+}
+
+country_event = { #위폐 사건
+	id = kor_dom.8
+	title = kor_dom.8.t
+	desc = kor_dom.8.d
+	picture = GFX_report_event_gold
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = KOR
+		date > 1936.8.3
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = kor_dom.8.a
+	}
+}
+
+country_event = { #영친왕 암살미수
+	id = kor_dom.9
+	title = kor_dom.9.t
+	desc = kor_dom.9.d
+	picture = GFX_report_event_generic_riot
+	fire_only_once = yes
+
+	trigger = {
+		tag = KOR
+		date > 1936.1.23
+	}
+	
+	option = {
+		name = kor_dom.9.a
+		add_political_power = -75
+        add_stability = -0.10
+	}
+}
+
+country_event = { #중앙극장
+	id = kor_dom.10
+	title = kor_dom.10.t
+	desc = kor_dom.10.d
+	picture = GFX_report_event_central_theater
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = KOR
+		date > 1936.3.14
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = kor_dom.10.a
+	}
+}
+
+country_event = { #용의 운명
+	id = kor_dom.11
+	title = kor_dom.11.t
+	desc = kor_dom.11.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.11.a
+	}
+}
+
+country_event = { #용의 운명
+	id = kor_dom.12
+	title = kor_dom.11.t
+	desc = kor_dom.12.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.11.a
+	}
+}
+
+country_event = { #용의 운명
+	id = kor_dom.13
+	title = kor_dom.11.t
+	desc = kor_dom.13.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.11.a
+	}
+}
+
+country_event = { #청나라 - 한국의 요구
+	id = kor_dom.14
+	title = kor_dom.14.t
+	desc = kor_dom.14.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.14.a
+		KOR = {
+			country_event = {
+				id = kor_dom.15
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { #청나라의 승인
+	id = kor_dom.15
+	title = kor_dom.15.t
+	desc = kor_dom.15.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.15.a
+		MAN = {
+			transfer_state = 608
+			transfer_state = 609
+			set_capital = { state = 608 }
+		}
+		KOR = {
+			transfer_state = 745
+			transfer_state = 917
+			transfer_state = 919
+			puppet = MAN
+			set_autonomy = { target = MAN autonomy_state = autonomy_colony }
+		}
+		CHI = {
+			country_event = {
+				id = kor_dom.16
+				days = 2
+			}
+		}
+	}
+}
+
+country_event = { #북경사변
+	id = kor_dom.16
+	title = kor_dom.16.t
+	desc = kor_dom.16.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.16.a
+		
+		ai_chance = { factor = 0 }
+		
+		declare_war_on = {
+			target = KOR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = MAN
+			type = annex_everything
+		}
+		KOR = {
+			country_event = {
+				id = kor_dom.18
+			}
+		}
+		MAN = {
+			country_event = {
+				id = kor_dom.18
+			}
+		}
+		hidden_effect = { news_event = { id = eok_news.4 days = 1 } }
+	}
+	
+	option = {
+		name = kor_dom.16.b
+		
+		ai_chance = { factor = 100 }
+		
+		add_stability = -0.20
+		add_war_support = -0.20
+		KOR = {
+			country_event = {
+				id = kor_dom.17
+			}
+		}	
+		MAN = {
+			country_event = {
+				id = kor_dom.17
+			}
+		}
+		hidden_effect = { news_event = { id = eok_news.5 days = 1 } }
+	}
+}
+
+country_event = { #북경수복
+	id = kor_dom.17
+	title = kor_dom.17.t
+	desc = kor_dom.17.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.17.a
+	}
+}
+
+country_event = { #북경수복
+	id = kor_dom.18
+	title = kor_dom.18.t
+	desc = kor_dom.18.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.16.a
+	}
+}
+
+country_event = { #한국과의 밀약?
+	id = kor_dom.19
+	title = kor_dom.19.t
+	desc = kor_dom.19.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.19.a
+		KOR = {
+			country_event = {
+				id = kor_dom.20
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { #몽골의 승인
+	id = kor_dom.20
+	title = kor_dom.20.t
+	desc = kor_dom.20.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.15.a
+		MON = {
+			transfer_state = 612
+			transfer_state = 611
+		}
+		MAN = {
+			country_event = {
+				id = kor_dom.21
+			}
+		}
+	}
+}
+
+country_event = {
+	id = kor_dom.21
+	title = kor_dom.21.t
+	desc = kor_dom.21.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.16.a
+		
+		declare_war_on = {
+			target = KOR
+			type = annex_everything
+		}
+		declare_war_on = {
+			target = MON
+			type = annex_everything
+		}
+		hidden_effect = { news_event = { id = eok_news.6 days = 1 } }
+	}
+}
+
+country_event = { #대규모 해군 훈련 개시
+	id = kor_dom.22
+	title = kor_dom.22.t
+	desc = kor_dom.22.d
+	picture = GFX_report_event_usa_destroyers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.22.a
+		add_stability = -0.05
+        add_war_support = 0.05
+        navy_experience = 10		
+		JAP = {
+			country_event = { id = kor_dom.23 days = 3 }
+		}
+		hidden_effect = { news_event = { id = eok_news.7 hours = 12 } }
+	}
+}
+
+country_event = { #일본 - 한국의 대규모 해군 훈련
+	id = kor_dom.23
+	title = kor_dom.23.t
+	desc = kor_dom.23.d
+	picture = GFX_report_event_usa_destroyers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.23.a
+		add_stability = -0.05
+        add_war_support = 0.05
+		navy_experience = 10
+		KOR = {
+			country_event = { id = kor_dom.24 days = 2 }
+		}
+		hidden_effect = { news_event = { id = eok_news.8 hours = 12 } }
+	}
+}
+
+country_event = { # 일본의 대응
+	id = kor_dom.24
+	title = kor_dom.24.t
+	desc = kor_dom.24.d
+	picture = GFX_report_event_usa_destroyers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.24.a	
+	}
+}
+
+country_event = { #한국과의 거래?
+	id = kor_dom.25
+	title = kor_dom.25.t
+	desc = kor_dom.25.d
+	picture = GFX_report_event_chinese_officers
+	
+	is_triggered_only = yes
+	
+	option = { #거래를 받아들인다
+		name = kor_dom.25.a
+		ai_chance = { factor = 90 }
+		KOR = {
+			country_event = { id = kor_dom.26 }
+		}
+	}
+	
+	option = { #절대로 받아들일 수 없다!
+		name = kor_dom.25.b
+		ai_chance = { factor = 10 }
+		KOR = {
+			country_event = { id = kor_dom.27 }
+		}
+
+	}
+}
+
+country_event = { #중국의 동의
+	id = kor_dom.26
+	title = kor_dom.26.t
+	desc = kor_dom.26.d
+	picture = GFX_report_event_chinese_officers
+	
+	is_triggered_only = yes
+	
+	option = { #완벽하군
+		name = kor_dom.26.a
+		declare_war_on = {
+			target = JAP
+			type = annex_everything
+		}
+		CHI = {
+			remove_state_core = 328
+			remove_state_core = 608
+			remove_state_core = 609
+			remove_state_core = 610
+			remove_state_core = 611
+			remove_state_core = 612
+			remove_state_core = 614
+			remove_state_core = 615
+			remove_state_core = 621
+			remove_state_core = 714
+			remove_state_core = 715
+			remove_state_core = 716
+			remove_state_core = 717
+			remove_state_core = 745
+			remove_state_core = 746
+			remove_state_core = 761
+			remove_state_core = 916
+			remove_state_core = 917
+			remove_state_core = 918
+			remove_state_core = 919
+			remove_state_core = 920
+			remove_state_core = 924
+			remove_state_core = 925
+		}
+	}
+}
+
+country_event = { #중국의 거절
+	id = kor_dom.27
+	title = kor_dom.27.t
+	desc = kor_dom.27.d
+	picture = GFX_report_event_chinese_officers
+	
+	is_triggered_only = yes
+	
+	option = { #후회할 것이다
+		name = kor_dom.27.a
+	}
+}
+
+country_event = { #한국과의 거래?
+	id = kor_dom.28
+	title = kor_dom.25.t
+	desc = kor_dom.28.d
+	picture = GFX_report_event_asian_politicians
+	
+	is_triggered_only = yes
+	
+	option = { #거래를 받아들인다
+		name = kor_dom.25.a
+		ai_chance = { factor = 90 }
+		KOR = {
+			country_event = { id = kor_dom.29 }
+		}
+	}
+	
+	option = { #절대로 받아들일 수 없다!
+		name = kor_dom.25.b
+		ai_chance = { factor = 10 }
+		KOR = {
+			country_event = { id = kor_dom.30 }
+		}
+
+	}
+}
+
+country_event = { #일본의 동의
+	id = kor_dom.29
+	title = kor_dom.29.t
+	desc = kor_dom.29.d
+	picture = GFX_report_event_asian_politicians
+	
+	is_triggered_only = yes
+	
+	option = { #완벽하군
+		name = kor_dom.26.a
+		declare_war_on = {
+			target = CHI
+			type = annex_everything
+		}
+		JAP = {
+			diplomatic_relation = {
+				country = MAN
+				relation = guarantee
+				active = yes
+			}
+			diplomatic_relation = {
+				country = MAN
+				relation = military_access
+				active = yes
+			}
+			diplomatic_relation = {
+				country = SHX
+				relation = guarantee
+				active = yes
+			}
+			diplomatic_relation = {
+				country = SHX
+				relation = military_access
+				active = yes
+			}
+		}	
+	}
+}
+
+country_event = { #일본의 거절
+	id = kor_dom.30
+	title = kor_dom.30.t
+	desc = kor_dom.30.d
+	picture = GFX_report_event_asian_politicians
+	
+	is_triggered_only = yes
+	
+	option = { #후회할 것이다
+		name = kor_dom.27.a
+	}
+}
+
+country_event = { #류큐 독립군 창설
+	id = kor_dom.31
+	title = kor_dom.31.t
+	desc = kor_dom.31.d
+	picture = GFX_report_event_japanese_soldiers_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.31.a
+		puppet = RYU
+		set_autonomy = { target = RYU autonomy_state = autonomy_dominion }
+		hidden_effect = {
+			RYU = {
+				set_politics = {
+					ruling_party = neutrality
+					elections_allowed = no
+				}
+				hidden_effect = {
+					set_popularities = {
+						democratic = 37
+						communism = 7
+						fascism = 3
+						neutrality = 53
+					}
+				}
+				transfer_state = 526
+			}
+			RYU = {
+				load_oob = RYU_Independence_Army
+			}
+		}
+		JAP = {
+			country_event = { days = 2 id = kor_dom.32 }
+		}
+		hidden_effect = { news_event = { id = eok_news.14 hours = 12 } }
+	}	
+}
+
+country_event = { #일본 - 류큐 독립군 창설
+	id = kor_dom.32
+	title = kor_dom.31.t
+	desc = kor_dom.32.d
+	picture = GFX_report_event_japanese_soldiers_01
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.32.a
+	}
+}
+
+country_event = { #한국의 연해주 요구
+	id = kor_dom.33
+	title = kor_dom.33.t
+	desc = kor_dom.33.d
+	picture = GFX_report_event_kor_soldiers
+	
+	is_triggered_only = yes
+	
+	option = { #전쟁이다!
+		name = kor_dom.16.a
+		ai_chance = { factor = 50 }
+		declare_war_on = {
+			target = KOR
+			type = annex_everything
+		}
+		KOR = {
+			country_event = { id = kor_dom.34 }
+		}
+	}
+	option = { #우리에게 중요한건 아시아가 아니라 유럽이다.
+		name = kor_dom.33.a
+		ai_chance = { factor = 50 }
+		KOR = {
+			country_event = { id = kor_dom.35 }
+		}
+	}
+}
+
+country_event = { #소련의 선전포고
+	id = kor_dom.34
+	title = kor_dom.34.t
+	desc = kor_dom.34.d
+	picture = GFX_report_event_soviet_soldiers
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.16.a
+		add_stability = -0.10
+		add_war_support = 0.10
+	}
+}
+
+country_event = { #소련의 묵인
+	id = kor_dom.35
+	title = kor_dom.35.t
+	desc = kor_dom.35.d
+	picture = GFX_report_event_soviet_japanese_pact
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_dom.17.a
+	}
+}

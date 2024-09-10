@@ -1,0 +1,531 @@
+characters={
+	### 지도자 ###
+	SHX_yan_xishan={
+		name=SHX_yan_xishan
+		portraits={
+			civilian={
+				large="GFX_portrait_yan_xishan"
+			}
+			army={
+				small=GFX_portrait_SHX_yan_xishan_small
+				large="GFX_portrait_yan_xishan"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = SHX_yan_xishan
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				army_chief_morale_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+
+	SHX_zhang_shen={
+		name=SHX_zhang_shen
+		portraits={
+			civilian={
+				large="GFX_portrait_asia_generic_land_8"
+			}
+			army={
+				small=GFX_portrait_SHX_zhang_shen_small
+				large="GFX_portrait_asia_generic_land_8"
+			}
+		}
+		advisor={		
+			slot = high_command
+			idea_token = SHX_zhang_shen
+			ledger = army
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				army_logistics_2
+			}
+				cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ quartermaster_general financial_expert }
+			expire="1943.1.1.12"
+			id=-1
+		}
+	}
+
+	SHX_luo_zhao={
+		name=SHX_luo_zhao
+		portraits={
+			civilian={
+				large=GFX_portrait_SHX_luo_zhao
+			}
+		}
+		country_leader={
+			ideology=anarchist_communism
+			expire="1955.1.1.12"
+			id=-1
+		}
+	}
+
+	SHX_liao_ting={
+		name=SHX_liao_ting
+		portraits={
+			civilian={
+				large=GFX_portrait_SHX_liao_ting
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1951.1.1.12"
+			id=-1
+		}
+	}
+
+	### 정치고문 ###
+	SHX_zhao_daiwen={
+		name=SHX_zhao_daiwen
+		portraits={
+			army={
+				small=GFX_idea_SHX_zhao_daiwen
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = SHX_zhao_daiwen
+			allowed  = {
+				original_tag  = SHX
+			}
+			traits  = {
+				old_figurehead
+			}
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	SHX_ji_gongquan={
+		name=SHX_ji_gongquan
+		portraits={
+			army={
+				small=GFX_idea_SHX_ji_gongquan
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = SHX_ji_gongquan
+			allowed  = {
+				original_tag  = SHX
+			}
+			traits  = {
+				education_reformer
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SHX_fan_xiangli={
+		name=SHX_fan_xiangli
+		portraits={
+			army={
+				small=GFX_idea_SHX_fan_xiangli
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = SHX_fan_xiangli
+			allowed = {
+				original_tag = SHX
+			}
+			traits  = {
+				technocrat
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SHX_qiu_yangjun={
+		name=SHX_qiu_yangjun
+		portraits={
+			army={
+				small=GFX_idea_SHX_qiu_yangjun
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = SHX_qiu_yangjun
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				appeaser
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SHX_liang_huazhi={
+		name=SHX_liang_huazhi
+		portraits={
+			army={
+				small=GFX_idea_SHX_liang_huazhi
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = SHX_liang_huazhi
+			allowed  = {
+				original_tag  = SHX
+			}
+			traits  = {
+				backroom_backstabber
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	### 이론가 ###
+	SHX_zhu_shouguang={
+		name=SHX_zhu_shouguang
+		portraits={
+			army={
+				small=GFX_idea_SHX_zhu_shouguang
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = SHX_zhu_shouguang
+			ledger = army
+			allowed = {
+				original_tag = SHX
+			}
+			
+			traits = {
+				grand_battle_plan_expert
+			}
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	SHX_chu_xichun={
+		name=SHX_chu_xichun
+		portraits={
+			army={
+				small=GFX_idea_SHX_chu_xichun
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = SHX_chu_xichun
+			ledger = army
+			allowed = {
+				original_tag = SHX
+			}
+			
+			traits = {
+				military_theorist 
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	### 육군참모총장 ###
+	SHX_fu_zuoyi={
+		name=SHX_fu_zuoyi
+		portraits={
+			army={
+				large=GFX_portrait_SHX_fu_zuoyi
+				small=GFX_idea_SHX_fu_zuoyi
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = SHX_fu_zuoyi
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 3.000
+			}
+		}
+		corps_commander={
+			traits={
+				war_hero
+				career_officer
+			}
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+
+	### 해군참모총장 ###
+	SHX_sun_li={
+		name=SHX_sun_li
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_1"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = SHX_sun_li
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				navy_chief_commerce_raiding_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	SHX_peng_dong={
+		name=SHX_peng_dong
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_3"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = SHX_peng_dong
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				navy_chief_reform_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	### 공군참모총장 ###
+	SHX_zhong_jihan={
+		name=SHX_zhong_jihan
+		portraits={
+			army={
+				small=GFX_idea_SHX_zhong_jihan
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = SHX_zhong_jihan
+			allowed = {
+				original_tag = SHX
+			}
+			available = {
+				OR = {
+					has_tech = early_fighter
+					has_tech = early_bomber
+				}
+			}
+			traits = {
+				air_chief_reform_1
+			}
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+
+	### 고위지휘관 ###
+	SHX_wang_jingguo={
+		name=SHX_wang_jingguo
+		portraits={
+			army={
+				large=GFX_portrait_SHX_wang_jingguo
+				small=GFX_idea_SHX_wang_jingguo
+			}
+		}
+		corps_commander={
+			traits={
+				politically_connected
+			}
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	
+	SHX_yang_aiyuan={
+		name=SHX_yang_aiyuan
+		portraits={
+			army={
+				large=GFX_portrait_SHX_yang_aiyuan
+				small=GFX_idea_SHX_yang_aiyuan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = SHX_yang_aiyuan
+			ledger = army
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				army_logistics_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		corps_commander={
+			traits={
+				#
+			}
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+
+	SHX_sun_chu={
+		name=SHX_sun_chu
+		portraits={
+			army={
+				large=GFX_portrait_SHX_sun_chu
+				small=GFX_idea_SHX_sun_chu
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = SHX_sun_chu
+			ledger = army
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				army_infantry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	SHX_zhao_chengshou={
+		name=SHX_zhao_chengshou
+		portraits={
+			army={
+				large=GFX_portrait_SHX_zhao_chengshou
+				small=GFX_idea_SHX_zhao_chengshou
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = SHX_zhao_chengshou
+			ledger = army
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				army_cavalry_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+
+	SHX_chen_changjie={
+		name=SHX_chen_changjie
+		portraits={
+			army={
+				large=GFX_portrait_SHX_chen_changjie
+				small=GFX_idea_SHX_chen_changjie
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = SHX_chen_changjie
+			ledger = army
+			allowed = {
+				original_tag = SHX
+			}
+			traits = {
+				army_entrenchment_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+		corps_commander={
+			traits={ }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

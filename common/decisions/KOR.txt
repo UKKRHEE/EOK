@@ -1,0 +1,643 @@
+###########################
+# 한국 외교 결정
+###########################
+
+political_actions = {
+	#입헌군주제 시행
+	KOR_constitutional_monarchy = {
+		icon = eng_ally_imperialist_coup
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			NOT = {
+				has_government = communism
+				has_idea = KOR_yi_wu
+				has_country_leader = { ruling_only = yes name = "이우" }
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			NOT = {
+				has_government = communism
+				has_idea = KOR_yi_wu
+				has_country_leader = { ruling_only = yes name = "이우" }
+			}
+		}
+
+		complete_effect = {
+			add_ideas = KOR_yi_wu
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	#이범석 장군 사면
+	KOR_return_lee_beom_seok = {
+		icon = generic_arrest
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			has_war = yes
+			has_country_flag = KOR_lee_beom_seok_arrest
+		}
+
+		visible = {
+			original_tag = KOR
+			has_country_flag = KOR_lee_beom_seok_arrest
+		}
+		
+		cost = 100
+
+		complete_effect = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.07
+			}
+			add_stability = -0.07
+			clr_country_flag = KOR_lee_beom_seok_arrest
+			create_corps_commander={
+				name = "이범석"
+				portrait_path = "gfx/leaders/KOR/Portrait_KOR_Lee_Beom_seok.dds"
+				traits = {
+					cavalry_officer
+					armor_officer
+					brilliant_strategist
+					politically_connected
+					war_hero
+				}
+				skill = 3
+				attack_skill = 4
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 3
+				legacy_id=3001
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	#만주 치안 확립
+	KOR_manchuria1 = {
+		icon = hol_draw_up_staff_plans
+		
+		allowed = { original_tag = KOR }
+		
+		available = {
+			745 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			917 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			919 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			OR = {
+				has_completed_focus = KOR_f_democracy_5
+				has_completed_focus = KOR_f_monarchism_5
+				has_completed_focus = KOR_f_fascism_5
+			}
+		}
+		
+		visible = {
+			745 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			917 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			919 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+		}
+		
+		cost = 50
+		days_remove = 30
+		
+		remove_effect = {
+			custom_effect_tooltip = KOR_manchuria1_tooltip
+			hidden_effect = {
+				KOR = {
+					add_state_core = 745
+					add_state_core = 917
+					add_state_core = 919
+				}
+				CHI = {
+					remove_state_core = 745
+					remove_state_core = 917
+					remove_state_core = 919
+				}
+				PRC = {
+					remove_state_core = 745
+					remove_state_core = 917
+					remove_state_core = 919
+				}
+			}
+		}
+	}
+	
+	#만주 치안 강화
+	KOR_manchuria2 = {
+		icon = hol_draw_up_staff_plans
+		
+		allowed = { original_tag = KOR }
+		
+		available = {
+			328 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			610 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			714 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			715 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			716 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			717 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			761 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			OR = {
+				has_completed_focus = KOR_f_democracy_5
+				has_completed_focus = KOR_f_monarchism_5
+				has_completed_focus = KOR_f_fascism_5
+			}
+		}
+		
+		visible = {
+			328 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			610 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			714 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			715 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			716 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			717 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+			761 = {
+				is_owned_by = KOR
+				OR = {
+					is_core_of = CHI
+					is_core_of = PRC
+				}
+			}
+		}
+		
+		cost = 150
+		days_remove = 30
+		
+		remove_effect = {
+			custom_effect_tooltip = KOR_manchuria2_tooltip
+			hidden_effect = {
+				CHI = {
+					remove_state_core = 328
+					remove_state_core = 610
+					remove_state_core = 714
+					remove_state_core = 715
+					remove_state_core = 716
+					remove_state_core = 717
+					remove_state_core = 761
+				}
+				PRC = {
+					remove_state_core = 328
+					remove_state_core = 610
+					remove_state_core = 714
+					remove_state_core = 715
+					remove_state_core = 716
+					remove_state_core = 717
+					remove_state_core = 761
+				}
+				KOR = {
+					add_state_core = 328
+					add_state_core = 610
+					add_state_core = 714
+					add_state_core = 715
+					add_state_core = 716
+					add_state_core = 717
+					add_state_core = 761
+				}
+			}
+		}
+	}
+}
+
+foreign_politics = {	
+	
+	#중화연방에 복벽 '권유'
+	KOR_china_monarchy = {
+		icon = eng_ally_imperialist_coup
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			is_subject = no
+			SHX = { is_subject_of = KOR }
+			has_government = neutrality
+		}
+
+		visible = {
+			has_completed_focus = KOR_f_monarchism
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			KOR = { country_event = chiuni.3 }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	KOR_sue_for_peace_MAN = {
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			FROM = { 
+				surrender_progress < 0.2 # if they are losing, lets not allow it
+			}
+			custom_trigger_tooltip = {
+				tooltip = KOR_sue_for_peace_TT
+				NOT = {
+					any_of = {
+						array = CHI.core_states
+						var:v = {
+							NOT = {
+								state = 525
+							}
+							controller = {
+								tag = KOR
+							}
+						}
+					}
+				}
+			}
+		}
+
+		targets = { MAN }
+
+		target_trigger = {
+			#Target is FROM
+			FROM = {
+				tag = MAN
+				has_war_with = ROOT
+			}
+		}
+
+		visible = {
+			FROM = { exists = yes }
+			has_war_with = FROM
+		}
+
+		cost = 0
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 400
+		}
+
+		complete_effect = {
+			MAN = {
+				country_event = { id = kor_for.13 days = 1 }
+			}
+		}
+	}
+}
+	
+KOR_alliance = {
+	
+	#청국 초청
+	KOR_alliance_qing = {
+		icon = hol_exchange_intelligence_data
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			is_faction_leader = yes
+			country_exists = MAN
+			MAN = {
+				is_in_faction = no
+				NOT = { has_government = communism }
+				NOT = { has_war_with = KOR }
+			}
+		}
+
+		visible = {
+			has_completed_focus = KOR_an_alliance
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			MAN = { country_event = generic.5 }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	#몽골 초청
+	KOR_alliance_mongolia = {
+		icon = hol_exchange_intelligence_data
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			is_faction_leader = yes
+			country_exists = MON
+			MON = {
+				is_in_faction = no
+				NOT = { has_government = communism }
+				NOT = { has_war_with = KOR }
+			}
+		}
+
+		visible = {
+			has_completed_focus = KOR_an_alliance
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			MON = { country_event = generic.5 }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	#티베트 초청
+	KOR_alliance_tibet = {
+		icon = hol_exchange_intelligence_data
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			is_faction_leader = yes
+			country_exists = TIB
+			TIB = {
+				is_in_faction = no
+				NOT = { has_government = communism }
+				NOT = { has_war_with = KOR }
+			}
+		}
+
+		visible = {
+			has_completed_focus = KOR_an_alliance
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			TIB = { country_event = generic.5 }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+	
+	#시암 초청
+	KOR_alliance_siam = {
+		icon = hol_exchange_intelligence_data
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			is_faction_leader = yes
+			country_exists = SIA
+			SIA = {
+				is_in_faction = no
+				NOT = { has_government = communism }
+				NOT = { has_war_with = KOR }
+			}
+		}
+
+		visible = {
+			has_completed_focus = KOR_an_alliance
+		}
+		
+		fire_only_once = yes
+
+		complete_effect = {
+			SIA = { country_event = generic.5 }
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}
+
+KOR_dual_empire_category = {
+    
+	#대한-일본 제국
+	KOR_dual_empire = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			is_subject = no
+			JAP = { exists = no }
+			controls_state = 282
+			NOT = {
+				has_government = communism
+			}
+		}
+
+		visible = {
+			original_tag = KOR
+			is_subject = no
+			NOT = {
+				has_government = communism
+			}
+			NOT = { has_global_flag = KOR_dual_empire_flag }
+		}
+
+		complete_effect = {
+			KOR = {
+			    set_cosmetic_tag = KOR_dual
+			}
+			hidden_effect = {
+				news_event = { id = eok_news.18 days = 1 }
+				set_global_flag = KOR_dual_empire_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+	
+KOR_haedong_empire_category = {	
+	
+	#해동성국
+	KOR_haedong_empire = {
+		icon = generic_form_nation
+
+		allowed = {
+			original_tag = KOR
+		}
+
+		available = {
+			has_global_flag = KOR_dual_empire_flag
+		}
+
+		visible = {
+			original_tag = KOR
+			is_subject = no
+			has_global_flag = KOR_dual_empire_flag
+			NOT = {
+				has_government = communism
+			}
+			NOT = { has_global_flag = KOR_haedong_flag }
+		}
+
+		complete_effect = {
+			KOR = {
+			    set_cosmetic_tag = KOR_haedong
+			}
+			hidden_effect = {
+				news_event = { id = eok_news.19 days = 1 }
+				set_global_flag = KOR_haedong_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}

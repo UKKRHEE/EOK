@@ -1,0 +1,23 @@
+
+KOR = {
+	operative = {
+		female = {
+			"gfx/leaders/KOR/KoreaFemale1.tga"
+			"gfx/leaders/KOR/KoreaFemale2.tga"
+			"gfx/leaders/KOR/KoreaFemale3.tga"
+			"gfx/leaders/KOR/KoreaFemale4.tga"
+			"gfx/leaders/KOR/KoreaFemale5.tga"
+			"gfx/leaders/KOR/KoreaFemale6.tga"
+		}
+		male = {
+			"gfx/leaders/KOR/KoreaMale1.tga"
+			"gfx/leaders/KOR/KoreaMale2.tga"
+			"gfx/leaders/KOR/KoreaMale3.tga"
+			"gfx/leaders/KOR/KoreaMale4.tga"
+			"gfx/leaders/KOR/KoreaMale5.tga"
+			"gfx/leaders/KOR/KoreaMale6.tga"
+			"gfx/leaders/KOR/KoreaMale7.tga"
+		}
+	}
+}
+

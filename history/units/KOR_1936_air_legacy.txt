@@ -1,0 +1,72 @@
+﻿
+
+
+
+
+#AIRCRAFT
+air_wings = {
+	525 = { 
+		fighter_equipment_0 = {
+			owner = "KOR" 
+			amount = 150
+		}
+		CAS_equipment_1 = {
+			owner = "KOR" 
+			amount = 150
+		}
+	}
+	911 = { #평안
+		fighter_equipment_0 = {
+			owner = "KOR" 
+			amount = 150
+		}
+		CAS_equipment_1 = {
+			owner = "KOR" 
+			amount = 150
+		}
+	}
+	916 = { #대구
+		fighter_equipment_0 = {
+			owner = "KOR" 
+			amount = 150
+		}
+		CAS_equipment_1 = {
+			owner = "KOR" 
+			amount = 150
+		}
+	}
+	"KIS 세종대왕"  = { 
+		cv_fighter_equipment_0 =  { owner = "KOR" amount = 12 } 	# historical 12
+		cv_CAS_equipment_1 = { owner = "KOR" amount = 12 } 			# historical 18
+		cv_nav_bomber_equipment_1 =  { owner = "KOR" amount = 36 } 	# historical 36
+	}
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = 
+{
+	
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "KOR" 
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 50
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_0
+			creator = "KOR" 
+		}
+		requested_factories = 1
+		progress = 0.2
+		efficiency = 50
+	}
+}

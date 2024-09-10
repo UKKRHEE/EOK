@@ -1,0 +1,54 @@
+characters={
+	### 지도자 ###
+	RYU_peoples_government={
+		name=RYU_peoples_government
+		portraits={
+			civilian={
+				large="GFX_portrait_RYU_peoples_government"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	RYU_genwa_nakasone={
+		name=RYU_genwa_nakasone
+		portraits={
+			civilian={
+				large=GFX_portrait_RYU_genwa_nakasone
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	RYU_hiroshi_sho={
+		name=RYU_hiroshi_sho
+		portraits={
+			civilian={
+				large="GFX_portrait_RYU_hiroshi_sho"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+}

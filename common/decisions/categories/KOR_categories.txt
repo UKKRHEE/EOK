@@ -1,0 +1,44 @@
+KOR_dual_empire_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_picture_dual_empire
+
+	allowed = {
+		original_tag = KOR
+	}
+
+	visible = {
+		original_tag = KOR
+	}
+}
+
+KOR_haedong_empire_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_decision_cat_picture_haedong_empire
+
+	allowed = {
+		original_tag = KOR
+	}
+
+	visible = {
+		original_tag = KOR
+	}
+}
+
+KOR_alliance = {
+
+	icon = SOV_propaganda
+
+	picture = GFX_decision_cat_picture_kor_alliance
+
+	allowed = {
+		original_tag = KOR
+	}
+
+	visible = {
+		original_tag = KOR
+	}
+}

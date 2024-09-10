@@ -1,0 +1,25 @@
+state={
+	id=920
+	name="STATE_920"
+	
+	state_category = pastoral
+
+	history={
+		owner = KOR
+		add_core_of = KOR
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9897 3
+		}
+	}
+
+	provinces={
+		783 944 973 3791 3944 6806 6811 6964 9766 9897 11893 11906 
+	}
+	manpower=1321762
+	buildings_max_level_factor=1.000
+}

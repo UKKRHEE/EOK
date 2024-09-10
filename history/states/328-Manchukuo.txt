@@ -1,0 +1,34 @@
+
+state={
+	id=328
+	name="STATE_328" # Kirin
+	manpower = 3736266
+	
+	state_category = rural
+
+	resources={
+		aluminium=7 # was: 10
+	}
+
+	history={
+		owner = MAN
+		add_core_of = MAN
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			#industrial_complex = 1
+		}
+		victory_points = {
+			4572 10
+		}
+		victory_points = {
+			10433 10
+		}
+
+	}
+
+	provinces={
+		4503 4572 11744 7652 10433 7523 9782 12412
+	}
+}

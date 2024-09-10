@@ -1,0 +1,26 @@
+ideas = {
+	country = {
+
+        MON_9th_jebtsundamba_khutughtu = { 
+			available = {
+				NOT = { has_government = communism }
+			}
+
+			allowed = {
+				original_tag = MON
+			}
+
+			allowed_civil_war = {
+				NOT ={
+					has_government = communism
+				}
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.10
+			}
+		}	
+	}	
+}

@@ -1,0 +1,156 @@
+spriteTypes = {	
+    
+	#############
+	### 대한제국 ###
+	#############
+	
+	### 한국 산업 ###
+	spriteType = {
+		name = "GFX_idea_KOR_add"
+		texturefile = "gfx/interface/ideas/KOR/KOR_add.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KOR_posco"
+		texturefile = "gfx/interface/ideas/KOR/KOR_posco.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KOR_kepco"
+		texturefile = "gfx/interface/ideas/KOR/KOR_kepco.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KOR_sekwang"
+		texturefile = "gfx/interface/ideas/KOR/KOR_sekwang.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KOR_hyundai"
+		texturefile = "gfx/interface/ideas/KOR/KOR_hyundai.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_KOR_kai"
+		texturefile = "gfx/interface/ideas/KOR/KOR_kai.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_KOR_st"
+		texturefile = "gfx/interface/ideas/KOR/KOR_st.dds"
+	}
+	
+	### 한국 국민정신-시작 ###
+	spriteType = {
+		name = "GFX_idea_KOR_yi_wu"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_yi_wu.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_KOR_intel"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_intel.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_council"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_council.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_kor_vs_man"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_kor_vs_man.dds"
+	}
+	
+	### 한국 국민정신-정치/통합 ###
+    spriteType = {
+		name = "GFX_idea_KOR_korea_hurray"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_korea_hurray.dds"
+	}
+	
+	### 한국 국민정신-정치/군주주의 ###
+    spriteType = {
+		name = "GFX_idea_KOR_emperor_hurray"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_emperor_hurray.dds"
+	}
+	
+	### 한국 국민정신-정치/파시스트 ###
+	spriteType = {
+		name = "GFX_idea_KOR_tiger"
+		texturefile = "gfx/interface/ideas/KOR/idea_KOR_tiger.dds"
+	}
+	
+	### 한국 국민정신-기타 ###
+	spriteType = {
+		name = "GFX_idea_KOR_government_general_japan_democratic"
+		texturefile = "gfx/interface/ideas/KOR_government_general_japan_democratic.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KOR_hirohito_kor_jap"
+		texturefile = "gfx/interface/ideas/KOR_hirohito_kor_jap.dds"
+	}
+	
+	#############
+	### 대청제국 ###
+	#############
+	
+	### 청국 국민정신-시작 ###
+    spriteType = {
+		name = "GFX_idea_MAN_puyi"
+		texturefile = "gfx/interface/ideas/MAN/idea_MAN_puyi.dds"
+	}
+	
+	### 청국 산업 ###
+	spriteType = {
+		name = "GFX_idea_MAN_mamc"
+		texturefile = "gfx/interface/ideas/MAN/MAN_mamc.dds"
+	}
+	
+	#############
+	### 유신정부 ###
+	#############
+	
+	### 유신정부 국민정신 ###
+	spriteType = {
+		name = "GFX_idea_rgc_low_legitimacy5"
+		texturefile = "gfx/interface/ideas/RGC/idea_rgc_low_legitimacy5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rgc_low_legitimacy4"
+		texturefile = "gfx/interface/ideas/RGC/idea_rgc_low_legitimacy4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rgc_low_legitimacy3"
+		texturefile = "gfx/interface/ideas/RGC/idea_rgc_low_legitimacy3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rgc_low_legitimacy2"
+		texturefile = "gfx/interface/ideas/RGC/idea_rgc_low_legitimacy2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rgc_low_legitimacy"
+		texturefile = "gfx/interface/ideas/RGC/idea_rgc_low_legitimacy.dds"
+	}
+	
+	#############
+	### 대몽골국 ###
+	#############
+	
+	### 몽골 국민정신-시작 ###
+    spriteType = {
+		name = "GFX_idea_MON_9th_jebtsundamba_khutughtu"
+		texturefile = "gfx/interface/ideas/MON/idea_MON_9th_jebtsundamba_khutughtu.dds"
+	}
+	
+	##############
+	### 오스트리아 ###
+	##############
+	
+	### 오스트리아 산업 ###
+	spriteType = {
+		name = "GFX_idea_AUS_steyr_daimler_puch"
+		texturefile = "gfx/interface/ideas/AUS/AUS_steyr_daimler_puch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_hirtenberger"
+		texturefile = "gfx/interface/ideas/AUS/AUS_hirtenberger.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_strabag"
+		texturefile = "gfx/interface/ideas/AUS/AUS_strabag.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_AUS_kapsch"
+		texturefile = "gfx/interface/ideas/AUS/AUS_kapsch.dds"
+	}
+}

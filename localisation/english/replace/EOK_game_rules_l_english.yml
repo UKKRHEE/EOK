@@ -1,0 +1,20 @@
+﻿ l_english:
+ MAN_AI_BEHAVIOR:0 "@MAN 청나라"
+ RULE_OPTION_OBEDIENCE:0 "유지"
+ RULE_OPTION_OBEDIENCE_MAN_AI_DESC:0 "청나라 AI는 한국과의 동맹을 유지하고 베이징을 되찾는 것과 관련 있는 국가중점계통도를 따라 내려갈 것입니다."
+ RULE_OPTION_INDEPENDENCE:0 "주장"
+ RULE_OPTION_INDEPENDENCE_MAN_AI_DESC:0 "청나라 AI는 만주와 중국을 석권하는 것과 관련 있는 국가중점계통도를 따라 내려갈 것입니다."
+ 
+ RGC_AI_BEHAVIOR:0 "@RGC 중국 재편정부"
+ RULE_OPTION_RGC_OBEDIENCE:0 "복종"
+ RULE_OPTION_OBEDIENCE_RGC_AI_DESC:0 "중국 재편정부 AI는 충성을 지키는 것과 관련 있는 국가중점계통도를 따라 내려갈 것입니다."
+ RULE_OPTION_RGC_INDEPENDENCE:0 "독립"
+ RULE_OPTION_INDEPENDENCE_RGC_AI_DESC:0 "중국 재편정부 AI는 자유를 찾고 중국을 석권하는 것과 관련 있는 국가중점계통도를 따라 내려갈 것입니다."
+ 
+ KOR_AI_BEHAVIOR:0 "@KOR 한국"
+ RULE_OPTION_EASTERN_DEMOCRACY:0 "경오개혁의 완수"
+ RULE_OPTION_EASTERN_DEMOCRACY_KOR_AI_DESC:0 "한국 AI는 경오개혁을 완수하고 동양 민주주의의 횃불을 자처하는 것과 관련있는 국가중점계통도를 따라 내려갈 것입니다."
+ RULE_OPTION_HANSEONG_ADVANCE:0 "한성 진군"
+ RULE_OPTION_HANSEONG_ADVANCE_KOR_AI_DESC:0 "한국 AI는 한성 진군으로 파시스트 국가가 된 후 팽창 시도와 관련있는 국가중점계통도를 따라 내려갈 것입니다."
+ RULE_OPTION_EMPEROR:0 "오얏꽃의 나라"
+ RULE_OPTION_EMPEROR_KOR_AI_DESC:0 "한국 AI는 한국식 입헌군주제를 도입한 후 충군애국 정신과 관련 있는 국가중점계통도를 따라 내려갈 것입니다."

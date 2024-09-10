@@ -1,0 +1,371 @@
+﻿add_namespace = kor_for
+
+### 칭다오 반환 요구 ###
+country_event = {
+	id = kor_for.1
+	title = wtt_germany.38.t
+	desc = wtt_germany.38.desc
+	picture = GFX_report_event_japan_europe_pact
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.1.a
+		ai_chance = {
+			factor = 80
+		}
+		GER = { country_event = { id = kor_for.2 days = 1 } }
+	}
+
+	option = {
+		name = kor_for.1.b
+		ai_chance = {
+			factor = 20
+		}
+		GER = { country_event = { id = kor_for.3 days = 1 } }
+	}
+}
+
+country_event = {
+	id = kor_for.2
+	title = kor_for.2.t
+	desc = kor_for.2.desc
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.2
+		ai_chance = {
+			base = 10
+		}
+		GER = {
+			give_guarantee = KOR
+		}
+		KOR = {
+			give_guarantee = GER
+		}
+		transfer_state = 743
+		743 = { set_state_name = "키아우초우" }
+		set_province_name = { id = 10000 name = "키아우초우" }
+		KOR = {
+			country_event = { id = kor_for.4 }
+		}
+	}
+}
+
+country_event = {
+	id = kor_for.3
+	title = wtt_germany.40.t
+	desc = wtt_germany.40.desc
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = wtt_germany.40.a
+		add_state_claim = 743
+	}
+}
+
+country_event = {
+	id = kor_for.4
+	title = kor_for.4.t
+	desc = kor_for.4.desc
+	picture = GFX_report_event_generic_read_write
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.4.a
+        add_political_power = 10
+		add_stability = 0.05
+		GER = {
+			add_opinion_modifier = { target = KOR modifier = KOR_friendship_treaty }
+		}
+		KOR = {
+			add_opinion_modifier = { target = GER modifier = KOR_friendship_treaty }
+		}
+		hidden_effect = { news_event = { id = eok_news.17 hours = 12 } }
+	}
+}
+
+country_event = {
+	id = kor_for.5
+	title = kor_for.5.t
+	desc = kor_for.5.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.5.a
+		KOR = {
+			country_event = { days = 2 id = kor_for.6 }
+		}
+	}
+}
+
+country_event = {
+	id = kor_for.6
+	title = kor_for.6.t
+	desc = kor_for.6.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.6.a
+		GER = {
+			add_to_faction = KOR
+		}
+		hidden_effect = { news_event = { id = eok_news.10 hours = 12 } }
+	}
+}
+
+country_event = {
+	id = kor_for.7
+	title = kor_for.7.t
+	desc = kor_for.7.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.7.a
+		KOR = {
+			country_event = { days = 2 id = kor_for.8 }
+		}
+	}
+}
+
+country_event = {
+	id = kor_for.8
+	title = kor_for.8.t
+	desc = kor_for.8.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.8.a
+		ENG = {
+			create_faction = THREE_EMPERORS
+			add_to_faction = KOR
+			add_to_faction = GER
+		}
+		hidden_effect = { news_event = { id = eok_news.11 hours = 12 } }
+	}
+}
+
+country_event = {
+	id = kor_for.9
+	title = kor_for.9.t
+	desc = kor_for.9.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.9.a
+		add_ideas = kor_ger_pact
+		KOR = {
+			country_event = { days = 2 id = kor_for.10 }
+		}
+	}
+}
+
+country_event = {
+	id = kor_for.10
+	title = kor_for.10.t
+	desc = kor_for.10.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.10.a
+		add_ideas = kor_ger_pact
+		GER = {
+			give_guarantee = KOR
+		}
+		KOR = {
+			give_guarantee = GER
+		}
+		hidden_effect = { news_event = { id = eok_news.12 hours = 12 } }
+	}
+}
+
+###한국-오헝###
+country_event = {
+	id = kor_for.11
+	title = kor_for.11.t
+	desc = kor_for.11.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.7.a
+		create_faction = KOR_REICHSPAKT
+		KOR = {
+			country_event = { days = 2 id = kor_for.2 }
+		}
+	}
+}
+
+country_event = {
+	id = kor_for.12
+	title = kor_for.12.t
+	desc = kor_for.12.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.8.a
+		HUN = {
+			add_to_faction = KOR
+		}
+		hidden_effect = { news_event = { id = eok_news.13 hours = 12 } }
+	}
+}
+
+country_event = {
+	id = kor_for.13
+	title = wtt_japan.126.t
+	desc = wtt_japan.126.desc
+	picture = GFX_report_event_japanese_chinese_surrender
+
+	is_triggered_only = yes
+	
+	# We accept their surrender.
+	option = {
+		name = wtt_japan.126.a
+		ai_chance = {
+			factor = 1
+		}
+		effect_tooltip = {
+			MAN = {
+				every_controlled_state = {
+					limit = {
+						is_controlled_by = PREV
+						OR = {
+							is_owned_by = KOR
+						}
+					}
+					every_country = {
+						limit = {
+							original_tag = MAN
+							controls_state = PREV
+						}
+						transfer_state = PREV
+					}
+				}
+				white_peace = KOR
+			}
+		}
+		FROM = {
+			country_event = { id = kor_for.14 }
+		}
+	}
+
+	# No surrender! We want total victory!
+	option = {
+		name = wtt_japan.126.b
+		ai_chance = {
+			factor = 0
+		}
+		FROM = {
+			country_event = { id = kor_for.15 }
+		}
+	}
+}
+
+country_event = {
+	id = kor_for.14
+	title = wtt_japan.127.t
+	desc = wtt_japan.127.desc
+	picture = GFX_report_event_japanese_chinese_surrender
+
+	is_triggered_only = yes
+	
+	# They have accepted.
+	option = {
+		name = wtt_japan.127.a
+		MAN = {
+			every_controlled_state = {
+				limit = {
+					OR = {
+						is_owned_by = KOR
+					}
+				}
+				MAN = {
+					transfer_state = PREV
+				}
+			}
+			white_peace = ROOT
+		}
+	}
+}
+
+country_event = {
+	id = kor_for.15
+	title = wtt_japan.128.t
+	desc = wtt_japan.128.desc
+	picture = GFX_report_event_japanese_chinese_surrender
+
+	is_triggered_only = yes
+	
+	# They have rejected our surrender offer.
+	option = {
+		name = wtt_japan.128.a
+	}
+}
+
+country_event = { #한국의 조약 제안
+	id = kor_for.16
+	title = kor_for.16.t
+	desc = kor_for.16.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = { #조약을 체결해야 한다... 지금 당장은
+		name = kor_for.16.a
+		add_ideas = kor_pact
+		ai_chance = {
+			base = 100
+		}
+		diplomatic_relation = {
+			country = FROM
+			relation = non_aggression_pact
+			active = yes
+		}
+		FROM = { country_event = { id = kor_for.17 days = 1 } }
+	}
+}
+
+country_event = { # 조약 승인
+	id = kor_for.17
+	title = kor_for.17.t
+	desc = kor_for.17.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = kor_for.17.a
+		add_ideas = kor_pact
+		ai_chance = {
+			base = 10
+		}
+		effect_tooltip = {
+			diplomatic_relation = {
+				country = FROM
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+}

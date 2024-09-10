@@ -1,0 +1,358 @@
+﻿RGC_INF_01 = 
+{
+	name = "Infantry Division"
+
+	for_countries = { RGC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RGC_INF_01 }
+
+	fallback_name = "%d Bubing Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Bubing Shi" }
+		2 = { "%d Bubing Shi" }
+		3 = { "%d Bubing Shi" }
+		4 = { "%d Bubing Shi" }
+		5 = { "%d Bubing Shi" }
+		6 = { "%d Bubing Shi" }
+		7 = { "%d Bubing Shi" }
+		8 = { "%d Bubing Shi" }
+		9 = { "%d Bubing Shi" }
+		10 = { "%d Bubing Shi" }
+		11 = { "%d Bubing Shi" }
+		12 = { "%d Bubing Shi" }
+		13 = { "%d Bubing Shi" }
+		14 = { "%d Bubing Shi" }
+		15 = { "%d Bubing Shi" }
+		16 = { "%d Bubing Shi" }
+		17 = { "%d Bubing Shi" }
+		18 = { "%d Bubing Shi" }
+		19 = { "%d Bubing Shi" }
+		20 = { "%d Bubing Shi" }
+		21 = { "%d Bubing Shi" }
+		22 = { "%d Bubing Shi" }
+		23 = { "%d Bubing Shi" }
+		24 = { "%d Bubing Shi" }
+		25 = { "%d Bubing Shi" }
+		26 = { "%d Bubing Shi" }
+		27 = { "%d Bubing Shi" }
+		28 = { "%d Bubing Shi" }
+		29 = { "%d Bubing Shi" }
+		30 = { "%d Bubing Shi" }		
+	}
+}
+
+RGC_CAV_01 = 
+{
+	name = "Cavalry Division"
+
+	for_countries = { RGC }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RGC_INF_01 }
+
+	fallback_name = "%d Qibing Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Qibing Shi" }
+		2 = { "%d Qibing Shi" }
+		3 = { "%d Qibing Shi" }
+		4 = { "%d Qibing Shi" }
+		5 = { "%d Qibing Shi" }
+		6 = { "%d Qibing Shi" }
+		7 = { "%d Qibing Shi" }
+		8 = { "%d Qibing Shi" }
+		9 = { "%d Qibing Shi" }
+		10 = { "%d Qibing Shi" }
+		11 = { "%d Qibing Shi" }
+		12 = { "%d Qibing Shi" }
+		13 = { "%d Qibing Shi" }
+		14 = { "%d Qibing Shi" }
+		15 = { "%d Qibing Shi" }
+	}
+}
+
+RGC_MOT_01 = 
+{
+	name = "Motor Division"
+
+	for_countries = { RGC }
+
+	can_use = { always = yes }
+
+	division_types = { "motorized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { RGC_INF_01 }
+
+	fallback_name = "%d Jidonghua Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Jidonghua Shi" }		
+		2 = { "%d Jidonghua Shi" }		
+		3 = { "%d Jidonghua Shi" }		
+		4 = { "%d Jidonghua Shi" }		
+		5 = { "%d Jidonghua Shi" }		
+		6 = { "%d Jidonghua Shi" }		
+		7 = { "%d Jidonghua Shi" }		
+		8 = { "%d Jidonghua Shi" }		
+		9 = { "%d Jidonghua Shi" }		
+		10 = { "%d Jidonghua Shi" }		
+		11 = { "%d Jidonghua Shi" }		
+		12 = { "%d Jidonghua Shi" }		
+		13 = { "%d Jidonghua Shi" }		
+		14 = { "%d Jidonghua Shi" }		
+		15 = { "%d Jidonghua Shi" }		
+	}
+}
+
+RGC_MEC_01 = 
+{
+	name = "Mechanized Division"
+
+	for_countries = { RGC }
+
+	can_use = { always = yes }
+
+	division_types = { "mechanized" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { RGC_INF_01 }
+
+	fallback_name = "%d Jixiehua Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Jixiehua Shi" }				
+		2 = { "%d Jixiehua Shi" }		
+		3 = { "%d Jixiehua Shi" }		
+		4 = { "%d Jixiehua Shi" }		
+		5 = { "%d Jixiehua Shi" }		
+		6 = { "%d Jixiehua Shi" }		
+		7 = { "%d Jixiehua Shi" }		
+		8 = { "%d Jixiehua Shi" }		
+		9 = { "%d Jixiehua Shi" }		
+		10 = { "%d Jixiehua Shi" }		
+		11 = { "%d Jixiehua Shi" }		
+		12 = { "%d Jixiehua Shi" }		
+		13 = { "%d Jixiehua Shi" }		
+		14 = { "%d Jixiehua Shi" }		
+		15 = { "%d Jixiehua Shi" }		
+	}
+}
+
+RGC_ARM_01 = 
+{
+	name = "Tank Division"
+
+	for_countries = { RGC }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RGC_INF_01 }
+
+	fallback_name = "%d Zhuangjia Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Zhuangjia Shi" }
+		2 = { "%d Zhuangjia Shi" }
+		3 = { "%d Zhuangjia Shi" }
+		4 = { "%d Zhuangjia Shi" }
+		5 = { "%d Zhuangjia Shi" }
+		6 = { "%d Zhuangjia Shi" }
+		7 = { "%d Zhuangjia Shi" }
+		8 = { "%d Zhuangjia Shi" }
+		9 = { "%d Zhuangjia Shi" }
+		10 = { "%d Zhuangjia Shi" }
+		11 = { "%d Zhuangjia Shi" }
+		12 = { "%d Zhuangjia Shi" }
+		13 = { "%d Zhuangjia Shi" }
+		14 = { "%d Zhuangjia Shi" }
+		15 = { "%d Zhuangjia Shi" }
+	}
+}
+
+RGC_PAR_01 = 
+{
+	name = "Parachute Division"
+
+	for_countries = { RGC }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RGC_INF_01 }
+
+	fallback_name = "%d Sanbing Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Sanbing Shi" }
+		2 = { "%d Sanbing Shi" }
+		3 = { "%d Sanbing Shi" }
+		4 = { "%d Sanbing Shi" }
+		5 = { "%d Sanbing Shi" }
+		6 = { "%d Sanbing Shi" }
+		7 = { "%d Sanbing Shi" }
+		8 = { "%d Sanbing Shi" }
+		9 = { "%d Sanbing Shi" }
+		10 = { "%d Sanbing Shi" }
+	}
+}
+
+RGC_MAR_01 = 
+{
+	name = "Marine Division"
+
+	for_countries = { RGC }
+
+	can_use = { always = yes }
+
+	division_types = { "marine" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RGC_INF_01 }
+
+	fallback_name = "%d Luzhan Dui Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Luzhan Dui Shi" }
+		2 = { "%d Luzhan Dui Shi" }
+		3 = { "%d Luzhan Dui Shi" }
+		4 = { "%d Luzhan Dui Shi" }
+		5 = { "%d Luzhan Dui Shi" }
+		6 = { "%d Luzhan Dui Shi" }
+		7 = { "%d Luzhan Dui Shi" }
+		8 = { "%d Luzhan Dui Shi" }
+		9 = { "%d Luzhan Dui Shi" }
+		10 = { "%d Luzhan Dui Shi" }
+	}
+}
+
+RGC_MNT_01 = 
+{
+	name = "Mountain Division"
+
+	for_countries = { RGC }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers" }
+
+	# Number reservation system will tie to another group.
+	link_numbering_with = { RGC_INF_01 }
+
+	fallback_name = "%d Bubing Shi"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Bubing Shi" }			# Starting with what is what is currently in JAP OOBs
+		2 = { "%d Bubing Shi" }
+		3 = { "%d Bubing Shi" }
+		4 = { "%d Bubing Shi" }
+		5 = { "%d Bubing Shi" }			
+		6 = { "%d Bubing Shi" }			
+		7 = { "%d Bubing Shi" }			
+		8 = { "%d Bubing Shi" }			
+		9 = { "%d Bubing Shi" }			
+		10 = { "%d Bubing Shi" }			
+		11 = { "%d Bubing Shi" }			
+		12 = { "%d Bubing Shi" }			
+		13 = { "%d Bubing Shi" }			
+		14 = { "%d Bubing Shi" }			
+		15 = { "%d Bubing Shi" }			
+		16 = { "%d Bubing Shi" }			
+		17 = { "%d Bubing Shi" }			
+		18 = { "%d Bubing Shi" }			
+		19 = { "%d Bubing Shi" }			
+		20 = { "%d Bubing Shi" }			
+		21 = { "%d Bubing Shi" }			
+		22 = { "%d Bubing Shi" }			
+		23 = { "%d Bubing Shi" }			
+		24 = { "%d Bubing Shi" }			
+		25 = { "%d Bubing Shi" }			
+		26 = { "%d Bubing Shi" }			
+		27 = { "%d Bubing Shi" }			
+		28 = { "%d Bubing Shi" }			
+		29 = { "%d Bubing Shi" }			
+		30 = { "%d Bubing Shi" }			
+	}
+}
+
+RGC_GAR_01 = 
+{
+	name = "Garrison Unit"
+
+	for_countries = { RGC }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { RGC_INF_01 }
+
+	fallback_name = "%d Qu Jun"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d Qu Jun" }
+		2 = { "%d Qu Jun" }
+		3 = { "%d Qu Jun" }
+		4 = { "%d Qu Jun" }
+		5 = { "%d Qu Jun" }
+		6 = { "%d Qu Jun" }
+		7 = { "%d Qu Jun" }
+		8 = { "%d Qu Jun" }
+		9 = { "%d Qu Jun" }
+		10 = { "%d Qu Jun" }
+		11 = { "%d Qu Jun" }
+		12 = { "%d Qu Jun" }
+		13 = { "%d Qu Jun" }
+		14 = { "%d Qu Jun" }
+		15 = { "%d Qu Jun" }
+		16 = { "%d Qu Jun" }
+		17 = { "%d Qu Jun" }
+		18 = { "%d Qu Jun" }
+		19 = { "%d Qu Jun" }
+		20 = { "%d Qu Jun" }
+	}
+}
+

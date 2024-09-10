@@ -1,0 +1,473 @@
+characters={
+	### 지도자 ###
+	RGC_chen_mingshu={
+		name=RGC_chen_mingshu
+		portraits={
+			civilian={
+				large=GFX_portrait_RGC_chen_mingshu
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=marxism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	RGC_liang_hongzhi={
+		name=RGC_liang_hongzhi
+		portraits={
+			civilian={
+				large=GFX_portrait_RGC_liang_hongzhi
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=despotism
+			traits={ }
+			expire="1960.1.1.1"
+			id=-1
+		}
+	}
+	
+	### 정치고문 ###
+	RGC_yin_rugeng={
+		name=RGC_yin_rugeng
+		portraits={
+			civilian={
+				small="GFX_idea_RGC_yin_rugeng"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yin_rugeng
+			allowed = {
+				original_tag = RGC
+			}
+			traits = {
+				eager_collaborator
+			}
+		}
+	}
+	
+	RGC_wang_kemin={
+		name=RGC_wang_kemin
+		portraits={
+			civilian={
+				small="GFX_idea_RGC_wang_kemin"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = wang_kemin
+			allowed = {
+				original_tag = RGC
+			}
+			traits = {
+				economic_organizer
+			}
+		}
+	}
+	
+	RGC_li_shiqun={
+		name=RGC_li_shiqun
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = li_shiqun
+			allowed = {
+				original_tag = RGC
+				has_dlc = "La Resistance" 
+			}
+			traits = {
+				head_of_intelligence
+			}
+		}
+	}
+	
+	RGC_megata_toshiro={
+		name=RGC_megata_toshiro
+		portraits={
+			civilian={
+				small="GFX_idea_generic_political_advisor_asia_2"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = megata_toshiro
+			allowed = {
+				original_tag = RGC
+			}
+			traits = {
+				armaments_organizer
+			}
+		}
+	}
+	
+	### 이론가 ###
+	RGC_rgc_army_research = {
+		name=RGC_rgc_army_research
+		portraits={
+			army={
+				small="GFX_idea_generic_infantry_bonus"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = rgc_army_research
+			ledger = army
+		    allowed = {
+		    	original_tag = RGC
+		    }
+		    traits = {
+				military_theorist
+			}
+		}
+	}
+	
+	RGC_rgc_naval_research={
+		name=RGC_rgc_naval_research
+		portraits={
+			army={
+				small="GFX_idea_escort_effort_focus"
+			}
+		}
+		advisor={
+			cost = 100
+			slot = theorist
+			idea_token = rgc_naval_research
+			ledger = navy
+			allowed = {
+				original_tag = RGC
+			}
+			traits = { naval_theorist }
+		}
+	}
+	
+	RGC_rgc_air_research={
+		name=RGC_rgc_air_research
+		portraits={
+			army={
+				small="GFX_idea_air_war_plans_division_focus"
+			}
+		}
+		advisor={
+			slot = theorist
+			idea_token = rgc_air_research
+			ledger = air
+			allowed = {
+				original_tag = RGC
+			}
+			traits = {
+				air_warfare_theorist
+			}
+		}
+	}
+	
+	### 육군참모총장 ###
+	RGC_sun_chuanfang={
+		name=RGC_sun_chuanfang
+		portraits={
+			army={
+				large=GFX_portrait_RGC_sun_chuanfang
+				small=GFX_idea_RGC_sun_chuanfang
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = sun_chuanfang
+	    	allowed = {
+	    		original_tag = RGC
+	    	}
+	    	traits = {
+				army_chief_offensive_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				old_guard
+				politically_connected
+				trait_cautious
+				organizer
+				fast_planner
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+	RGC_xiao_shuxuan={
+		name=RGC_xiao_shuxuan
+		portraits={
+			army={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+				small="GFX_idea_generic_army_asia_4"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = xiao_shuxuan
+	    	allowed = {
+	    		original_tag = RGC
+	    	}
+	    	traits = {
+				army_chief_drill_2
+			}
+	    	ai_will_do = {
+	    		factor = 1
+	    	}
+		}
+		field_marshal={
+			traits = {
+				#
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 해군참모총장 ###
+	RGC_ren_yuandao = {
+		name=RGC_ren_yuandao
+		portraits={
+			army={
+				large=GFX_portrait_RGC_ren_yuandao
+				small=GFX_idea_RGC_ren_yuandao
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = ren_yuandao
+		    allowed = {
+		    	original_tag = RGC
+	    	}
+		    traits = {
+				navy_chief_commerce_raiding_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+		navy_leader={
+			traits = {
+				#
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			maneuvering_skill = 2
+			coordination_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	### 공군참모총장 ###
+	RGC_chen_zuchang = {
+		name=RGC_chen_zuchang
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_2"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = chen_zuchang
+			
+	    	allowed = {
+		    	original_tag = RGC
+		    }
+		    traits = {
+				air_chief_ground_support_2
+			}
+		    ai_will_do = {
+		    	factor = 1
+		    }
+		}
+	}
+	
+	### 군지휘관 ###
+	RGC_qi_xieyuan = {
+		name=RGC_qi_xieyuan
+		portraits={
+			army={
+				large=GFX_portrait_RGC_qi_xieyuan
+				small=GFX_idea_RGC_qi_xieyuan
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = qi_xieyuan
+			ledger = army
+		    allowed = {
+		    	original_tag = RGC
+		    }
+		    traits = {
+				army_regrouping_2
+			}
+		}
+		corps_commander={
+			traits = {
+				old_guard
+				politically_connected
+				trait_cautious
+				organizer
+				thorough_planner
+			}
+			skill = 3
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	
+	RGC_chen_ga = {
+		name=RGC_chen_ga
+		portraits={
+			army={
+				small="GFX_idea_generic_army_asia_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = chen_ga
+			ledger = army
+		    allowed = {
+		    	original_tag = RGC
+		    }
+		    traits = {
+				army_logistics_2
+			}
+		}
+	}
+	
+	RGC_kyoiji_tomonaga = {
+		name=RGC_kyoiji_tomonaga
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_1"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = kyoiji_tomonaga
+			ledger = army
+		    allowed = {
+		    	original_tag = RGC
+		    }
+		    traits = {
+				army_infantry_1
+			}
+		}
+	}
+	
+	RGC_nakajima_kesago = {
+		name=RGC_nakajima_kesago
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_2"
+			}
+		}
+		advisor={
+			slot = high_command
+			idea_token = nakajima_kesago
+			ledger = army
+		    allowed = {
+		    	original_tag = RGC
+		    }
+		    traits = {
+				air_chief_ground_support_2
+			}
+		}
+	}
+	
+	### 육군 장성 ###
+	RGC_sun_liangcheng={
+		name=RGC_sun_liangcheng
+		portraits={
+			army={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+			}
+		}
+		corps_commander={
+			traits = { 
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	
+	RGC_wu_huawen={
+		name=RGC_wu_huawen
+		portraits={
+			army={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits = { 
+				#
+			}
+			skill = 2
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	RGC_pang_bingxun={
+		name=RGC_pang_bingxun
+		portraits={
+			army={
+				large=GFX_portrait_RGC_pang_bingxun
+			}
+		}
+		corps_commander={
+			traits = { 
+				#
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	
+}

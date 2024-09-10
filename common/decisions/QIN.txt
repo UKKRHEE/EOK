@@ -1,0 +1,39 @@
+###########################
+# 청나라 사건과 결정
+###########################
+
+political_actions = {
+	#입헌군주제 시행
+	MAN_constitutional_monarchy = {
+		icon = eng_ally_imperialist_coup
+
+		allowed = {
+			original_tag = MAN
+		}
+
+		available = {
+			NOT = {
+				has_government = communism
+				has_idea = MAN_puyi
+				has_country_leader = { ruling_only = yes name = "아이신기오로 푸이" }
+			}
+		}
+
+		visible = {
+			original_tag = MAN
+			NOT = {
+				has_government = communism
+				has_idea = MAN_puyi
+				has_country_leader = { ruling_only = yes name = "아이신기오로 푸이" }
+			}
+		}
+
+		complete_effect = {
+			add_ideas = MAN_puyi
+		}
+
+		ai_will_do = {
+			factor = 200
+		}
+	}
+}

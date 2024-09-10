@@ -1,0 +1,183 @@
+RGC_default_plan = {
+	name = "Reorganized China default plan"
+	desc = "Behavior for Reorganized China until they decide on one of the branches"
+
+	allowed = {
+		original_tag = RGC
+	}
+	enable = {
+		OR = {
+			has_country_flag = RGC_AI_RANDOM_INDEPENDENCE
+			is_subject = no
+			has_game_rule = {
+				rule = RGC_ai_behavior
+				option = RGC_INDEPENDENCE
+			}
+		}
+	}
+	abort = {
+		has_completed_focus = RGC_assertiveness
+		
+	}
+
+	ai_national_focuses = {
+		RGC_pacify_the_countryside
+		CHI_invite_foreign_investors
+		RGC_trade_delegation
+		RGC_army_modernization
+		RGC_expand_the_textile_industry
+		RGC_law_university
+		RGC_assertiveness
+	}
+
+	focus_factors = {
+		RGC_obedience = 0
+	}
+
+	research = {
+		infantry_weapons = 15.0
+		industry = 10.0
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+RGC_alternate_plan_assertive = {
+	name = "Reorganized China plan for Assertiveness"
+	desc = "Behavior for Reorganized China when they decide to go assertive"
+
+	allowed = {
+		original_tag = RGC
+	}
+	enable = {
+		has_completed_focus = RGC_assertiveness
+	}
+	abort = {
+		always = no
+	}
+
+	ai_national_focuses = {
+		RGC_request_control_of_the_railways
+		RGC_staff_the_court_with_manchus
+		RGC_expand_the_imperial_guards
+		RGC_bolster_nationalism
+		RGC_local_arms_procurement
+		RGC_purge_the_general_affairs_council
+		CHI_mission_to_germany
+		CHI_purchase_tanks
+		CHI_chinese_panzers
+		CHI_tank_plant
+	}
+
+	focus_factors = {
+		
+	}
+
+	research = {
+		infantry_weapons = 15.0
+		artillery = 15.0
+		armor = 0.0
+		air_equipment = 0.0
+	}
+	ai_strategy = {
+		type = antagonize
+		id = JAP
+		value = 200
+	}
+	ai_strategy = {
+		type = befriend
+		id = GER
+		value = 100
+	}
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+RGC_alternate_plan_independent = {
+	name = "Reorganized China plan for Independence"
+	desc = "Behavior for Reorganized China when they have achieved independence after going assertive"
+
+	allowed = {
+		original_tag = RGC
+	}
+	enable = {
+		has_completed_focus = RGC_independence_war
+		not = {
+			has_war_with = JAP
+		}
+		is_subject = no # actually won
+	}
+	abort = {
+		always = no
+	}
+
+	ai_national_focuses = {
+		
+	}
+
+	focus_factors = {
+		
+		RGC_imperial_divinity = 5
+		RGC_imperial_university = 10
+		RGC_reform_the_civil_service = 5
+	}
+
+	research = {
+		infantry_weapons = 15.0
+		artillery = 15.0
+	}
+
+	ideas = {
+
+	}
+	ai_strategy = {
+		type = antagonize 
+		id = "JAP"			
+		value = 500
+	}
+	ai_strategy = {
+		type = conquer 
+		id = "CHI"			
+		value = 200
+	}
+	ai_strategy = {
+		type = conquer 
+		id = "PRC"			
+		value = 200
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}
+
+

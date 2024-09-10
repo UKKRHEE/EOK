@@ -1,0 +1,339 @@
+﻿l_english:
+ #############
+ ### 대한제국 ###
+ #############
+ 
+ ### 한국 국민정신-시작 ###
+ KOR_yi_wu:0 "강주제"
+ KOR_yi_wu_desc:0 "의화대원왕의 차남 이우는 선황 융희제의 양자로 입적되어 황태자가 되었고 융희제가 붕어한 뒤 대한제국의 3대 황제, 강주('강할 강', '기둥 주' 나라의 강한 기둥이 되어라)제로 즉위하였습니다. 그는 한국의 상징으로써 신민들을 통합시키고 있습니다."
+ KOR_intel:0 "제국익문사"
+ KOR_intel_desc:0 "제국익문사는 막강한 권한을 가진 황제 직속의 정보부이자 비밀경찰입니다. 그들은 오로지 어명에만 충실하며 정부의 통제를 받지 않습니다."
+ KOR_kor_vs_man:0 "한만대립"
+ KOR_kor_vs_man_desc:0 "한국이 만주로 진출하기 시작한 이후 대규모 개발과 투자 덕에 새로운 영토로 이주해온 한국인과 이전부터 거주 중이던 만주인은 끊임없이 충돌하고 있습니다."
+ KOR_council:0 "허울뿐인 중추원"
+ KOR_council_desc:0 "한국의 의회인 중추원은 설립 이후부터 지금까지 황제와 고위 대신들의 자문기관 그 이상도 이하도 아니였습니다. 선거도, 발의도, 의제도, 모두 허울뿐이였으며 현재는 개혁파와 보수파의 대립으로 각종 정책 집행에 악영향을 끼치고 있습니다."
+ 
+ ### 한국 국민정신-육군 ###
+ KOR_korea_attack:0 "압도적 화력"
+ KOR_korea_attack_desc:0 "압도적인 화력은 한국군의 가장 큰 장점이자 전통으로 우리의 전쟁 수행에 도움을 줄 것입니다."
+ 
+ ### 한국 국민정신-해군 ###
+ KOR_yi_sun_sin:0 "충무공의 후예"
+ 
+ ### 한국 국민정신-공군 ###
+ KOR_fighter_pilot:0 "한국제 전투기와 한국인 에이스"
+ KOR_fighter_pilot_desc:0 "한국의 에이스에게 딱맞는 한국제 전투기를 탑승한 우리 공군은 전장의 하늘을 수호해 줄 것입니다."
+ KOR_air_force:0 "황립공군 증원령"
+ KOR_air_force_desc:0 "제국의 하늘을 지키기 위해서 우리는 황립공군을 꾸준히 증강시켜야 합니다."
+ 
+ ### 한국 국민정신-경제/민간 ###
+ KOR_reign_of_peace:0 "태평성대"
+ 
+ ### 한국 국민정신-경제/군수 ###
+ KOR_all_armed:0 "전군무장"
+ 
+ ### 한국 국민정신-경제/통합 ###
+ kor_han_river:0 "한강의 기적"
+ kor_han_river_desc:0 "우리의 경제는 세계에서 알아줄 정도로 성장했으며 국민들은 매우 풍족한 생활을 누리고 있습니다. 지금이야말로 한국 경제의 황금기라 할 수 있습니다."
+ 
+ ### 한국 국민정신-정치/민주주의 ###
+ KOR_manchu_autonomy:0 "만주인 자치권"
+ KOR_intel_d:0 "제국익문사"
+ KOR_intel_d_desc:0 "제국익문사는 여전히 막대한 권한을 가지고 정부에 개입하려 듭니다. 그들을 설득시키고 타협안을 찾는 것이 최선입니다."
+ KOR_torch_of_democracy:0 "자유동양의 수호자"
+ 
+ ### 한국 국민정신-정치/군주주의 ###
+ KOR_manchu_employment:0 "만주인 등용"
+ KOR_intel_n:0 "제국익문사"
+ KOR_intel_n_desc:0 "제국익문사는 여전히 막대한 권한을 가지고 정부에 개입하려 듭니다. 하지만 그들은 늘 황제 폐하의 기관이었고 앞으로도 그러할 것입니다."
+ KOR_emperor_hurray:0 "상제는 황제를 도우소서"
+ 
+ ### 한국 국민정신-정치/파시스트 ###
+ KOR_new_hwarang:0 "새로운 화랑"
+ KOR_intel_f:0 "제국익문사"
+ KOR_intel_f_desc:0 "제국익문사는 여전히 막대한 권한을 가지고 정부에 개입하려 듭니다. 그들의 오만함은 멈춰야 하며 제국익문사는 오직 국가의 일부임을 명시해야 할 것입니다."
+ KOR_manchu_conscript:0 "만주인 한국화"
+ KOR_tiger:0 "동방의 호랑이"
+ 
+ ### 한국 국민정신-정치/통합 ###
+ KOR_korea_hurray:0 "상제는 태극기를 지키소서"
+ 
+ ### 한국 국민정신-외교/확장 ###
+ KOR_volunteer_army:0 "특별의용군"
+ KOR_volunteer_army_desc:0 "타국에 대한 개입이 절대적이지만 직접 움직이기에는 여러가지 무리가 있습니다. 이에 대한 대책은 간단합니다. 바로 대규모 의용군을 창설하는 것입니다."
+ KOR_arms_export:0 "무기수출법"
+ KOR_arms_export_desc:0 "직접적인 개입도, 의용군의 파견도 불가능하다면 무기로 지원하면 그만입니다."
+ KOR_kor_chi_support:0 "한국의 군사 지원"
+ KOR_kor_pact:0 "조약 체결"
+ KOR_kor_ger_pact:0 "한독조약"
+ KOR_kor_ger_pact_desc:0 "소비에트의 위협은 날이 갈수록 커지고 있으며 이에 맞서 한국과 독일은 상호협력관계를 구축할 것입니다."
+ 
+ ### 한국 국민정신-기타 ###
+ KOR_hirohito_kor_jap:0 "일왕 히로히토"
+ KOR_hirohito_kor_jap_desc:0 "쇼와 덴노 히로히토는 이제 한국 황제에 의해 일왕의 칭호를 받고 왕공족 대우를 받게 되었습니다."
+ KOR_government_general_japan_democratic:0 "일본총독부"
+ KOR_government_general_japan_democratic_desc:0 "민주적으로 선출된 일본총독부는 부총독이 총리대신의 역할을 맡아 행정원을 다스리며, 황실과 중추원이 임명하는 총독은 총독부의 상징으로서 역할을 맡습니다. 일본총독부는 약 10명의 대표자를 의원으로 선출하여 중추원에 보냅니다."
+ 
+ ### 한국 지도자 ###
+ KOR_pak_hon_yong:0 "박헌영"
+ KOR_seo_jai_phil:0 "서재필"
+ KOR_lee_beom_seok:0 "이범석"
+ KOR_emperor_yi_wu:0 "이우"
+ KOR_ahn_chang_ho:0 "안창호"
+ KOR_lyuh_woon_hyung:0 "여운형"
+ KOR_kim_gyu_sik:0 "김규식"
+ KOR_kim_koo:0 "김구"
+ KOR_yi_sang_sul:0 "이상설"
+ 
+ ### 한국 정치고문 ###
+ KOR_jo_so_ang:0 "조소앙"
+ three_equalities:0 "삼균주의자"
+ KOR_syngman_rhee:0 "이승만"
+ KOR_yi_kang:0 "의화대원왕 이강"
+ KOR_an_ho_sang:0 "안호상"
+ KOR_sin_ik_hui:0 "신익희"
+ KOR_ilhan_new:0 "유일한"
+ KOR_chang_myon:0 "장면"
+ KOR_hong_jin:0 "홍진"
+ KOR_ahn_dong_hyuk:0 "안동혁"
+ KOR_hong_sa_ik:0 "홍사익"
+ 
+ ### 한국 산업 ###
+ KOR_add_fast:0 "국방과학연구소 - 기동전차 연구부"
+ KOR_add_medium:0 "국방과학연구소 - 중형전차 연구부"
+ KOR_add_heavy:0 "국방과학연구소 - 중전차 연구부"
+ KOR_hyundai_pacific:0 "현대중공업 - 태평양함대 사업부"
+ KOR_hyundai_coastal:0 "현대중공업 - 연안방어함대 사업부"
+ KOR_hyundai_escort:0 "현대중공업 - 호위함대 사업부"
+ KOR_sekwang:0 "세광조선"
+ KOR_kai_light:0 "KAI - 경전투기 설계부"
+ KOR_kai_medium:0 "KAI - 중전투기 설계부"
+ KOR_kai_heavy:0 "KAI - 폭격기 설계부"
+ KOR_st:0 "대우정밀공업"
+ KOR_kepco:0 "한국전력공사"
+ KOR_posco:0 "포항종합제철주식회사"
+ 
+ ### 한국 이론가 ###
+ KOR_yu_dong_yeol:0 "유동열"
+ KOR_shin_sung_mo:0 "신성모"
+ KOR_no_baek_rin:0 "노백린"
+ KOR_lee_tae_gyu:0 "이태규"
+ KOR_do_sang_log:0 "도상록"
+ 
+ ### 한국 육군참모총장 ###
+ KOR_ji_cheong_cheon:0 "지청천"
+ KOR_kim_chwa_chin:0 "김좌진"
+ KOR_an_jung_geun:0 "안중근"
+ 
+ ### 한국 해군참모총장 ###
+ KOR_sin_sun_sung:0 "신순성"
+ 
+ ### 한국 공군참모총장 ###
+ KOR_choe_yong_duk:0 "최용덕"
+ 
+ ### 한국 군지휘관 ###
+ KOR_kim_won_bong:0 "김원봉"
+ KOR_jang_duk_chang:0 "장덕창"
+ KOR_son_won_il:0 "손원일"
+ KOR_choi_sung_hak:0 "최성학"
+ KOR_yu_dong_yeol_2:0 "유동열"
+ KOR_kim_kyung_cheon:0 "김경천"
+ KOR_hong_sa_ik_2:0 "홍사익"
+ KOR_kim_hong_il:0 "김홍일"
+ 
+ ### 한국 육군 원수 ###
+ KOR_yi_un:0 "영친왕 이은"
+ 
+ ### 한국 육군 장성 ###
+ KOR_shin_pal_gyun:0 "신팔균"
+ KOR_yang_se_bong:0 "양세봉"
+ KOR_kim_suk_won:0 "김석원"
+ 
+ ### 한국 해군 제독 ###
+ KOR_park_ok_kyu:0 "박옥규"
+ 
+ #############
+ ### 대청제국 ###
+ #############
+ 
+ ### 청국 국민정신 ###
+ MAN_puyi:0 "선통제"
+ MAN_puyi_desc:0 "선통제 아이신기오로 푸이는 대청의 적법한 황제이자 입헌군주로 군림하고 있습니다."
+ MAN_china_liberation:0 "중화 해방"
+ MAN_KOR_eco_reparations:0 "한국의 경제침투"
+ MAN_KOR_eco_reparations2:0 "한국의 경제침투"
+ 
+ ### 청국 지도자 ###
+ MAN_chen_duxiu:0 "천두슈"
+ MAN_liang_qichao:0 "량치차오"
+ MAN_qing_aisin_gioro_puyi:0 "아이신기오로 푸이"
+ 
+ ### 청국 정치고문 ###
+ MAN_baoxi:0 "바오시"
+ MAN_feng_hanqing:0 "펑한칭"
+ MAN_zhang_yanqing:0 "장옌칭"
+ MAN_xie_jieshi:0 "셰제스"
+ MAN_luo_zhenyu:0 "뤄전위"
+ 
+ ### 청국 이론가 ###
+ MAN_qing_army_research:0 "육군이론연구소"
+ MAN_qing_naval_research:0 "해군이론연구소"
+ MAN_qing_air_research:0 "공군이론연구소"
+ 
+ ### 청국 육군참모총장 ###
+ MAN_aisin_gioro_zaitao:0 "아이신기오로 자이타오"
+ MAN_qing_zhang_jinghui:0 "장징후이"
+ MAN_yu_zhishan:0 "위즈산"
+ MAN_zhang_zuolin:0 "장쭤린"
+ 
+ ### 청국 해군참모총장 ###
+ MAN_yin_zuoqian:0 "인쭤첸"
+ 
+ ### 청국 공군참모총장 ###
+ MAN_cao_bingsen:0 "차오빙썬"
+ 
+ ### 청국 군지휘관 ###
+ MAN_qing_aisin_gioro_xiqia:0 "아이신기오로 시치아"
+ MAN_aisin_gioro_jixing:0 "아이신기오로 지싱"
+ MAN_zhang_xueliang:0 "장쉐량"
+ MAN_qing_zhang_haipeng:0 "장하이펑"
+ 
+ ### 청국 육군 원수 ###
+ MAN_aisin_gioro_pujie:0 "아이신기오로 푸제"
+ 
+ ### 청국 육군 장성 ###
+ MAN_aisin_gioro_xianyu:0 "아이신기오로 셴위"
+ 
+ ### 청국 해군 제독 ###
+ MAN_sa_zhenbing:0 "싸전빙"
+ 
+ #############
+ ### 중화민국 ###
+ #############
+ 
+ ### 국민당 해군참모총장 ###
+ CHI_chen_shaokuan:0 "천샤오콴"
+ CHI_shen_honglie:0 "선훙례"
+ 
+ ### 국민당 공군참모총장 ###
+ CHI_zhou_zhirou:0 "저우즈러우"
+ 
+ ### 중공 해군참모총장 ###
+ PRC_xiao_jinguang:0 "샤오진광"
+ 
+ #############
+ ### 유신정부 ###
+ #############
+ 
+ ### 유신정부 지도자 ###
+ RGC_zhang_guotao:0 "장궈타오"
+ RGC_chen_mingshu:0 "천밍수"
+ RGC_liang_hongzhi:0 "량훙즈"
+ 
+ ### 유신정부 정치고문 ###
+ RGC_yin_rugeng:0 "인루겅"
+ RGC_wang_kemin:0 "왕커민"
+ RGC_li_shiqun:0 "리스췬"
+ RGC_megata_toshiro:0 "메가타 토시로"
+ 
+ ### 유신정부 이론가 ###
+ RGC_rgc_army_research:0 "육군이론연구소"
+ RGC_rgc_naval_research:0 "해군이론연구소"
+ RGC_rgc_air_research:0 "공군이론연구소"
+ 
+ ### 유신정부 육군참모총장 ###
+ RGC_sun_chuanfang:0 "쑨촨팡"
+ RGC_xiao_shuxuan:0 "샤오슈쉬안"
+ 
+ ### 유신정부 해군참모총장 ###
+ RGC_ren_yuandao:0 "런위안다오"
+ 
+ ### 유신정부 공군참모총장 ###
+ RGC_chen_zuchang:0 "천주창"
+ 
+ ### 유신정부 군지휘관 ###
+ RGC_qi_xieyuan:0 "치셰위안"
+ RGC_chen_ga:0 "천가오"
+ RGC_kyoiji_tomonaga:0 "도모나가 교지"
+ RGC_nakajima_kesago:0 "나카지마 게사고"
+ 
+ ### 유신정부 육군 장성 ###
+ RGC_sun_liangcheng:0 "쑨량청"
+ RGC_wu_huawen:0 "우화원"
+ RGC_pang_bingxun:0 "팡빙쉰"
+ 
+ #############
+ ### 대몽골국 ###
+ #############
+ 
+ ### 몽골 국민정신 ###
+ MON_9th_jebtsundamba_khutughtu:0 "제9대 젭춘담바 후툭투"
+ MON_9th_jebtsundamba_khutughtu_desc:0 "잠팔 남돌 쵸기 갈첸으로 태어난 제9대 젭춘담바 후툭투는 몽골과 몽골 불교의 정신적 지주입니다. 현재 국가를 통치하기에는 너무 어리지만, 여전히 대부분 몽골인을 하나로 통합하는 상징적 인물입니다."
+ 
+ ### 몽골 지도자 ###
+ MON_khorloogiin_choibalsan:0 "허를러깅 처이발상"
+ MON_unenbayan:0 "Unenbayan"
+ MON_7th_changkya_khutukhtu:0 "제7대 창캬 후툭투"
+ MON_demchugdongrub:0 "데므치그돈로브"
+ 
+ ### 몽골 정치고문 ###
+ MON_davizavyn_losol:0 "다비자빈 로솔"
+ MON_olziin_badrakh:0 "욀진 바드라흐"
+ MON_jamsrangiin_tseveen:0 "참스랑긴 체벤"
+ 
+ ### 몽골 이론가 ###
+ MON_mongolia_army_research:0 "육군이론연구소"
+ MON_mongolia_naval_research:0 "해군이론연구소"
+ MON_mongolia_air_research:0 "공군이론연구소"
+ 
+ ### 몽골 육군참모총장 ###
+ MON_manlaibaatar_damdinsuren:0 "마늘라이바타르 담딘쉬렌"
+ 
+ ### 몽골 해군참모총장 ###
+ MON_mongolia_navy:0 "몽골 해군부"
+ 
+ ### 몽골 공군참모총장 ###
+ MON_choimbolyn_shagdarsuren:0 "초임볼린 샤그다르수렌"
+ 
+ ### 몽골 군지휘관 ###
+ MON_khatanbaatar_magsarjav:0 "하탄바타르 마그사르자브"
+ MON_li_shouxin:0 "리서우신"
+ MON_altanochir:0 "알탄오치르"
+ 
+ ### 몽골 육군 장성 ###
+ MON_z_lhagvasuren:0 "자먄기인 락바수렌"
+ 
+ #############
+ ### 일본제국 ###
+ #############
+ 
+ ### 일본 지도자 ###
+ JAP_tokugawa_iesato:0 "도쿠가와 이에사토"
+ 
+ #############
+ ### 산서군벌 ###
+ #############
+ 
+ ### 산서 정치고문 ###
+ SHX_zhao_daiwen:0 "자오다이원"
+ SHX_ji_gongquan:0 "지궁취안"
+ SHX_fan_xiangli:0 "판샹리"
+ SHX_qiu_yangjun:0 "추양쥔"
+ SHX_liang_huazhi:0 "량화즈"
+ 
+ ### 산서 이론가 ###
+ SHX_zhu_shouguang:0 "주서우광"
+ SHX_chu_xichun:0 "추시춘"
+ 
+ ### 산서 육군참모총장 ###
+ SHX_fu_zuoyi:0 "푸쭤이"
+ 
+ ### 산서 공군참모총장 ###
+ SHX_zhong_jihan:0 "중지한"
+ 
+ ### 산서 군지휘관 ###
+ SHX_wang_jingguo:0 "왕징궈"
+ SHX_yang_aiyuan:0 "양아이위안"
+ SHX_sun_chu:0 "쑨추"
+ SHX_zhao_chengshou:0 "자오청서우"
+ SHX_chen_changjie:0 "천장제"
